@@ -434,6 +434,12 @@
         "name": "Chocolate Milk",
         "category": "beverages",
         "label": "Beverages"
+      },
+      {
+        "key": "paper towel",
+        "name": "Paper Towels",
+        "category": "home",
+        "label": "Home Goods"
       }
     ]
   },
@@ -1050,6 +1056,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "5 items (Cabbage, Cucumber, Pork Chop, Canola Oil, Worcestershire)"
+    },
+    {
+      "id": "edace929-e15b-4261-9558-7951cda7e4c1",
+      "ts": 1783537688254,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Paper Towels"
+    },
+    {
+      "id": "781b07cc-22bc-420a-ba50-8e75726c226a",
+      "ts": 1783537689993,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Paper Towels"
+    },
+    {
+      "id": "9ba60e75-fad9-4a69-9282-fda16551a673",
+      "ts": 1783537691275,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
     }
-  ]
+  ],
+  "_savedAt": 1783537691425
 }
