@@ -133,12 +133,30 @@ You get a URL like `https://lists-xxxx.onrender.com`.
 Open that URL on any device. While you're both using it, the server stays awake.
 No `start.bat`, no ngrok, no port conflicts.
 
-### 4. Bring your existing lists (optional)
+### 4. Automatic data backup (no manual commits)
 
-After the first deploy, copy your local `data.json` to the server if you want
-your current groceries/recipes. On Render free tier the filesystem is ephemeral
-— data can reset on redeploys. For long-term persistence, upgrade to a paid
-plan with a persistent disk, or re-upload after redeploys.
+**Local (every run):** Each save copies the previous `data.json` into `backups/`
+(up to 30 timestamped files). If `data.json` is missing, corrupt, or empty on
+startup, the server restores from the newest backup that still has list data.
+Writes are atomic (temp file + rename) so a crash mid-save won't wipe the file.
+
+**Cloud (Render):** `data.json` is **gitignored** — you never commit it by hand. On Render, set one
+environment variable so the server backs up to GitHub after you edit lists:
+
+1. GitHub → **Settings** → **Developer settings** → **Personal access tokens**
+2. **Generate new token (classic)** or fine-grained with **Contents: Read and write** on `ToDoLists`
+3. Render → your service → **Environment** → add:
+   - `GITHUB_TOKEN` = your token
+   - `GITHUB_REPO` = `Jamesha123/ToDoLists` *(optional, this is the default)*
+
+**How it works:**
+- Every change saves to disk, then **auto-uploads to GitHub** (~90 seconds after the last edit)
+- On **startup / redeploy**, the server pulls from GitHub if that copy is newer
+- Before Render restarts for a deploy, it tries to **flush** a final backup
+
+Your lists survive redeploys without you touching git. Keep the repo **private** if you don't want list data public on GitHub.
+
+**First-time seed:** If GitHub already has `data.json` from an earlier manual commit, you're set. Otherwise make one edit on the live site after adding `GITHUB_TOKEN`, wait ~2 minutes, and check GitHub for `data.json`.
 
 ### Render vs home PC
 

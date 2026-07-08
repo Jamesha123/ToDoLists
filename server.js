@@ -22,6 +22,8 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const recipeParser = require("./recipe-parser");
+const dataBackup = require("./data-backup");
+const localBackup = require("./local-backup");
 
 const PORT = process.env.PORT || 3000;
 const PUBLIC_DIR = path.join(__dirname, "public");
@@ -121,6 +123,7 @@ const ACTIVITY_LIMIT = 200;
 /** Entries older than this are dropped automatically. */
 const ACTIVITY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
+localBackup.restoreIfNeeded(DATA_FILE);
 let state = loadState();
 
 /** One-time persist after title-casing legacy item text still on disk. */
@@ -347,13 +350,53 @@ function loadState() {
 }
 
 let saveTimer = null;
+
+function diskPayload() {
+  return {
+    lists: state.lists,
+    remembered: state.remembered,
+    recipes: state.recipes,
+    grocerySubtopics: state.grocerySubtopics,
+    activity: state.activity,
+    _savedAt: Date.now(),
+  };
+}
+
 function saveState() {
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
-    fs.writeFile(DATA_FILE, JSON.stringify(state, null, 2), (err) => {
-      if (err) console.error("Failed to save data.json:", err);
-    });
+    const payload = diskPayload();
+    const json = JSON.stringify(payload, null, 2);
+    try {
+      localBackup.snapshotBeforeWrite(DATA_FILE);
+      localBackup.writeAtomic(DATA_FILE, json);
+      dataBackup.schedule(json, payload._savedAt);
+    } catch (err) {
+      console.error("Failed to save data.json:", err);
+    }
   }, 150);
+}
+
+/** On Render: use GitHub if its copy is newer than the file from the last deploy. */
+async function restoreFromCloudIfNewer() {
+  if (!dataBackup.configured()) return;
+  const remote = await dataBackup.fetchRemote();
+  if (!remote || !remote.data) return;
+
+  let localSavedAt = 0;
+  try {
+    const local = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
+    localSavedAt = Number(local._savedAt) || 0;
+  } catch {
+    /* no local file yet */
+  }
+
+  if (remote.savedAt <= localSavedAt) return;
+
+  localBackup.snapshotBeforeWrite(DATA_FILE);
+  localBackup.writeAtomic(DATA_FILE, JSON.stringify(remote.data, null, 2));
+  state = loadState();
+  console.log("Restored data.json from GitHub (newer than deploy copy)");
 }
 
 // ---------------------------------------------------------------------------
@@ -1096,6 +1139,12 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, async () => {
+  await restoreFromCloudIfNewer();
   console.log(`Collaborative lists running at http://localhost:${PORT}`);
+  if (dataBackup.configured()) console.log("GitHub data backup enabled");
+});
+
+process.on("SIGTERM", () => {
+  dataBackup.flush().finally(() => process.exit(0));
 });
