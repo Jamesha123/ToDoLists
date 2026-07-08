@@ -23,72 +23,6 @@
           "qty": null
         },
         {
-          "id": "6d3e5991-bc08-40d8-a1d5-3f0f8fb9959b",
-          "text": "Shallots",
-          "done": false,
-          "createdAt": 1783363316385,
-          "category": "produce",
-          "qty": {
-            "amount": 2,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "0671b983-7d3b-49ee-ad3a-a7cb10e26872",
-          "text": "Ginger",
-          "done": false,
-          "createdAt": 1783363316385,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "tbsp"
-          }
-        },
-        {
-          "id": "9605c0a3-6e80-47b0-8176-d27973087b43",
-          "text": "Lemon",
-          "done": false,
-          "createdAt": 1783363316385,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "tbsp"
-          }
-        },
-        {
-          "id": "8aabfe75-62af-4c37-9bfc-0752122e53fc",
-          "text": "Cabbage",
-          "done": false,
-          "createdAt": 1783363336145,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "014a36c3-cd24-43ed-92d6-9b533d86299d",
-          "text": "Cucumber",
-          "done": false,
-          "createdAt": 1783363336145,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "b4a1d8c8-0762-4f24-b5b0-e96ab2d1162d",
-          "text": "Pork Chop",
-          "done": false,
-          "createdAt": 1783363336145,
-          "category": "protein",
-          "qty": {
-            "amount": 2,
-            "unit": "each"
-          }
-        },
-        {
           "id": "6927942f-9d43-43ed-b300-e838c01d6cb9",
           "text": "Canola Oil",
           "done": false,
@@ -97,17 +31,6 @@
           "qty": {
             "amount": 3,
             "unit": "cup"
-          }
-        },
-        {
-          "id": "b3ad896c-78b8-49f7-8450-102bd0d0cbbc",
-          "text": "Worcestershire",
-          "done": false,
-          "createdAt": 1783363336145,
-          "category": "condiments",
-          "qty": {
-            "amount": 4.5,
-            "unit": "tbsp"
           }
         }
       ],
@@ -1086,7 +1009,87 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "1 completed"
+    },
+    {
+      "id": "b19d3955-345b-40d5-b336-41928bbbb087",
+      "ts": 1783537910851,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Shallots"
+    },
+    {
+      "id": "bb111ebb-ac97-4239-a654-e955d277194a",
+      "ts": 1783537911655,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Ginger"
+    },
+    {
+      "id": "753e48d8-f3c6-45ea-9844-46986f249e45",
+      "ts": 1783537913215,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Lemon"
+    },
+    {
+      "id": "4bef9f16-7c0d-40de-9612-b95bf0872db4",
+      "ts": 1783537913813,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cabbage"
+    },
+    {
+      "id": "ad556c47-9ef9-4141-a63e-1b363699a735",
+      "ts": 1783537914820,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "3f64173f-37ec-477f-a611-abff3bbacb72",
+      "ts": 1783537915697,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Pork Chop"
+    },
+    {
+      "id": "6b8079fa-19b3-45d8-80d7-297fb7c172b8",
+      "ts": 1783537916468,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Worcestershire"
+    },
+    {
+      "id": "ae043a75-d0cb-4d3a-a7c8-8b9f4df4d1d2",
+      "ts": 1783537917972,
+      "actorId": "f8743fbc-1294-48df-b68a-336cb32af656",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "7 completed"
     }
   ],
-  "_savedAt": 1783537691425
+  "_savedAt": 1783537918123
 }
