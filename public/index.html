@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, interactive-widget=resizes-content" />
+    <title>Lists</title>
+    <link rel="stylesheet" href="/styles.css?v=2" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%9D%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="status" id="status">
+        <span class="status__dot" id="statusDot"></span>
+        <span id="statusText">Connecting…</span>
+        <div class="status__right">
+          <button class="activitybtn" id="activityBtn" type="button" title="Activity">
+            🔔<span class="activitybtn__badge" id="activityBadge" hidden>0</span>
+          </button>
+          <button class="presence" id="presence" type="button" title="Click to change your name" hidden></button>
+        </div>
+      </div>
+
+      <!-- ============================= HOME ============================= -->
+      <section class="view" id="homeView">
+        <header class="topbar">
+          <h1 class="topbar__title">My Lists</h1>
+          <div class="newlist">
+            <button class="newlist__btn" id="newListBtn" aria-haspopup="true" aria-expanded="false">
+              + New List
+            </button>
+            <div class="newlist__panel" id="newListPanel" hidden>
+              <label class="field">
+                <span class="field__label">List name</span>
+                <input
+                  class="field__input"
+                  id="newListName"
+                  type="text"
+                  maxlength="60"
+                  placeholder="e.g. Weekend chores"
+                  autocomplete="off"
+                />
+              </label>
+              <label class="field">
+                <span class="field__label">Type</span>
+                <select class="field__input" id="newListType">
+                  <option value="todo">To-do list</option>
+                  <option value="groceries">Groceries list</option>
+                </select>
+              </label>
+              <div class="newlist__actions">
+                <button class="btn-ghost" id="newListCancel" type="button">Cancel</button>
+                <button class="btn-primary" id="newListCreate" type="button">Create</button>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <ul class="lists" id="lists"></ul>
+        <p class="hint" id="listsHint">Swipe a list left to delete it.</p>
+      </section>
+
+      <!-- ============================ DETAIL ============================ -->
+      <section class="view" id="detailView" hidden>
+        <header class="topbar topbar--detail">
+          <button class="backbtn" id="backBtn" type="button">‹ Lists</button>
+          <h1 class="topbar__title" id="detailTitle"></h1>
+          <span class="type-badge" id="detailBadge"></span>
+        </header>
+
+        <div class="viewers" id="detailViewers" hidden></div>
+
+        <form class="add" id="addForm" autocomplete="off" hidden>
+          <input
+            class="add__input"
+            id="addInput"
+            type="text"
+            placeholder="Add an item and press Enter…"
+            aria-label="New item"
+            maxlength="500"
+          />
+          <select class="add__category" id="addCategory" aria-label="Category"></select>
+          <button class="add__button" type="submit">Add</button>
+        </form>
+
+        <div class="toolbar" id="toolbar">
+          <button class="tool tool--accent" id="editListBtn" type="button">✎ Edit</button>
+          <button class="tool" id="undoBtn" type="button" title="Undo" aria-label="Undo">↶</button>
+          <button class="tool" id="redoBtn" type="button" title="Redo" aria-label="Redo">↷</button>
+          <button class="tool" id="pastBtn" type="button" title="Add from past items" hidden>
+            🕘 Past items
+          </button>
+          <button class="tool" id="recipesBtn" type="button" title="Recipes" hidden>📖 Recipes</button>
+          <span class="toolbar__spacer"></span>
+          <button class="tool" id="clearDone" type="button">Clear completed</button>
+          <button class="tool tool--danger" id="clearAll" type="button" hidden>Clear all</button>
+        </div>
+
+        <ul class="list" id="items" aria-live="polite"></ul>
+
+        <footer class="detail__footer">
+          <span id="count">0 items</span>
+        </footer>
+      </section>
+    </div>
+
+    <!-- ======================== Recipes modal ======================== -->
+    <div class="modal" id="recipesModal" hidden>
+      <div class="modal__backdrop" id="recipesBackdrop"></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Recipes">
+        <header class="modal__head">
+          <h2 class="modal__title">Recipes</h2>
+          <button class="modal__close" id="recipesClose" type="button" aria-label="Close">×</button>
+        </header>
+        <div class="modal__body">
+          <form class="reciperow-new" id="newRecipeForm" autocomplete="off">
+            <input
+              class="field__input"
+              id="newRecipeName"
+              type="text"
+              maxlength="80"
+              placeholder="New recipe name…"
+            />
+            <button class="btn-primary" type="submit">Create</button>
+          </form>
+          <div id="recipesList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== Recipe detail modal ====================== -->
+    <div class="modal" id="recipeModal" hidden>
+      <div class="modal__backdrop" id="recipeBackdrop"></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Recipe">
+        <header class="modal__head">
+          <button class="backbtn" id="recipeBack" type="button">‹ Recipes</button>
+          <input class="recipe__name" id="recipeName" type="text" maxlength="80" aria-label="Recipe name" readonly />
+          <button class="btn-primary btn-sm" id="recipeEditBtn" type="button">✎ Edit</button>
+          <button class="modal__close" id="recipeClose" type="button" aria-label="Close">×</button>
+        </header>
+        <div class="modal__body">
+          <div id="recipeEditControls" hidden>
+            <form class="ing-add" id="ingAddForm" autocomplete="off">
+              <input class="ing-add__text" id="ingText" type="text" maxlength="200" placeholder="Add ingredient…" />
+              <select class="ing-add__cat" id="ingCategory" aria-label="Category"></select>
+              <input class="qty__amount" id="ingAmount" type="number" min="0" step="any" placeholder="Qty" />
+              <select class="qty__unit" id="ingUnit" aria-label="Unit"></select>
+              <button class="add__button" type="submit">Add</button>
+            </form>
+            <button class="tool" id="ingFromPast" type="button">🕘 From past items</button>
+            <button class="tool recipe-import__toggle" id="recipeImportToggle" type="button" aria-expanded="false">
+              ⬇ Import from web or paste
+            </button>
+            <form class="recipe-import" id="recipeImportForm" autocomplete="off" hidden>
+              <input
+                class="field__input"
+                id="importUrl"
+                type="url"
+                inputmode="url"
+                placeholder="Paste a recipe URL…"
+              />
+              <div class="recipe-import__or">— or paste the ingredients —</div>
+              <textarea
+                class="field__input recipe-import__text"
+                id="importText"
+                rows="6"
+                placeholder="e.g.&#10;2 cups flour&#10;1 tsp salt&#10;3 eggs"
+              ></textarea>
+              <div class="recipe-import__actions">
+                <button class="btn-primary" id="importSubmit" type="submit">Import</button>
+                <span class="recipe-import__status" id="importStatus" role="status"></span>
+              </div>
+            </form>
+          </div>
+          <div id="ingList"></div>
+        </div>
+        <div class="pastbar recipe__foot" id="recipeViewFoot">
+          <div class="recipe__addwrap">
+            <label class="recipe__destlabel" for="recipeDest">Add to</label>
+            <select class="recipe__dest" id="recipeDest" aria-label="Destination list"></select>
+            <button class="btn-primary" id="recipeAddToList" type="button">Add <span id="recipeSelCount">0</span></button>
+          </div>
+        </div>
+        <div class="pastbar recipe__foot" id="recipeEditFoot" hidden>
+          <button class="btn-primary" id="recipeSave" type="button">Save</button>
+          <button class="btn-ghost" id="recipeDiscard" type="button">Discard</button>
+          <span class="toolbar__spacer"></span>
+          <button class="tool tool--danger" id="recipeDelete" type="button">Delete recipe</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================= Activity modal ======================= -->
+    <div class="modal" id="activityModal" hidden>
+      <div class="modal__backdrop" id="activityBackdrop"></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Activity">
+        <header class="modal__head">
+          <h2 class="modal__title">Activity</h2>
+          <button class="tool btn-sm" id="activityMarkRead" type="button">Mark read</button>
+          <button class="tool btn-sm" id="activityClear" type="button">Clear</button>
+          <button class="modal__close" id="activityClose" type="button" aria-label="Close">×</button>
+        </header>
+        <div class="modal__body" id="activityBody"></div>
+      </div>
+    </div>
+
+    <!-- ======================= Past items modal ======================= -->
+    <div class="modal" id="pastModal" hidden>
+      <div class="modal__backdrop" id="pastBackdrop"></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Past items">
+        <header class="modal__head">
+          <h2 class="modal__title">Past items</h2>
+          <button class="modal__close" id="pastClose" type="button" aria-label="Close">×</button>
+        </header>
+        <div class="modal__body" id="pastBody"></div>
+        <div class="pastbar" id="pastBar" hidden>
+          <span id="pastBarCount">0 selected</span>
+          <button class="btn-primary" id="pastAdd" type="button">Add selected</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/app.js?v=4"></script>
+  </body>
+</html>

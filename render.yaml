@@ -1,0 +1,10 @@
+# Render Blueprint — deploy at https://dashboard.render.com/blueprints
+# Or: New → Web Service → connect this repo (Render reads this file automatically).
+services:
+  - type: web
+    name: lists
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: npm start
+    healthCheckPath: /
