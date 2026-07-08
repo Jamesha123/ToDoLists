@@ -383,20 +383,35 @@ async function restoreFromCloudIfNewer() {
   const remote = await dataBackup.fetchRemote();
   if (!remote || !remote.data) return;
 
+  let local = null;
   let localSavedAt = 0;
   try {
-    const local = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
+    local = JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
     localSavedAt = Number(local._savedAt) || 0;
   } catch {
     /* no local file yet */
   }
 
-  if (remote.savedAt <= localSavedAt) return;
+  const localHasData = localBackup.hasListData(local);
+  const remoteHasData = localBackup.hasListData(remote.data);
 
-  localBackup.snapshotBeforeWrite(DATA_FILE);
-  localBackup.writeAtomic(DATA_FILE, JSON.stringify(remote.data, null, 2));
-  state = loadState();
-  console.log("Restored data.json from GitHub (newer than deploy copy)");
+  // Never replace real lists with an empty GitHub backup.
+  if (!remoteHasData && localHasData) return;
+  // Local is empty but GitHub has lists — always take GitHub.
+  if (remoteHasData && !localHasData) {
+    localBackup.snapshotBeforeWrite(DATA_FILE);
+    localBackup.writeAtomic(DATA_FILE, JSON.stringify(remote.data, null, 2));
+    state = loadState();
+    console.log("Restored data.json from GitHub (local was empty)");
+    return;
+  }
+  // Both have data — use whichever was saved more recently.
+  if (remoteHasData && localHasData && remote.savedAt > localSavedAt) {
+    localBackup.snapshotBeforeWrite(DATA_FILE);
+    localBackup.writeAtomic(DATA_FILE, JSON.stringify(remote.data, null, 2));
+    state = loadState();
+    console.log("Restored data.json from GitHub (newer than deploy copy)");
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -1139,11 +1154,13 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, async () => {
+(async function boot() {
   await restoreFromCloudIfNewer();
-  console.log(`Collaborative lists running at http://localhost:${PORT}`);
-  if (dataBackup.configured()) console.log("GitHub data backup enabled");
-});
+  server.listen(PORT, () => {
+    console.log(`Collaborative lists running at http://localhost:${PORT}`);
+    if (dataBackup.configured()) console.log("GitHub data backup enabled");
+  });
+})();
 
 process.on("SIGTERM", () => {
   dataBackup.flush().finally(() => process.exit(0));

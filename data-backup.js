@@ -106,9 +106,21 @@ async function runBackup() {
   const savedAt = pendingSavedAt;
   if (savedAt <= lastBackedUpAt) return;
 
+  let parsed;
+  try {
+    parsed = JSON.parse(json);
+  } catch {
+    return;
+  }
+
   pushing = true;
   try {
     let remote = await fetchRemote();
+    const remoteHasData = hasListData(remote && remote.data);
+    const localHasData = hasListData(parsed);
+    // Don't overwrite a good GitHub backup with an empty server state.
+    if (!localHasData && remoteHasData) return;
+
     try {
       await pushToGitHub(json, remote && remote.sha);
     } catch (err) {
@@ -123,6 +135,13 @@ async function runBackup() {
   } finally {
     pushing = false;
   }
+}
+
+function hasListData(parsed) {
+  if (!parsed || typeof parsed !== "object") return false;
+  if (Array.isArray(parsed.lists) && parsed.lists.length > 0) return true;
+  if (Array.isArray(parsed.todos) && parsed.todos.length > 0) return true;
+  return false;
 }
 
 /** Queue a backup after the debounce window (coalesces rapid edits). */

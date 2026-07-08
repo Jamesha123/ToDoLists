@@ -1,25 +1,1055 @@
 {
   "lists": [
     {
-      "id": "1",
-      "name": "Test",
+      "id": "538c6fed-9449-48e3-8b2b-336c5e2def91",
+      "name": "My Tasks",
       "type": "todo",
+      "createdAt": 1782929762794,
+      "items": [],
+      "customCategories": []
+    },
+    {
+      "id": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "name": "Groceries List",
+      "type": "groceries",
+      "createdAt": 1782934315138,
       "items": [
         {
-          "id": "i",
-          "text": "Milk",
-          "done": false
+          "id": "ccdf58fb-293f-480e-b953-3c12eab72c39",
+          "text": "Collar",
+          "done": false,
+          "createdAt": 1783010205526,
+          "category": "ava",
+          "qty": null
+        },
+        {
+          "id": "6d3e5991-bc08-40d8-a1d5-3f0f8fb9959b",
+          "text": "Shallots",
+          "done": false,
+          "createdAt": 1783363316385,
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "0671b983-7d3b-49ee-ad3a-a7cb10e26872",
+          "text": "Ginger",
+          "done": false,
+          "createdAt": 1783363316385,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "9605c0a3-6e80-47b0-8176-d27973087b43",
+          "text": "Lemon",
+          "done": false,
+          "createdAt": 1783363316385,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "8aabfe75-62af-4c37-9bfc-0752122e53fc",
+          "text": "Cabbage",
+          "done": false,
+          "createdAt": 1783363336145,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "014a36c3-cd24-43ed-92d6-9b533d86299d",
+          "text": "Cucumber",
+          "done": false,
+          "createdAt": 1783363336145,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "b4a1d8c8-0762-4f24-b5b0-e96ab2d1162d",
+          "text": "Pork Chop",
+          "done": false,
+          "createdAt": 1783363336145,
+          "category": "protein",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "6927942f-9d43-43ed-b300-e838c01d6cb9",
+          "text": "Canola Oil",
+          "done": false,
+          "createdAt": 1783363336145,
+          "category": "pantry",
+          "qty": {
+            "amount": 3,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "b3ad896c-78b8-49f7-8450-102bd0d0cbbc",
+          "text": "Worcestershire",
+          "done": false,
+          "createdAt": 1783363336145,
+          "category": "condiments",
+          "qty": {
+            "amount": 4.5,
+            "unit": "tbsp"
+          }
         }
       ],
-      "customCategories": []
+      "customCategories": [
+        {
+          "key": "c-dairy",
+          "label": "Dairy"
+        }
+      ]
     }
   ],
   "remembered": {
-    "todo": [],
-    "groceries": []
+    "todo": [
+      {
+        "key": "post office",
+        "name": "Post Office",
+        "category": "c-errands",
+        "label": ""
+      }
+    ],
+    "groceries": [
+      {
+        "key": "chicken breast",
+        "name": "Chicken Breast",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "chili powder",
+        "name": "Chili Powder",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "smoked paprika",
+        "name": "Smoked Paprika",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "garlic powder",
+        "name": "Garlic Powder",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "cumin",
+        "name": "Cumin",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "olive oil",
+        "name": "Olive Oil",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "rice",
+        "name": "Rice",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "lime",
+        "name": "Lime",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "cilantro",
+        "name": "Cilantro",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "corn",
+        "name": "Corn",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "mayonnaise",
+        "name": "Mayonnaise",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "cotija cheese",
+        "name": "Cotija Cheese",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "avocado",
+        "name": "Avocado",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "jalapeno",
+        "name": "Jalapenos",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "potato",
+        "name": "Potatoes",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "butter",
+        "name": "Butter",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "egg",
+        "name": "Egg",
+        "category": "bakery",
+        "label": "Bakery"
+      },
+      {
+        "key": "carrot",
+        "name": "Carrots",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "white onion",
+        "name": "White Onion",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "garlic (minced)",
+        "name": "Garlic (minced)",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "salt and black pepper",
+        "name": "Salt And Black Pepper",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "green onion",
+        "name": "Green Onion",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "soy sauce",
+        "name": "Soy Sauce",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "oyster sauce",
+        "name": "Oyster Sauce",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "toasted sesame oil",
+        "name": "Toasted Sesame Oil",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "chinese sausage",
+        "name": "Chinese Sausage",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "seaweed",
+        "name": "Seaweed",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "salmon",
+        "name": "Salmon",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "lemon pepper",
+        "name": "Lemon Pepper",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "sriracha",
+        "name": "Sriracha",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "cucumber",
+        "name": "Cucumber",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "rotisserie chicken",
+        "name": "Rotisserie Chicken",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "cabbage",
+        "name": "Cabbage",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "sour cream",
+        "name": "Sour Cream",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "chicken thigh",
+        "name": "Chicken Thighs",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "shallot",
+        "name": "Shallots",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "ginger",
+        "name": "Ginger",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "lemon",
+        "name": "Lemon",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "cayenne pepper",
+        "name": "Cayenne Pepper",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "honey",
+        "name": "Honey",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "sesame dressing",
+        "name": "Sesame Dressing",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "sesame seed",
+        "name": "Sesame Seeds",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "panko",
+        "name": "Panko",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "all-purpose flour",
+        "name": "All-Purpose Flour",
+        "category": "bakery",
+        "label": "Bakery"
+      },
+      {
+        "key": "pork chop",
+        "name": "Pork Chop",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "canola oil",
+        "name": "Canola Oil",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "worcestershire",
+        "name": "Worcestershire",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "sugar",
+        "name": "Sugar",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "ketchup",
+        "name": "Ketchup",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "dr pepper",
+        "name": "Dr Pepper",
+        "category": "beverages",
+        "label": "Beverages"
+      },
+      {
+        "key": "chocolate milk",
+        "name": "Chocolate Milk",
+        "category": "beverages",
+        "label": "Beverages"
+      }
+    ]
   },
-  "recipes": [],
-  "grocerySubtopics": [],
-  "activity": [],
-  "_savedAt": 1783530732137
+  "recipes": [
+    {
+      "id": "ca769bff-bbae-49e8-af5e-ea7dc27925af",
+      "name": "Street Corn Chicken Rice Bowl",
+      "createdAt": 1782936631944,
+      "ingredients": [
+        {
+          "id": "cbaa0c90-be34-4cab-be65-c779c9c16818",
+          "text": "Chicken Breast",
+          "category": "protein",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "698f9be8-dc58-4f56-a28e-2f7ca84e4f21",
+          "text": "Chili Powder",
+          "category": "condiments",
+          "qty": {
+            "amount": 1,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "399949fa-2dea-4b81-a0be-c9e6d3db32fa",
+          "text": "Smoked Paprika",
+          "category": "condiments",
+          "qty": {
+            "amount": 1,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "30f40f0d-1e40-466b-9e3c-6b1c0476ecd4",
+          "text": "Garlic Powder",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.5,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "889fd101-9e6a-425e-a506-aa5cb89737ab",
+          "text": "Cumin",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.5,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "dc13ffea-0827-4176-80c2-dbd855d0be89",
+          "text": "Olive Oil",
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "0787afd1-2cd9-4db6-8227-bbe3d3334840",
+          "text": "Rice",
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "8d011c26-adab-480d-a5dd-8187ddd06537",
+          "text": "Lime",
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "0fe26e26-edf1-4590-8916-27b79f0107cb",
+          "text": "Cilantro",
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "a9e639ec-8b9c-4a18-9612-a19273b55121",
+          "text": "Corn",
+          "category": "pantry",
+          "qty": {
+            "amount": 2,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "94dc68d3-f205-4684-807e-8e39ab6a8003",
+          "text": "Mayonnaise",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.25,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "7f277502-8c17-43e2-bb20-333189a3042d",
+          "text": "Cotija Cheese",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 0.25,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "607d79ce-6e56-4bf7-a30b-1103cef21356",
+          "text": "Avocado",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "c05f80d5-6fea-4fb1-b793-20247db68d71",
+          "text": "Jalapenos",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7472b86c-45fc-4bb0-8a8d-cce94162dafa",
+      "name": "Chinese Sausage Fried Rice",
+      "createdAt": 1783014329463,
+      "ingredients": [
+        {
+          "id": "19a09c51-6c9d-47ba-8384-3006c863bb46",
+          "text": "Butter",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 3,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "7547c566-1618-47ea-adb4-bdfffda5a1c4",
+          "text": "Eggs",
+          "category": "bakery",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "107b0812-04e4-4e65-b463-8b69693b1bdf",
+          "text": "Carrots",
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "790d2908-23b4-46ec-b9fd-bd99022148bc",
+          "text": "White Onion",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "5aedb7c5-7630-491e-aad7-21a8d222fd74",
+          "text": "Garlic (minced)",
+          "category": "produce",
+          "qty": {
+            "amount": 3,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "8a708643-1063-4e79-8986-5a783e73d311",
+          "text": "Salt And Black Pepper",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "ebb53ae1-2a11-409a-bcfc-fa00203a5cf9",
+          "text": "Rice",
+          "category": "pantry",
+          "qty": {
+            "amount": 4,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "e5c5f726-b676-498a-9b0a-783ded8f3e10",
+          "text": "Green Onions",
+          "category": "produce",
+          "qty": {
+            "amount": 3,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "d81874eb-dcec-4a8a-905f-064a90d85406",
+          "text": "Soy Sauce",
+          "category": "condiments",
+          "qty": {
+            "amount": 3,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "ad53ae52-80d3-4844-a3cb-077480ede351",
+          "text": "Oyster Sauce",
+          "category": "condiments",
+          "qty": {
+            "amount": 2,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "c8fe4a05-80fb-4eac-bf60-9b45f56eeec3",
+          "text": "Toasted Sesame Oil",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.5,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "0c746bb1-3bea-4133-8801-291ff0a3540b",
+          "text": "Chinese Sausage",
+          "category": "protein",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a9364b06-64aa-46b0-9739-1733e602f124",
+      "name": "Salmon Bowl",
+      "createdAt": 1783014662828,
+      "ingredients": [
+        {
+          "id": "524ef712-4169-4f28-8c26-ee512a579134",
+          "text": "Olive Oil",
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "7848df78-9ae7-4082-9171-9e57eb4bd763",
+          "text": "Rice",
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "1f349192-aae1-4ac0-8305-1208f78ec686",
+          "text": "Seaweed",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "9a77b97b-0d39-4440-a898-0eab9e332fa4",
+          "text": "Salmon",
+          "category": "protein",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "51a18eb7-237d-4ea5-83c6-b0490258346c",
+          "text": "Mayonnaise",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "b4cad8ba-6b13-46ba-98ae-d65746a93f8c",
+          "text": "Lemon Pepper",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "e262005b-6d2c-47db-abfa-e86bd19ccafc",
+          "text": "Sriracha",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "b2d0d858-2c76-4591-a9c5-f7465740d1ff",
+          "text": "Cucumber",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ce3f4260-19a3-4ee1-9313-db5c503d2288",
+      "name": "Flautas",
+      "createdAt": 1783015640464,
+      "ingredients": [
+        {
+          "id": "0f379707-ad5b-4f5c-92f4-dc10ad3867b9",
+          "text": "Rotisserie Chicken",
+          "category": "protein",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "83f73100-324d-4cf6-a3ea-85397b7f05e0",
+          "text": "Cabbage",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "2b6190c2-7cb5-4673-935a-1502c9a49855",
+          "text": "Sour Cream",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "d9925088-1482-48c9-b49c-34af04a2db24",
+          "text": "Cotija Cheese",
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "f7d080a7-fce5-4231-a233-2f9ab655facb",
+          "text": "Olive Oil",
+          "category": "pantry",
+          "qty": null
+        }
+      ]
+    },
+    {
+      "id": "23c97fa5-e89d-44e5-aee6-cddf35f8a0b7",
+      "name": "Ginger Soy Chicken Thighs",
+      "createdAt": 1783017235929,
+      "ingredients": [
+        {
+          "id": "3f8e522b-483c-432e-9bbc-6c6410604a8b",
+          "text": "Chicken Thighs",
+          "category": "protein",
+          "qty": {
+            "amount": 3,
+            "unit": "lb"
+          }
+        },
+        {
+          "id": "b667a025-c8a0-4635-a2ee-14a593d04c8b",
+          "text": "Shallots",
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "783b6cc4-e5ad-4528-85aa-ac0aaa3e00d5",
+          "text": "Soy Sauce",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.333,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "ea03d22d-741b-4f54-84df-ea6e21d0c2f1",
+          "text": "Ginger",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "050db081-d784-4cf9-82a3-767cdd2ae2a5",
+          "text": "Lemon",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "df3776fc-dea0-48b2-8cfa-4b4938f5d73f",
+          "text": "Cayenne Pepper",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.5,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "00244623-ea90-405c-a131-20a254c37bf5",
+          "text": "Honey",
+          "category": "condiments",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "b5662731-8614-45a1-8cb3-8240c7b7bbb9",
+          "text": "Butter",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "bd52f9fe-7e3a-4a6c-b356-5511fcc3c8c4",
+          "text": "Green Onion",
+          "category": "produce",
+          "qty": {
+            "amount": 0.25,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "94dc1779-6261-4f86-91e9-33ee3a36cb10",
+          "text": "Garlic (minced)",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5a275a8b-23eb-4805-84a6-1dd15249893e",
+      "name": "Tonkatsu",
+      "createdAt": 1783017504480,
+      "ingredients": [
+        {
+          "id": "4a5655c6-2242-4082-996e-8a6e3e82647b",
+          "text": "Cabbage",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "94d7c57d-35cc-44d2-970c-9add6aabdae3",
+          "text": "Cucumber",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "740d92f7-d7d7-4ae4-9ece-134e53b81462",
+          "text": "Sesame Dressing",
+          "category": "condiments",
+          "qty": {
+            "amount": 4,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "25763672-dd17-4d12-8dfe-0a66848ad682",
+          "text": "Sesame Seeds",
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "62ba3117-7189-490b-b6f1-847f22f752d3",
+          "text": "Panko",
+          "category": "pantry",
+          "qty": {
+            "amount": 0.5,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "23f4389d-9ca8-47f7-be12-f352d600e401",
+          "text": "Egg",
+          "category": "bakery",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "97703e55-1ddf-48e3-9656-affca041cc6a",
+          "text": "All-Purpose Flour",
+          "category": "bakery",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "eb4dea68-a671-4578-be25-539f6422b7d7",
+          "text": "Pork Chop",
+          "category": "protein",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "a7a1e104-b5fe-402a-a1dc-572f56cc7348",
+          "text": "Salt And Black Pepper",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "86542aed-2b78-46bb-8a4f-06492c04a583",
+          "text": "Canola Oil",
+          "category": "pantry",
+          "qty": {
+            "amount": 3,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "a2aaddf3-6534-4f72-b326-8e5f921b1b2a",
+          "text": "Worcestershire",
+          "category": "condiments",
+          "qty": {
+            "amount": 4.5,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "272352a9-2808-4f6c-813b-6be5cb772ce5",
+          "text": "Sugar",
+          "category": "condiments",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "5677f29b-cb16-4058-9497-a1bc006ac060",
+          "text": "Ketchup",
+          "category": "condiments",
+          "qty": {
+            "amount": 5,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "8ee709fc-8db9-4888-8bdd-fd58c383506d",
+          "text": "Oyster Sauce",
+          "category": "condiments",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        }
+      ]
+    }
+  ],
+  "grocerySubtopics": [
+    {
+      "key": "c-dairy",
+      "label": "Dairy"
+    }
+  ],
+  "activity": [
+    {
+      "id": "075cb346-0f0a-4f65-9e01-401d4333c16f",
+      "ts": 1783363316385,
+      "actorId": "cb86a198-00c9-4909-8c7f-3f0a3dc8714f",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "3 items (Shallots, Ginger, Lemon)"
+    },
+    {
+      "id": "48ae43c2-4731-4ab2-9057-6f86fe706138",
+      "ts": 1783363336145,
+      "actorId": "cb86a198-00c9-4909-8c7f-3f0a3dc8714f",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "5 items (Cabbage, Cucumber, Pork Chop, Canola Oil, Worcestershire)"
+    }
+  ]
 }
