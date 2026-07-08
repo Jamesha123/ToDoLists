@@ -959,6 +959,17 @@
       "label": "Dairy"
     }
   ],
-  "activity": [],
-  "_savedAt": 1783538471025
+  "activity": [
+    {
+      "id": "2e9af87f-e0a2-4da0-8e73-f931de560658",
+      "ts": 1783543332482,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "0 completed"
+    }
+  ],
+  "_savedAt": 1783543332633
 }
