@@ -868,6 +868,7 @@ body {
 
 .modal__panel {
   position: relative;
+  z-index: 1;
   width: 100%;
   max-width: 620px;
   max-height: 85vh;

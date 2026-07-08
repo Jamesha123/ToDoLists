@@ -1993,9 +1993,18 @@ activityMarkRead.addEventListener("click", () => {
   markActivitySeen(); // clears my badge, keeps the history
   renderActivity(); // drop the unread highlights
 });
-activityClear.addEventListener("click", () => {
+activityClear.addEventListener("click", async (e) => {
+  e.stopPropagation();
   if (!activity.length) return;
-  if (confirm("Clear the activity feed for everyone?")) clearActivity();
+  if (!confirm("Clear the activity feed for everyone?")) return;
+  const res = await clearActivity();
+  if (!res.ok) {
+    alert("Couldn't clear activity. Try again.");
+    return;
+  }
+  activity = [];
+  markActivitySeen();
+  renderActivity();
 });
 
 // --- connection status + real-time stream -----------------------------------

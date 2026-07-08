@@ -166,6 +166,52 @@ async function flush() {
   await runBackup();
 }
 
+/** Check repo, branch, and token access — helps explain 404 errors. */
+async function diagnose() {
+  if (!configured()) return { ok: false, error: "GITHUB_TOKEN or GITHUB_REPO not set" };
+
+  const out = { ok: true, repo: REPO, branch: BRANCH, path: FILE_PATH, checks: {} };
+
+  try {
+    const meta = await githubRequest("GET", apiPath(""));
+    out.checks.repo = { ok: true, defaultBranch: meta.default_branch, private: meta.private };
+    if (meta.default_branch && meta.default_branch !== BRANCH) {
+      out.checks.branchHint = `Repo default branch is "${meta.default_branch}" but GITHUB_BRANCH is "${BRANCH}". Set GITHUB_BRANCH=${meta.default_branch} on Render.`;
+    }
+  } catch (err) {
+    out.ok = false;
+    out.checks.repo = { ok: false, status: err.status, error: err.message };
+    out.error =
+      err.status === 404
+        ? `Repository "${REPO}" not found or token cannot access it. Check GITHUB_REPO and token permissions.`
+        : err.message;
+    return out;
+  }
+
+  try {
+    await githubRequest("GET", `${apiPath(`/branches/${encodeURIComponent(BRANCH)}`)}`);
+    out.checks.branch = { ok: true };
+  } catch (err) {
+    out.ok = false;
+    out.checks.branch = { ok: false, status: err.status, error: err.message };
+    out.error = `Branch "${BRANCH}" not found. Set GITHUB_BRANCH to your repo's default branch on Render.`;
+    return out;
+  }
+
+  try {
+    const meta = await githubRequest("GET", `${apiPath(`/contents/${FILE_PATH}`)}?ref=${encodeURIComponent(BRANCH)}`);
+    out.checks.file = { ok: true, exists: true, sha: meta.sha };
+  } catch (err) {
+    if (err.status === 404) out.checks.file = { ok: true, exists: false };
+    else {
+      out.checks.file = { ok: false, status: err.status, error: err.message };
+      out.error = err.message;
+    }
+  }
+
+  return out;
+}
+
 function status() {
   return {
     configured: configured(),
@@ -182,4 +228,4 @@ function status() {
   };
 }
 
-module.exports = { configured, fetchRemote, schedule, flush, status };
+module.exports = { configured, fetchRemote, schedule, flush, status, diagnose };

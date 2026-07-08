@@ -364,17 +364,22 @@ function diskPayload() {
 
 function saveState() {
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    const payload = diskPayload();
-    const json = JSON.stringify(payload, null, 2);
-    try {
-      localBackup.snapshotBeforeWrite(DATA_FILE);
-      localBackup.writeAtomic(DATA_FILE, json);
-      dataBackup.schedule(json, payload._savedAt);
-    } catch (err) {
-      console.error("Failed to save data.json:", err);
-    }
-  }, 150);
+  saveTimer = setTimeout(() => saveStateNow(), 150);
+}
+
+/** Write data.json immediately (used when a change must survive Render sleep). */
+function saveStateNow() {
+  clearTimeout(saveTimer);
+  const payload = diskPayload();
+  const json = JSON.stringify(payload, null, 2);
+  try {
+    localBackup.snapshotBeforeWrite(DATA_FILE);
+    localBackup.writeAtomic(DATA_FILE, json);
+    dataBackup.schedule(json, payload._savedAt);
+  } catch (err) {
+    console.error("Failed to save data.json:", err);
+  }
+  return { json, savedAt: payload._savedAt };
 }
 
 /** On Render: use GitHub if its copy is newer than the file from the last deploy. */
@@ -919,6 +924,10 @@ async function handleApi(req, res, url) {
       if (!remote) return sendJSON(res, 200, { ok: true, remote: null });
       return sendJSON(res, 200, { ok: true, remote: { savedAt: remote.savedAt, sha: remote.sha } });
     }
+    if (req.method === "GET" && sub === "diagnose") {
+      const diagnosis = await dataBackup.diagnose();
+      return sendJSON(res, 200, { ok: true, diagnosis });
+    }
     return sendJSON(res, 405, { error: "Method not allowed" });
   }
 
@@ -928,6 +937,8 @@ async function handleApi(req, res, url) {
       commit(() => {
         state.activity = [];
       });
+      saveStateNow();
+      await dataBackup.flush();
       return sendJSON(res, 200, { ok: true });
     }
     return sendJSON(res, 405, { error: "Method not allowed" });
