@@ -905,6 +905,23 @@ async function handleApi(req, res, url) {
   const parts = url.pathname.split("/").filter(Boolean); // ["api", "lists", ...]
   const actor = actorOf(req);
 
+  if (parts[1] === "backup") {
+    const sub = parts[2] || "";
+    if (req.method === "GET" && !sub) {
+      return sendJSON(res, 200, { ok: true, github: dataBackup.status ? dataBackup.status() : { configured: false } });
+    }
+    if (req.method === "POST" && sub === "flush") {
+      await dataBackup.flush();
+      return sendJSON(res, 200, { ok: true, github: dataBackup.status ? dataBackup.status() : { configured: false } });
+    }
+    if (req.method === "GET" && sub === "remote") {
+      const remote = await dataBackup.fetchRemote();
+      if (!remote) return sendJSON(res, 200, { ok: true, remote: null });
+      return sendJSON(res, 200, { ok: true, remote: { savedAt: remote.savedAt, sha: remote.sha } });
+    }
+    return sendJSON(res, 405, { error: "Method not allowed" });
+  }
+
   if (parts[1] === "recipes") return handleRecipes(req, res, parts);
   if (parts[1] === "activity") {
     if (req.method === "DELETE") {

@@ -18,13 +18,16 @@ const REPO = process.env.GITHUB_REPO || "Jamesha123/ToDoLists";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
 const FILE_PATH = process.env.GITHUB_DATA_PATH || "data.json";
 const TOKEN = process.env.GITHUB_TOKEN || "";
-const DEBOUNCE_MS = 90_000;
+const DEBOUNCE_MS = Number(process.env.GITHUB_BACKUP_DEBOUNCE_MS) || 90_000;
 
 let backupTimer = null;
 let pendingJson = null;
 let pendingSavedAt = 0;
 let lastBackedUpAt = 0;
 let pushing = false;
+let lastAttemptAt = 0;
+let lastOkAt = 0;
+let lastError = "";
 
 function configured() {
   return Boolean(TOKEN && REPO.includes("/"));
@@ -114,6 +117,7 @@ async function runBackup() {
   }
 
   pushing = true;
+  lastAttemptAt = Date.now();
   try {
     let remote = await fetchRemote();
     const remoteHasData = hasListData(remote && remote.data);
@@ -129,8 +133,11 @@ async function runBackup() {
       await pushToGitHub(json, remote && remote.sha);
     }
     lastBackedUpAt = savedAt;
+    lastOkAt = Date.now();
+    lastError = "";
     console.log("Backed up data.json to GitHub");
   } catch (err) {
+    lastError = String((err && err.message) || err || "unknown error");
     console.error("GitHub backup failed:", err.message);
   } finally {
     pushing = false;
@@ -159,4 +166,20 @@ async function flush() {
   await runBackup();
 }
 
-module.exports = { configured, fetchRemote, schedule, flush };
+function status() {
+  return {
+    configured: configured(),
+    repo: REPO,
+    branch: BRANCH,
+    path: FILE_PATH,
+    debounceMs: DEBOUNCE_MS,
+    pushing,
+    pendingSavedAt,
+    lastBackedUpAt,
+    lastAttemptAt,
+    lastOkAt,
+    lastError,
+  };
+}
+
+module.exports = { configured, fetchRemote, schedule, flush, status };
