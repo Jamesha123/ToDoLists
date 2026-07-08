@@ -363,6 +363,18 @@
         "name": "Paper Towels",
         "category": "home",
         "label": "Home Goods"
+      },
+      {
+        "key": "rice vinegar",
+        "name": "Rice Vinegar",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "brown sugar",
+        "name": "Brown Sugar",
+        "category": "bakery",
+        "label": "Bakery"
       }
     ]
   },
@@ -956,7 +968,62 @@
       "id": "0cb4bb5d-eea7-49f0-88f1-541ce4ef4d12",
       "name": "Japanese Coleslaw",
       "createdAt": 1783550229595,
-      "ingredients": []
+      "ingredients": [
+        {
+          "id": "c0cee7b7-2197-4c7e-896b-65ce58e9686a",
+          "text": "Mayonnaise",
+          "category": "condiments",
+          "qty": {
+            "amount": 0.5,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "3bfd931e-d042-4291-a92c-dda1a4c42ea3",
+          "text": "Soy Sauce",
+          "category": "condiments",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "4d48a5a3-e1e9-4e4f-bb36-1a28847b8d06",
+          "text": "Toasted Sesame Oil",
+          "category": "condiments",
+          "qty": {
+            "amount": 1,
+            "unit": "tsp"
+          }
+        },
+        {
+          "id": "98e429b2-2e81-4f89-81f6-900141d75d83",
+          "text": "Cabbage",
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "3ebebccf-9ff1-4896-b024-a18e526fa221",
+          "text": "Rice Vinegar",
+          "category": "condiments",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "3d17810e-10a0-434f-be11-1675ac7ae59c",
+          "text": "Brown Sugar",
+          "category": "bakery",
+          "qty": {
+            "amount": 6,
+            "unit": "tsp"
+          }
+        }
+      ]
     }
   ],
   "grocerySubtopics": [
@@ -977,5 +1044,5 @@
       "detail": "0 completed"
     }
   ],
-  "_savedAt": 1783550229745
+  "_savedAt": 1783550486869
 }
