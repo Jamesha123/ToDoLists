@@ -32,6 +32,14 @@
             "amount": 3,
             "unit": "cup"
           }
+        },
+        {
+          "id": "ee86ec87-8139-4a19-b862-519037b41252",
+          "text": "Cleaner",
+          "done": false,
+          "createdAt": 1783635813578,
+          "category": "home",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1042,7 +1050,17 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "0 completed"
+    },
+    {
+      "id": "8d4a560c-93b3-4150-8983-225637836e4b",
+      "ts": 1783635813578,
+      "actorId": "8423c381-b40d-499e-9b72-0f01f5174ff0",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cleaner"
     }
   ],
-  "_savedAt": 1783550486869
+  "_savedAt": 1783635813728
 }
