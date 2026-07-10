@@ -23,22 +23,11 @@
           "qty": null
         },
         {
-          "id": "6927942f-9d43-43ed-b300-e838c01d6cb9",
-          "text": "Canola Oil",
+          "id": "dac9cc74-6552-469d-aa79-307affcff4e2",
+          "text": "Giant Dill Dough",
           "done": false,
-          "createdAt": 1783363336145,
-          "category": "pantry",
-          "qty": {
-            "amount": 3,
-            "unit": "cup"
-          }
-        },
-        {
-          "id": "ee86ec87-8139-4a19-b862-519037b41252",
-          "text": "Cleaner",
-          "done": false,
-          "createdAt": 1783635813578,
-          "category": "home",
+          "createdAt": 1783718923101,
+          "category": "misc",
           "qty": null
         }
       ],
@@ -383,6 +372,12 @@
         "name": "Brown Sugar",
         "category": "bakery",
         "label": "Bakery"
+      },
+      {
+        "key": "cleaner",
+        "name": "Cleaner",
+        "category": "home",
+        "label": "Home Goods"
       }
     ]
   },
@@ -1060,7 +1055,57 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Cleaner"
+    },
+    {
+      "id": "f87dd1cf-7d86-4cba-812d-65b50dac77f1",
+      "ts": 1783718923101,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Giant Dill Dough"
+    },
+    {
+      "id": "78874a28-e86c-424d-92da-bcf4bccd4962",
+      "ts": 1783718932315,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Canola Oil"
+    },
+    {
+      "id": "483f3ed2-c684-4a75-84e6-425c24bc4b5d",
+      "ts": 1783718934545,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
+    },
+    {
+      "id": "faf96aac-f2cf-4b71-9dac-7c826c1af6e4",
+      "ts": 1783718935449,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cleaner"
+    },
+    {
+      "id": "ca60247a-8883-4e17-bde4-e87bd31509af",
+      "ts": 1783718936044,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
     }
   ],
-  "_savedAt": 1783635813728
+  "_savedAt": 1783718936194
 }
