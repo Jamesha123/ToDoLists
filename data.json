@@ -29,12 +29,32 @@
           "createdAt": 1783718923101,
           "category": "misc",
           "qty": null
+        },
+        {
+          "id": "5190698c-754a-42e4-9954-542b76049182",
+          "text": "Clippers",
+          "done": false,
+          "createdAt": 1783719066934,
+          "category": "misc",
+          "qty": null
+        },
+        {
+          "id": "a40fcea8-4754-433d-841c-ed176016cda3",
+          "text": "Val’s Pizza",
+          "done": false,
+          "createdAt": 1783719078214,
+          "category": "c-frozen",
+          "qty": null
         }
       ],
       "customCategories": [
         {
           "key": "c-dairy",
           "label": "Dairy"
+        },
+        {
+          "key": "c-frozen",
+          "label": "Frozen"
         }
       ]
     }
@@ -1033,6 +1053,10 @@
     {
       "key": "c-dairy",
       "label": "Dairy"
+    },
+    {
+      "key": "c-frozen",
+      "label": "Frozen"
     }
   ],
   "activity": [
@@ -1105,7 +1129,37 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "1 completed"
+    },
+    {
+      "id": "429f2cb1-c9b1-4858-b6a4-3f9c6479bbe4",
+      "ts": 1783719066934,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Clippers"
+    },
+    {
+      "id": "5409bf1b-7620-4e09-b18a-f023f1443b51",
+      "ts": 1783719078214,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Val’s Pizza"
+    },
+    {
+      "id": "98f3927c-bc33-484d-a3d5-510cce732f58",
+      "ts": 1783719112061,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Val’s Pizza"
     }
   ],
-  "_savedAt": 1783718936194
+  "_savedAt": 1783719112211
 }
