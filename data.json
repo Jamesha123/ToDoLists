@@ -45,6 +45,22 @@
           "createdAt": 1783719078214,
           "category": "c-frozen",
           "qty": null
+        },
+        {
+          "id": "1aac5b8d-71e4-470a-be14-ecddad9b40c4",
+          "text": "Haircutting Scissors",
+          "done": false,
+          "createdAt": 1783720275832,
+          "category": "misc",
+          "qty": null
+        },
+        {
+          "id": "c24f20df-6b98-488a-a4a6-8c729732cb28",
+          "text": "Fabric Roller Cutter",
+          "done": false,
+          "createdAt": 1783720285586,
+          "category": "misc",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1159,7 +1175,27 @@
       "listName": "Groceries List",
       "action": "edit",
       "detail": "Val’s Pizza"
+    },
+    {
+      "id": "5264c789-5401-4b0f-9c4b-50d9676a16c4",
+      "ts": 1783720275832,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Haircutting Scissors"
+    },
+    {
+      "id": "81cdb196-de1c-47b6-9378-ea39ce08d085",
+      "ts": 1783720285586,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Fabric Roller Cutter"
     }
   ],
-  "_savedAt": 1783719112211
+  "_savedAt": 1783720285736
 }
