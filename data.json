@@ -33,7 +33,7 @@
         {
           "id": "5190698c-754a-42e4-9954-542b76049182",
           "text": "Clippers",
-          "done": false,
+          "done": true,
           "createdAt": 1783719066934,
           "category": "misc",
           "qty": null
@@ -49,7 +49,7 @@
         {
           "id": "1aac5b8d-71e4-470a-be14-ecddad9b40c4",
           "text": "Haircutting Scissors",
-          "done": false,
+          "done": true,
           "createdAt": 1783720275832,
           "category": "misc",
           "qty": null
@@ -1195,7 +1195,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Fabric Roller Cutter"
+    },
+    {
+      "id": "de91bbe4-b748-4773-9a26-37e3598e1b99",
+      "ts": 1783721903809,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Haircutting Scissors"
+    },
+    {
+      "id": "1bf0b07b-0cf5-4dd1-ace8-fa6467f4b9ca",
+      "ts": 1783721904551,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Clippers"
     }
   ],
-  "_savedAt": 1783720285736
+  "_savedAt": 1783721904701
 }
