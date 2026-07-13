@@ -41,7 +41,7 @@
         {
           "id": "dd4e14e9-5eb2-4d6c-97b6-a5b7706cfe51",
           "text": "Corn",
-          "done": false,
+          "done": true,
           "createdAt": 1783979539341,
           "category": "pantry",
           "qty": {
@@ -63,7 +63,7 @@
         {
           "id": "1ffd1749-3c9b-4662-8a73-643e5bc28264",
           "text": "Cucumber",
-          "done": false,
+          "done": true,
           "createdAt": 1783979700190,
           "category": "produce",
           "qty": {
@@ -1384,7 +1384,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Oat Milk (sams)"
+    },
+    {
+      "id": "73d60fd7-b1bf-462a-9a79-dc386305ffc5",
+      "ts": 1783986426609,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "7f9347fb-09e7-48ef-8fca-de88a8a4a44e",
+      "ts": 1783986437198,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Corn"
     }
   ],
-  "_savedAt": 1783982175353
+  "_savedAt": 1783986437348
 }
