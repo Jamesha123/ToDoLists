@@ -29,6 +29,25 @@
           "createdAt": 1783962286184,
           "category": "c-dairy",
           "qty": null
+        },
+        {
+          "id": "359716c2-4691-49f7-a337-e708805b68ea",
+          "text": "Steak",
+          "done": false,
+          "createdAt": 1783979495960,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "dd4e14e9-5eb2-4d6c-97b6-a5b7706cfe51",
+          "text": "Corn",
+          "done": false,
+          "createdAt": 1783979539341,
+          "category": "pantry",
+          "qty": {
+            "amount": 4,
+            "unit": "each"
+          }
         }
       ],
       "customCategories": [
@@ -1283,7 +1302,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Oat Milk (sams)"
+    },
+    {
+      "id": "a58797b0-3c8c-424f-ac40-2eaf2595486f",
+      "ts": 1783979495960,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Steak"
+    },
+    {
+      "id": "118f5aee-a3d5-4fcc-b346-5095e727d1f6",
+      "ts": 1783979539341,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Corn"
+    },
+    {
+      "id": "214e45db-6e7e-4ea7-8ff0-a11b0a1fcda1",
+      "ts": 1783979546477,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Corn"
     }
   ],
-  "_savedAt": 1783962286335
+  "_savedAt": 1783979546627
 }
