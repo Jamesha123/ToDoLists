@@ -48,6 +48,28 @@
             "amount": 4,
             "unit": "each"
           }
+        },
+        {
+          "id": "0e7b9eb7-f630-48b3-b811-8c0ddb6fd993",
+          "text": "White Onion",
+          "done": false,
+          "createdAt": 1783979664497,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "1ffd1749-3c9b-4662-8a73-643e5bc28264",
+          "text": "Cucumber",
+          "done": false,
+          "createdAt": 1783979700190,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
         }
       ],
       "customCategories": [
@@ -1332,7 +1354,27 @@
       "listName": "Groceries List",
       "action": "edit",
       "detail": "Corn"
+    },
+    {
+      "id": "f86375b5-ec61-4ca6-a076-e3761d8cecb7",
+      "ts": 1783979664497,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "White Onion"
+    },
+    {
+      "id": "06d36cf2-117c-4aa0-b61c-99d6bee6cd87",
+      "ts": 1783979700190,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cucumber"
     }
   ],
-  "_savedAt": 1783979546627
+  "_savedAt": 1783979700340
 }
