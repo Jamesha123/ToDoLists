@@ -61,6 +61,17 @@
           "createdAt": 1783720285586,
           "category": "misc",
           "qty": null
+        },
+        {
+          "id": "caea7118-592d-4b66-9370-e355ccc2a826",
+          "text": "Cucumber",
+          "done": false,
+          "createdAt": 1783916837370,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
         }
       ],
       "customCategories": [
@@ -1215,7 +1226,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Clippers"
+    },
+    {
+      "id": "5072f571-f25b-4670-8e76-9f5b195e78db",
+      "ts": 1783916837370,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cucumber"
     }
   ],
-  "_savedAt": 1783721904701
+  "_savedAt": 1783916837521
 }
