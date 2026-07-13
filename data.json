@@ -23,55 +23,12 @@
           "qty": null
         },
         {
-          "id": "dac9cc74-6552-469d-aa79-307affcff4e2",
-          "text": "Giant Dill Dough",
+          "id": "6cc36ca1-47ab-4e2c-8c2c-0e69b153c30c",
+          "text": "Oat Milk (sams)",
           "done": false,
-          "createdAt": 1783718923101,
-          "category": "misc",
+          "createdAt": 1783962286184,
+          "category": "c-dairy",
           "qty": null
-        },
-        {
-          "id": "5190698c-754a-42e4-9954-542b76049182",
-          "text": "Clippers",
-          "done": true,
-          "createdAt": 1783719066934,
-          "category": "misc",
-          "qty": null
-        },
-        {
-          "id": "a40fcea8-4754-433d-841c-ed176016cda3",
-          "text": "Val’s Pizza",
-          "done": false,
-          "createdAt": 1783719078214,
-          "category": "c-frozen",
-          "qty": null
-        },
-        {
-          "id": "1aac5b8d-71e4-470a-be14-ecddad9b40c4",
-          "text": "Haircutting Scissors",
-          "done": true,
-          "createdAt": 1783720275832,
-          "category": "misc",
-          "qty": null
-        },
-        {
-          "id": "c24f20df-6b98-488a-a4a6-8c729732cb28",
-          "text": "Fabric Roller Cutter",
-          "done": false,
-          "createdAt": 1783720285586,
-          "category": "misc",
-          "qty": null
-        },
-        {
-          "id": "caea7118-592d-4b66-9370-e355ccc2a826",
-          "text": "Cucumber",
-          "done": false,
-          "createdAt": 1783916837370,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
         }
       ],
       "customCategories": [
@@ -425,6 +382,36 @@
         "name": "Cleaner",
         "category": "home",
         "label": "Home Goods"
+      },
+      {
+        "key": "giant dill dough",
+        "name": "Giant Dill Dough",
+        "category": "misc",
+        "label": "Miscellaneous"
+      },
+      {
+        "key": "clipper",
+        "name": "Clippers",
+        "category": "misc",
+        "label": "Miscellaneous"
+      },
+      {
+        "key": "val’s pizza",
+        "name": "Val’s Pizza",
+        "category": "c-frozen",
+        "label": "Frozen"
+      },
+      {
+        "key": "haircutting scissor",
+        "name": "Haircutting Scissors",
+        "category": "misc",
+        "label": "Miscellaneous"
+      },
+      {
+        "key": "fabric roller cutter",
+        "name": "Fabric Roller Cutter",
+        "category": "misc",
+        "label": "Miscellaneous"
       }
     ]
   },
@@ -1236,7 +1223,67 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Cucumber"
+    },
+    {
+      "id": "d74b277d-54d9-4afb-a066-77fa9644822d",
+      "ts": 1783962195608,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Val’s Pizza"
+    },
+    {
+      "id": "b210101d-9a20-42ff-acc7-c9c8ecf070bb",
+      "ts": 1783962196495,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Giant Dill Dough"
+    },
+    {
+      "id": "a0111767-9ec5-4bf8-90ee-818c98542d59",
+      "ts": 1783962201240,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Fabric Roller Cutter"
+    },
+    {
+      "id": "9db4c514-da6c-49bc-a914-35b48a804c73",
+      "ts": 1783962203589,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "5 completed"
+    },
+    {
+      "id": "8345fa85-adfa-426c-976c-4811c266920d",
+      "ts": 1783962267766,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "e6b63fac-dad9-4485-998d-1a65fb488433",
+      "ts": 1783962286184,
+      "actorId": "525dd4f1-8e12-4e64-b222-105d733559fd",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Oat Milk (sams)"
     }
   ],
-  "_savedAt": 1783916837521
+  "_savedAt": 1783962286335
 }
