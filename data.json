@@ -25,7 +25,7 @@
         {
           "id": "6cc36ca1-47ab-4e2c-8c2c-0e69b153c30c",
           "text": "Oat Milk (sams)",
-          "done": false,
+          "done": true,
           "createdAt": 1783962286184,
           "category": "c-dairy",
           "qty": null
@@ -1374,7 +1374,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Cucumber"
+    },
+    {
+      "id": "0925b6f3-01f8-4cf3-a7d8-d5eeca57b35b",
+      "ts": 1783982175202,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Oat Milk (sams)"
     }
   ],
-  "_savedAt": 1783979700340
+  "_savedAt": 1783982175353
 }
