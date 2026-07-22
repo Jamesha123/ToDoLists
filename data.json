@@ -21,36 +21,6 @@
           "createdAt": 1783010205526,
           "category": "ava",
           "qty": null
-        },
-        {
-          "id": "87566ba3-1bf2-4955-a2ac-8893d31876c8",
-          "text": "Chicken Thighs",
-          "done": false,
-          "createdAt": 1784679775323,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "de5901c1-8aa8-462a-9af5-15109858fe31",
-          "text": "Chinese Sausage",
-          "done": false,
-          "createdAt": 1784680079350,
-          "category": "protein",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "1c3e6a25-b8f7-4417-8ac9-588cae708fc0",
-          "text": "Chicken Breasts",
-          "done": false,
-          "createdAt": 1784680263825,
-          "category": "protein",
-          "qty": {
-            "amount": 2,
-            "unit": "each"
-          }
         }
       ],
       "customCategories": [
@@ -1524,7 +1494,47 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "1 completed"
+    },
+    {
+      "id": "348ef843-9e05-4c1b-b348-179fb44bd89a",
+      "ts": 1784756055985,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Chicken Thighs"
+    },
+    {
+      "id": "4f9801b3-ae9d-407f-b460-3e1b4a26bfc8",
+      "ts": 1784756057166,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Chinese Sausage"
+    },
+    {
+      "id": "716da9f1-32a8-4ea4-8f8c-046bf943b9e5",
+      "ts": 1784756057614,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Chicken Breasts"
+    },
+    {
+      "id": "ea379765-d354-44fc-a1f3-2210d2c4c6d3",
+      "ts": 1784756060043,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "3 completed"
     }
   ],
-  "_savedAt": 1784682613675
+  "_savedAt": 1784756060193
 }
