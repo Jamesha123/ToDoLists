@@ -37,6 +37,28 @@
           "createdAt": 1784679775323,
           "category": "protein",
           "qty": null
+        },
+        {
+          "id": "d6f81844-6f6a-469b-b943-e9b0c786d005",
+          "text": "White Onion",
+          "done": false,
+          "createdAt": 1784680079350,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "de5901c1-8aa8-462a-9af5-15109858fe31",
+          "text": "Chinese Sausage",
+          "done": false,
+          "createdAt": 1784680079350,
+          "category": "protein",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
         }
       ],
       "customCategories": [
@@ -1075,6 +1097,12 @@
           }
         }
       ]
+    },
+    {
+      "id": "4e894730-793a-4034-aa90-a826ac187ef5",
+      "name": "Chicken Alfredo",
+      "createdAt": 1784679989923,
+      "ingredients": []
     }
   ],
   "grocerySubtopics": [
@@ -1157,7 +1185,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Chicken Thighs"
+    },
+    {
+      "id": "363c6c4d-7daa-4e64-b3cc-6fca183c26e4",
+      "ts": 1784680079350,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "2 items (White Onion, Chinese Sausage)"
     }
   ],
-  "_savedAt": 1784679775473
+  "_savedAt": 1784680079500
 }
