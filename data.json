@@ -96,7 +96,7 @@
         {
           "id": "5f557c6e-8176-4f68-9efe-aa7c7da80a9a",
           "text": "Parmesan Cheese",
-          "done": false,
+          "done": true,
           "createdAt": 1784680263825,
           "category": "c-dairy",
           "qty": {
@@ -167,7 +167,7 @@
         {
           "id": "c11dce67-8528-4b1c-8e3d-47974551ca54",
           "text": "Cheese",
-          "done": false,
+          "done": true,
           "createdAt": 1784681524886,
           "category": "c-dairy",
           "qty": null
@@ -1474,7 +1474,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Heavy Cream"
+    },
+    {
+      "id": "1d5a0203-93ad-4cf5-a377-467097a612e2",
+      "ts": 1784681679914,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Parmesan Cheese"
+    },
+    {
+      "id": "5ed9757b-2da7-47a1-9210-729339c0bf22",
+      "ts": 1784681682453,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cheese"
     }
   ],
-  "_savedAt": 1784681581980
+  "_savedAt": 1784681682603
 }
