@@ -85,7 +85,7 @@
         {
           "id": "49145856-dffc-4b81-90b0-7a389d2f923e",
           "text": "Heavy Cream",
-          "done": false,
+          "done": true,
           "createdAt": 1784680263825,
           "category": "c-dairy",
           "qty": {
@@ -163,6 +163,22 @@
             "amount": 2,
             "unit": "tbsp"
           }
+        },
+        {
+          "id": "c11dce67-8528-4b1c-8e3d-47974551ca54",
+          "text": "Cheese",
+          "done": false,
+          "createdAt": 1784681524886,
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "6a8d9c02-1c1b-4752-ae2f-7c3495129b89",
+          "text": "Tortillas",
+          "done": false,
+          "createdAt": 1784681534409,
+          "category": "bakery",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1428,7 +1444,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "4 items (Shallots, Ginger, Lemon, Honey)"
+    },
+    {
+      "id": "906a7667-36c7-4da0-a772-3bcde0a5e24d",
+      "ts": 1784681524886,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cheese"
+    },
+    {
+      "id": "885ca96c-ffa9-4e90-a945-4affec569052",
+      "ts": 1784681534409,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Tortillas"
+    },
+    {
+      "id": "08ef1651-f742-4a7d-995e-f863a867fcbe",
+      "ts": 1784681581829,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Heavy Cream"
     }
   ],
-  "_savedAt": 1784680316960
+  "_savedAt": 1784681581980
 }
