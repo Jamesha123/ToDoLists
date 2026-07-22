@@ -63,7 +63,7 @@
         {
           "id": "6c7e15c5-ea1c-4b07-ad0f-e763b9314921",
           "text": "Pasta",
-          "done": false,
+          "done": true,
           "createdAt": 1784680263825,
           "category": "pantry",
           "qty": {
@@ -80,28 +80,6 @@
           "qty": {
             "amount": 2,
             "unit": "each"
-          }
-        },
-        {
-          "id": "49145856-dffc-4b81-90b0-7a389d2f923e",
-          "text": "Heavy Cream",
-          "done": true,
-          "createdAt": 1784680263825,
-          "category": "c-dairy",
-          "qty": {
-            "amount": 1.5,
-            "unit": "cup"
-          }
-        },
-        {
-          "id": "5f557c6e-8176-4f68-9efe-aa7c7da80a9a",
-          "text": "Parmesan Cheese",
-          "done": true,
-          "createdAt": 1784680263825,
-          "category": "c-dairy",
-          "qty": {
-            "amount": 1,
-            "unit": "cup"
           }
         },
         {
@@ -152,33 +130,6 @@
             "amount": 1,
             "unit": "tbsp"
           }
-        },
-        {
-          "id": "6a2efafc-9d9a-4ad0-965e-263b0cfc62a2",
-          "text": "Honey",
-          "done": false,
-          "createdAt": 1784680316811,
-          "category": "condiments",
-          "qty": {
-            "amount": 2,
-            "unit": "tbsp"
-          }
-        },
-        {
-          "id": "c11dce67-8528-4b1c-8e3d-47974551ca54",
-          "text": "Cheese",
-          "done": true,
-          "createdAt": 1784681524886,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "6a8d9c02-1c1b-4752-ae2f-7c3495129b89",
-          "text": "Tortillas",
-          "done": false,
-          "createdAt": 1784681534409,
-          "category": "bakery",
-          "qty": null
         }
       ],
       "customCategories": [
@@ -610,6 +561,18 @@
         "name": "Pepper",
         "category": "produce",
         "label": "Produce"
+      },
+      {
+        "key": "cheese",
+        "name": "Cheese",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "tortilla",
+        "name": "Tortillas",
+        "category": "bakery",
+        "label": "Bakery"
       }
     ]
   },
@@ -1494,7 +1457,47 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Cheese"
+    },
+    {
+      "id": "89b1e168-2407-447c-9a73-873779274312",
+      "ts": 1784681844491,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Honey"
+    },
+    {
+      "id": "fa2c90dd-b7e3-4dca-9a4f-e1a20b5b31fd",
+      "ts": 1784681857814,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tortillas"
+    },
+    {
+      "id": "9e2fd629-2ae9-444d-9892-5a2a70e02f20",
+      "ts": 1784681862987,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "5 completed"
+    },
+    {
+      "id": "0a97b676-06ad-461a-aed4-7becbc9d5d7f",
+      "ts": 1784681914085,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Pasta"
     }
   ],
-  "_savedAt": 1784681682603
+  "_savedAt": 1784681914236
 }
