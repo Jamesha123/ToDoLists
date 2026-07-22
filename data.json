@@ -29,6 +29,14 @@
           "createdAt": 1784678903368,
           "category": "personal",
           "qty": null
+        },
+        {
+          "id": "87566ba3-1bf2-4955-a2ac-8893d31876c8",
+          "text": "Chicken Thighs",
+          "done": false,
+          "createdAt": 1784679775323,
+          "category": "protein",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1139,7 +1147,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Face Wash"
+    },
+    {
+      "id": "4248eeb6-dac1-4582-b965-eb54eb9f06d9",
+      "ts": 1784679775323,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Chicken Thighs"
     }
   ],
-  "_savedAt": 1784678903518
+  "_savedAt": 1784679775473
 }
