@@ -39,33 +39,11 @@
           "qty": null
         },
         {
-          "id": "d6f81844-6f6a-469b-b943-e9b0c786d005",
-          "text": "White Onion",
-          "done": false,
-          "createdAt": 1784680079350,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
-        },
-        {
           "id": "de5901c1-8aa8-462a-9af5-15109858fe31",
           "text": "Chinese Sausage",
           "done": false,
           "createdAt": 1784680079350,
           "category": "protein",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "6c7e15c5-ea1c-4b07-ad0f-e763b9314921",
-          "text": "Pasta",
-          "done": true,
-          "createdAt": 1784680263825,
-          "category": "pantry",
           "qty": {
             "amount": 1,
             "unit": "each"
@@ -83,22 +61,6 @@
           }
         },
         {
-          "id": "d76d226f-1417-4cf9-93b9-2ea92044bdf6",
-          "text": "Brocolli",
-          "done": false,
-          "createdAt": 1784680263825,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "36deffea-33f2-461f-b943-61c396e7c84e",
-          "text": "Pepper",
-          "done": false,
-          "createdAt": 1784680263825,
-          "category": "produce",
-          "qty": null
-        },
-        {
           "id": "9b7ccf43-4add-44cf-8f00-9c1e3f0a5f3c",
           "text": "Shallots",
           "done": false,
@@ -112,7 +74,7 @@
         {
           "id": "4c79faec-2bb6-497e-a418-3c4ce421d973",
           "text": "Ginger",
-          "done": false,
+          "done": true,
           "createdAt": 1784680316810,
           "category": "produce",
           "qty": {
@@ -1497,7 +1459,57 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Pasta"
+    },
+    {
+      "id": "a4885b27-fa37-4b42-8a71-1b725fe6020b",
+      "ts": 1784682335041,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "White Onion"
+    },
+    {
+      "id": "a37c6037-8476-47a5-8fb4-c5ea34688df0",
+      "ts": 1784682360996,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Brocolli"
+    },
+    {
+      "id": "a6c8859a-4166-4f32-bd19-95b990dafe53",
+      "ts": 1784682390835,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Pepper"
+    },
+    {
+      "id": "2741f5e2-3b68-4123-bf33-bde09259929d",
+      "ts": 1784682391125,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "4 completed"
+    },
+    {
+      "id": "63a0d88b-3a4d-48b4-99b8-3a245e809764",
+      "ts": 1784682465715,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Ginger"
     }
   ],
-  "_savedAt": 1784681914236
+  "_savedAt": 1784682465865
 }
