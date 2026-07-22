@@ -23,14 +23,6 @@
           "qty": null
         },
         {
-          "id": "0b9495c4-5f2f-414b-87c7-29819d8b6155",
-          "text": "Face Wash",
-          "done": false,
-          "createdAt": 1784678903368,
-          "category": "personal",
-          "qty": null
-        },
-        {
           "id": "87566ba3-1bf2-4955-a2ac-8893d31876c8",
           "text": "Chicken Thighs",
           "done": false,
@@ -58,39 +50,6 @@
           "qty": {
             "amount": 2,
             "unit": "each"
-          }
-        },
-        {
-          "id": "9b7ccf43-4add-44cf-8f00-9c1e3f0a5f3c",
-          "text": "Shallots",
-          "done": false,
-          "createdAt": 1784680316810,
-          "category": "produce",
-          "qty": {
-            "amount": 2,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "4c79faec-2bb6-497e-a418-3c4ce421d973",
-          "text": "Ginger",
-          "done": true,
-          "createdAt": 1784680316810,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "tbsp"
-          }
-        },
-        {
-          "id": "9fefa876-17ea-4c05-b2a8-37e830104bc3",
-          "text": "Lemon",
-          "done": false,
-          "createdAt": 1784680316810,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "tbsp"
           }
         }
       ],
@@ -535,6 +494,12 @@
         "name": "Tortillas",
         "category": "bakery",
         "label": "Bakery"
+      },
+      {
+        "key": "face wash",
+        "name": "Face Wash",
+        "category": "personal",
+        "label": "Personal Care"
       }
     ]
   },
@@ -1509,7 +1474,57 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Ginger"
+    },
+    {
+      "id": "3de6a49e-ec4b-427a-8060-6f58e23bd2e9",
+      "ts": 1784682589567,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Lemon"
+    },
+    {
+      "id": "3eaf9e13-25c1-48e8-99b3-0dee10869036",
+      "ts": 1784682590291,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Shallots"
+    },
+    {
+      "id": "e199dbad-4151-4c21-9c18-d8ce0c8418dd",
+      "ts": 1784682590833,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "3 completed"
+    },
+    {
+      "id": "4418ff5c-05fb-4c5d-8e46-5b93bb92a093",
+      "ts": 1784682609821,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Face Wash"
+    },
+    {
+      "id": "221782ab-a817-425a-9ac3-ecfc8daa4940",
+      "ts": 1784682613525,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
     }
   ],
-  "_savedAt": 1784682465865
+  "_savedAt": 1784682613675
 }
