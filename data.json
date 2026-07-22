@@ -59,6 +59,110 @@
             "amount": 1,
             "unit": "each"
           }
+        },
+        {
+          "id": "6c7e15c5-ea1c-4b07-ad0f-e763b9314921",
+          "text": "Pasta",
+          "done": false,
+          "createdAt": 1784680263825,
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "1c3e6a25-b8f7-4417-8ac9-588cae708fc0",
+          "text": "Chicken Breasts",
+          "done": false,
+          "createdAt": 1784680263825,
+          "category": "protein",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "49145856-dffc-4b81-90b0-7a389d2f923e",
+          "text": "Heavy Cream",
+          "done": false,
+          "createdAt": 1784680263825,
+          "category": "c-dairy",
+          "qty": {
+            "amount": 1.5,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "5f557c6e-8176-4f68-9efe-aa7c7da80a9a",
+          "text": "Parmesan Cheese",
+          "done": false,
+          "createdAt": 1784680263825,
+          "category": "c-dairy",
+          "qty": {
+            "amount": 1,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "d76d226f-1417-4cf9-93b9-2ea92044bdf6",
+          "text": "Brocolli",
+          "done": false,
+          "createdAt": 1784680263825,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "36deffea-33f2-461f-b943-61c396e7c84e",
+          "text": "Pepper",
+          "done": false,
+          "createdAt": 1784680263825,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "9b7ccf43-4add-44cf-8f00-9c1e3f0a5f3c",
+          "text": "Shallots",
+          "done": false,
+          "createdAt": 1784680316810,
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "4c79faec-2bb6-497e-a418-3c4ce421d973",
+          "text": "Ginger",
+          "done": false,
+          "createdAt": 1784680316810,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "9fefa876-17ea-4c05-b2a8-37e830104bc3",
+          "text": "Lemon",
+          "done": false,
+          "createdAt": 1784680316810,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "6a2efafc-9d9a-4ad0-965e-263b0cfc62a2",
+          "text": "Honey",
+          "done": false,
+          "createdAt": 1784680316811,
+          "category": "condiments",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
         }
       ],
       "customCategories": [
@@ -85,7 +189,7 @@
     "groceries": [
       {
         "key": "chicken breast",
-        "name": "Chicken Breast",
+        "name": "Chicken Breasts",
         "category": "protein",
         "label": "Protein"
       },
@@ -448,6 +552,48 @@
         "name": "Oat Milk (sams)",
         "category": "c-dairy",
         "label": "Dairy"
+      },
+      {
+        "key": "pasta",
+        "name": "Pasta",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "unsalted butter",
+        "name": "Unsalted Butter",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "cloves garlic minced",
+        "name": "Cloves Garlic Minced",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "heavy cream",
+        "name": "Heavy Cream",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "parmesan cheese",
+        "name": "Parmesan Cheese",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "brocolli",
+        "name": "Brocolli",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "pepper",
+        "name": "Pepper",
+        "category": "produce",
+        "label": "Produce"
       }
     ]
   },
@@ -1102,7 +1248,74 @@
       "id": "4e894730-793a-4034-aa90-a826ac187ef5",
       "name": "Chicken Alfredo",
       "createdAt": 1784679989923,
-      "ingredients": []
+      "ingredients": [
+        {
+          "id": "3f6092e5-f6d9-4355-bf0b-13a9ea5e3774",
+          "text": "Pasta",
+          "category": "pantry",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "3e299e6e-1e71-4a30-8d21-8f3f8d6bb88f",
+          "text": "Chicken Breasts",
+          "category": "protein",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "85d8f643-45cb-4989-9ce3-63566170fb48",
+          "text": "Unsalted Butter",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 2,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "40f42127-0a91-4ad3-a13e-51c1ff3f7325",
+          "text": "Cloves Garlic Minced",
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "003a5144-c08f-46c1-ac15-3fad152b761b",
+          "text": "Heavy Cream",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 1.5,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "bc602b0a-cbbf-4b79-822f-4af25b9edad2",
+          "text": "Parmesan Cheese",
+          "category": "c-dairy",
+          "qty": {
+            "amount": 1,
+            "unit": "cup"
+          }
+        },
+        {
+          "id": "d381bbad-dce4-4719-89d6-448e51940a8b",
+          "text": "Brocolli",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "0ac931f5-7751-40c4-8766-99e4460ec199",
+          "text": "Pepper",
+          "category": "produce",
+          "qty": null
+        }
+      ]
     }
   ],
   "grocerySubtopics": [
@@ -1195,7 +1408,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "2 items (White Onion, Chinese Sausage)"
+    },
+    {
+      "id": "83ba68be-3239-4ac0-a752-74b10eabbf93",
+      "ts": 1784680263825,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "6 items (Pasta, Chicken Breasts, Heavy Cream, Parmesan Cheese, Brocolli, Pepper)"
+    },
+    {
+      "id": "85d7d6ca-c0d9-4e02-8261-001b137dd197",
+      "ts": 1784680316811,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "4 items (Shallots, Ginger, Lemon, Honey)"
     }
   ],
-  "_savedAt": 1784680079500
+  "_savedAt": 1784680316960
 }
