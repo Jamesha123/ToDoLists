@@ -21,6 +21,22 @@
           "createdAt": 1783010205526,
           "category": "ava",
           "qty": null
+        },
+        {
+          "id": "d25cfc08-b865-4add-b62c-ba8cfc023d25",
+          "text": "Toilet Paper",
+          "done": false,
+          "createdAt": 1784931650716,
+          "category": "personal",
+          "qty": null
+        },
+        {
+          "id": "771b869d-58fb-4d8a-9dbb-221fa091b3f9",
+          "text": "Ava Food",
+          "done": false,
+          "createdAt": 1784931665206,
+          "category": "ava",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1534,7 +1550,27 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "3 completed"
+    },
+    {
+      "id": "28b6eb85-cdab-494c-b59f-6dbee7fa8c47",
+      "ts": 1784931650716,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Toilet Paper"
+    },
+    {
+      "id": "dece459a-c7f7-4dbd-8db9-8e54335bc909",
+      "ts": 1784931665206,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Ava Food"
     }
   ],
-  "_savedAt": 1784756060193
+  "_savedAt": 1784931665355
 }
