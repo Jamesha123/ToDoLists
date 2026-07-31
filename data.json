@@ -23,19 +23,35 @@
           "qty": null
         },
         {
-          "id": "d25cfc08-b865-4add-b62c-ba8cfc023d25",
-          "text": "Toilet Paper",
-          "done": false,
-          "createdAt": 1784931650716,
-          "category": "personal",
-          "qty": null
-        },
-        {
           "id": "771b869d-58fb-4d8a-9dbb-221fa091b3f9",
           "text": "Ava Food",
           "done": false,
           "createdAt": 1784931665206,
           "category": "ava",
+          "qty": null
+        },
+        {
+          "id": "9b2e04b9-a9fc-4179-b382-e1e9a617c0ac",
+          "text": "Agave Syrup",
+          "done": false,
+          "createdAt": 1785505804417,
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "a1b37e22-e778-4064-95d7-6cf3e46afecd",
+          "text": "Ava’s Sponges",
+          "done": false,
+          "createdAt": 1785505819565,
+          "category": "misc",
+          "qty": null
+        },
+        {
+          "id": "61718ee8-2a7f-47e8-bf07-d509c4f1872f",
+          "text": "Dish Sponges",
+          "done": false,
+          "createdAt": 1785505826731,
+          "category": "misc",
           "qty": null
         }
       ],
@@ -1222,336 +1238,6 @@
   ],
   "activity": [
     {
-      "id": "81a2454a-82e5-43be-b0b1-7ad93b7a0653",
-      "ts": 1784678878492,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "White Onion"
-    },
-    {
-      "id": "956db207-b77b-447a-aafd-e592e62524cc",
-      "ts": 1784678880355,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "4 completed"
-    },
-    {
-      "id": "7bde09ea-abc6-4e1e-95c9-b48f79b93471",
-      "ts": 1784678893443,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Steak"
-    },
-    {
-      "id": "70ac20f9-055c-489a-a4ae-7843d67cdfaf",
-      "ts": 1784678894811,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "uncheck",
-      "detail": "Steak"
-    },
-    {
-      "id": "83bbef68-3f3b-4c6c-8fd8-82d33485c005",
-      "ts": 1784678894818,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Steak"
-    },
-    {
-      "id": "9ead6b0f-0655-4459-aff7-50cf45f12248",
-      "ts": 1784678903368,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Face Wash"
-    },
-    {
-      "id": "4248eeb6-dac1-4582-b965-eb54eb9f06d9",
-      "ts": 1784679775323,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Chicken Thighs"
-    },
-    {
-      "id": "363c6c4d-7daa-4e64-b3cc-6fca183c26e4",
-      "ts": 1784680079350,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "2 items (White Onion, Chinese Sausage)"
-    },
-    {
-      "id": "83ba68be-3239-4ac0-a752-74b10eabbf93",
-      "ts": 1784680263825,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "6 items (Pasta, Chicken Breasts, Heavy Cream, Parmesan Cheese, Brocolli, Pepper)"
-    },
-    {
-      "id": "85d7d6ca-c0d9-4e02-8261-001b137dd197",
-      "ts": 1784680316811,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "4 items (Shallots, Ginger, Lemon, Honey)"
-    },
-    {
-      "id": "906a7667-36c7-4da0-a772-3bcde0a5e24d",
-      "ts": 1784681524886,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Cheese"
-    },
-    {
-      "id": "885ca96c-ffa9-4e90-a945-4affec569052",
-      "ts": 1784681534409,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Tortillas"
-    },
-    {
-      "id": "08ef1651-f742-4a7d-995e-f863a867fcbe",
-      "ts": 1784681581829,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Heavy Cream"
-    },
-    {
-      "id": "1d5a0203-93ad-4cf5-a377-467097a612e2",
-      "ts": 1784681679914,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Parmesan Cheese"
-    },
-    {
-      "id": "5ed9757b-2da7-47a1-9210-729339c0bf22",
-      "ts": 1784681682453,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cheese"
-    },
-    {
-      "id": "89b1e168-2407-447c-9a73-873779274312",
-      "ts": 1784681844491,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Honey"
-    },
-    {
-      "id": "fa2c90dd-b7e3-4dca-9a4f-e1a20b5b31fd",
-      "ts": 1784681857814,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Tortillas"
-    },
-    {
-      "id": "9e2fd629-2ae9-444d-9892-5a2a70e02f20",
-      "ts": 1784681862987,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "5 completed"
-    },
-    {
-      "id": "0a97b676-06ad-461a-aed4-7becbc9d5d7f",
-      "ts": 1784681914085,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Pasta"
-    },
-    {
-      "id": "a4885b27-fa37-4b42-8a71-1b725fe6020b",
-      "ts": 1784682335041,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "White Onion"
-    },
-    {
-      "id": "a37c6037-8476-47a5-8fb4-c5ea34688df0",
-      "ts": 1784682360996,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Brocolli"
-    },
-    {
-      "id": "a6c8859a-4166-4f32-bd19-95b990dafe53",
-      "ts": 1784682390835,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Pepper"
-    },
-    {
-      "id": "2741f5e2-3b68-4123-bf33-bde09259929d",
-      "ts": 1784682391125,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "4 completed"
-    },
-    {
-      "id": "63a0d88b-3a4d-48b4-99b8-3a245e809764",
-      "ts": 1784682465715,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Ginger"
-    },
-    {
-      "id": "3de6a49e-ec4b-427a-8060-6f58e23bd2e9",
-      "ts": 1784682589567,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Lemon"
-    },
-    {
-      "id": "3eaf9e13-25c1-48e8-99b3-0dee10869036",
-      "ts": 1784682590291,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Shallots"
-    },
-    {
-      "id": "e199dbad-4151-4c21-9c18-d8ce0c8418dd",
-      "ts": 1784682590833,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "3 completed"
-    },
-    {
-      "id": "4418ff5c-05fb-4c5d-8e46-5b93bb92a093",
-      "ts": 1784682609821,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Face Wash"
-    },
-    {
-      "id": "221782ab-a817-425a-9ac3-ecfc8daa4940",
-      "ts": 1784682613525,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "1 completed"
-    },
-    {
-      "id": "348ef843-9e05-4c1b-b348-179fb44bd89a",
-      "ts": 1784756055985,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Chicken Thighs"
-    },
-    {
-      "id": "4f9801b3-ae9d-407f-b460-3e1b4a26bfc8",
-      "ts": 1784756057166,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Chinese Sausage"
-    },
-    {
-      "id": "716da9f1-32a8-4ea4-8f8c-046bf943b9e5",
-      "ts": 1784756057614,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Chicken Breasts"
-    },
-    {
-      "id": "ea379765-d354-44fc-a1f3-2210d2c4c6d3",
-      "ts": 1784756060043,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "3 completed"
-    },
-    {
       "id": "28b6eb85-cdab-494c-b59f-6dbee7fa8c47",
       "ts": 1784931650716,
       "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
@@ -1570,7 +1256,47 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Ava Food"
+    },
+    {
+      "id": "a132fddf-d1a8-4d42-abaf-19d6ebafef6f",
+      "ts": 1785505789425,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Toilet Paper"
+    },
+    {
+      "id": "d230113f-9c27-4e62-b69c-72b3d1ff8c2e",
+      "ts": 1785505804417,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Agave Syrup"
+    },
+    {
+      "id": "a1b20beb-9d5b-4dcf-a137-b0e96a54dafe",
+      "ts": 1785505819565,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Ava’s Sponges"
+    },
+    {
+      "id": "95248f8e-6bc3-47e9-bbac-e21061d8d66d",
+      "ts": 1785505826731,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Dish Sponges"
     }
   ],
-  "_savedAt": 1784931665355
+  "_savedAt": 1785505826881
 }
