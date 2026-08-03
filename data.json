@@ -39,14 +39,6 @@
           "qty": null
         },
         {
-          "id": "a1b37e22-e778-4064-95d7-6cf3e46afecd",
-          "text": "Ava’s Sponges",
-          "done": false,
-          "createdAt": 1785505819565,
-          "category": "misc",
-          "qty": null
-        },
-        {
           "id": "61718ee8-2a7f-47e8-bf07-d509c4f1872f",
           "text": "Dish Sponges",
           "done": false,
@@ -1238,26 +1230,6 @@
   ],
   "activity": [
     {
-      "id": "28b6eb85-cdab-494c-b59f-6dbee7fa8c47",
-      "ts": 1784931650716,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Toilet Paper"
-    },
-    {
-      "id": "dece459a-c7f7-4dbd-8db9-8e54335bc909",
-      "ts": 1784931665206,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Ava Food"
-    },
-    {
       "id": "a132fddf-d1a8-4d42-abaf-19d6ebafef6f",
       "ts": 1785505789425,
       "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
@@ -1296,7 +1268,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Dish Sponges"
+    },
+    {
+      "id": "ae15ac9f-7df7-4f67-8796-3dbcdb0cd900",
+      "ts": 1785766811001,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Ava’s Sponges"
+    },
+    {
+      "id": "2ddde2e7-6671-4540-98c6-77dd005ede53",
+      "ts": 1785766819246,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "uncheck",
+      "detail": "Ava’s Sponges"
+    },
+    {
+      "id": "3387c433-4a66-433e-81ba-31806433725f",
+      "ts": 1785766824447,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Ava’s Sponges"
     }
   ],
-  "_savedAt": 1785505826881
+  "_savedAt": 1785766824598
 }
