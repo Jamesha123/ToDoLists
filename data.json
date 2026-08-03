@@ -45,6 +45,22 @@
           "createdAt": 1785505826731,
           "category": "misc",
           "qty": null
+        },
+        {
+          "id": "6b9844f3-1d63-4bd5-bcac-f7edcf464cef",
+          "text": "Curtain Hangers",
+          "done": false,
+          "createdAt": 1785792784943,
+          "category": "misc",
+          "qty": null
+        },
+        {
+          "id": "79f7b72d-8cb1-4ab7-8d3f-dbf97bcd20ce",
+          "text": "Nail Clips",
+          "done": false,
+          "createdAt": 1785792791107,
+          "category": "personal",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1298,7 +1314,37 @@
       "listName": "Groceries List",
       "action": "delete",
       "detail": "Ava’s Sponges"
+    },
+    {
+      "id": "9b603d88-c854-42ad-b98c-94ab5d5baa30",
+      "ts": 1785792784944,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Curtain Hangers"
+    },
+    {
+      "id": "bbfed12a-62c6-4a1c-8d15-2cea3a7b5748",
+      "ts": 1785792791107,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Nail Clips"
+    },
+    {
+      "id": "0ac8ea10-610c-46a5-ae52-27ac2924d429",
+      "ts": 1785792799088,
+      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Nail Clips"
     }
   ],
-  "_savedAt": 1785766824598
+  "_savedAt": 1785792799239
 }
