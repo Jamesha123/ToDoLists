@@ -15,14 +15,6 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "ccdf58fb-293f-480e-b953-3c12eab72c39",
-          "text": "Collar",
-          "done": false,
-          "createdAt": 1783010205526,
-          "category": "ava",
-          "qty": null
-        },
-        {
           "id": "771b869d-58fb-4d8a-9dbb-221fa091b3f9",
           "text": "Ava Food",
           "done": false,
@@ -60,6 +52,22 @@
           "done": false,
           "createdAt": 1785792791107,
           "category": "personal",
+          "qty": null
+        },
+        {
+          "id": "0ac48479-9da8-4d5e-b956-8059f797b9f0",
+          "text": "Cucumber",
+          "done": false,
+          "createdAt": 1785884715895,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "1e74f038-33c0-41b0-b0b4-73f74e11e60c",
+          "text": "Coleslaw",
+          "done": false,
+          "createdAt": 1785884729124,
+          "category": "produce",
           "qty": null
         }
       ],
@@ -510,6 +518,12 @@
         "name": "Face Wash",
         "category": "personal",
         "label": "Personal Care"
+      },
+      {
+        "key": "collar",
+        "name": "Collar",
+        "category": "ava",
+        "label": "Ava"
       }
     ]
   },
@@ -1344,7 +1358,47 @@
       "listName": "Groceries List",
       "action": "edit",
       "detail": "Nail Clips"
+    },
+    {
+      "id": "1be9f5b8-5cc3-4c81-bbe7-4863a7d7749f",
+      "ts": 1785884694571,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Collar"
+    },
+    {
+      "id": "38c83515-13fd-4b5e-b482-0e3b150346d9",
+      "ts": 1785884696683,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
+    },
+    {
+      "id": "cfcf1df3-4ed5-4a01-ab08-f4a64586450d",
+      "ts": 1785884715895,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "b2277cb8-4c56-4741-8c9b-0301f880a233",
+      "ts": 1785884729124,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Coleslaw"
     }
   ],
-  "_savedAt": 1785792799239
+  "_savedAt": 1785884729275
 }
