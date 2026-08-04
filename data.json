@@ -57,7 +57,7 @@
         {
           "id": "0ac48479-9da8-4d5e-b956-8059f797b9f0",
           "text": "Cucumber",
-          "done": false,
+          "done": true,
           "createdAt": 1785884715895,
           "category": "produce",
           "qty": null
@@ -65,7 +65,7 @@
         {
           "id": "1e74f038-33c0-41b0-b0b4-73f74e11e60c",
           "text": "Coleslaw",
-          "done": false,
+          "done": true,
           "createdAt": 1785884729124,
           "category": "produce",
           "qty": null
@@ -1398,7 +1398,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Coleslaw"
+    },
+    {
+      "id": "8e19840f-fad1-4ac3-b9e3-fa9769a5a8e1",
+      "ts": 1785886777450,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "db522270-c1a6-43af-8148-8ded764d5afd",
+      "ts": 1785886777851,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Coleslaw"
     }
   ],
-  "_savedAt": 1785884729275
+  "_savedAt": 1785886778001
 }
