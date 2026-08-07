@@ -69,6 +69,14 @@
           "createdAt": 1785884729124,
           "category": "produce",
           "qty": null
+        },
+        {
+          "id": "c9900ac9-ddbf-46d6-9746-c95b3b2e5963",
+          "text": "Seaweed",
+          "done": false,
+          "createdAt": 1786144790668,
+          "category": "pantry",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1260,46 +1268,6 @@
   ],
   "activity": [
     {
-      "id": "a132fddf-d1a8-4d42-abaf-19d6ebafef6f",
-      "ts": 1785505789425,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Toilet Paper"
-    },
-    {
-      "id": "d230113f-9c27-4e62-b69c-72b3d1ff8c2e",
-      "ts": 1785505804417,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Agave Syrup"
-    },
-    {
-      "id": "a1b20beb-9d5b-4dcf-a137-b0e96a54dafe",
-      "ts": 1785505819565,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Ava’s Sponges"
-    },
-    {
-      "id": "95248f8e-6bc3-47e9-bbac-e21061d8d66d",
-      "ts": 1785505826731,
-      "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Dish Sponges"
-    },
-    {
       "id": "ae15ac9f-7df7-4f67-8796-3dbcdb0cd900",
       "ts": 1785766811001,
       "actorId": "4196e9a4-1957-4d04-be34-e944410584fc",
@@ -1418,7 +1386,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Coleslaw"
+    },
+    {
+      "id": "56f6659c-8534-4a72-83df-128d8515423c",
+      "ts": 1786144790668,
+      "actorId": "14080b95-44cb-46b6-9342-7341867bc1ea",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Seaweed"
     }
   ],
-  "_savedAt": 1785886778001
+  "_savedAt": 1786144790818
 }
