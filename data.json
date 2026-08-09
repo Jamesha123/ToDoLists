@@ -39,14 +39,6 @@
           "qty": null
         },
         {
-          "id": "6b9844f3-1d63-4bd5-bcac-f7edcf464cef",
-          "text": "Curtain Hangers",
-          "done": false,
-          "createdAt": 1785792784943,
-          "category": "misc",
-          "qty": null
-        },
-        {
           "id": "79f7b72d-8cb1-4ab7-8d3f-dbf97bcd20ce",
           "text": "Nail Clips",
           "done": false,
@@ -55,27 +47,35 @@
           "qty": null
         },
         {
-          "id": "0ac48479-9da8-4d5e-b956-8059f797b9f0",
-          "text": "Cucumber",
-          "done": true,
-          "createdAt": 1785884715895,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "1e74f038-33c0-41b0-b0b4-73f74e11e60c",
-          "text": "Coleslaw",
-          "done": true,
-          "createdAt": 1785884729124,
-          "category": "produce",
-          "qty": null
-        },
-        {
           "id": "c9900ac9-ddbf-46d6-9746-c95b3b2e5963",
           "text": "Seaweed",
           "done": false,
           "createdAt": 1786144790668,
           "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "0eac8e05-09b5-4549-b429-1b722a513682",
+          "text": "Thing Pretzels/pita Chips",
+          "done": false,
+          "createdAt": 1786244399419,
+          "category": "snacks",
+          "qty": null
+        },
+        {
+          "id": "afe81dab-5d1b-467b-afab-551ddc272492",
+          "text": "Hummus",
+          "done": false,
+          "createdAt": 1786244411130,
+          "category": "snacks",
+          "qty": null
+        },
+        {
+          "id": "db90ccee-a073-459b-af14-694a9c60ba9d",
+          "text": "Cream Cheese",
+          "done": false,
+          "createdAt": 1786244424143,
+          "category": "c-dairy",
           "qty": null
         }
       ],
@@ -1396,7 +1396,67 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Seaweed"
+    },
+    {
+      "id": "5dbaa5db-642b-490f-94f3-367878ff1bc5",
+      "ts": 1786244359977,
+      "actorId": "fef32f07-f4c8-41be-84f1-fa69220f6ee9",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "14457b94-7f95-4afa-a618-8f47681a88e7",
+      "ts": 1786244360656,
+      "actorId": "fef32f07-f4c8-41be-84f1-fa69220f6ee9",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Coleslaw"
+    },
+    {
+      "id": "abe9b6e0-2aee-4578-899b-df92e2daa0d9",
+      "ts": 1786244375474,
+      "actorId": "fef32f07-f4c8-41be-84f1-fa69220f6ee9",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Curtain Hangers"
+    },
+    {
+      "id": "0fefa0a5-7537-4f65-86c2-09e09ce255f0",
+      "ts": 1786244399419,
+      "actorId": "fef32f07-f4c8-41be-84f1-fa69220f6ee9",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Thing Pretzels/pita Chips"
+    },
+    {
+      "id": "578dbd52-b547-4f7f-9fe3-e5947c68a9ef",
+      "ts": 1786244411130,
+      "actorId": "fef32f07-f4c8-41be-84f1-fa69220f6ee9",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Hummus"
+    },
+    {
+      "id": "7716bedf-2484-45bb-ba93-41366fa2c79e",
+      "ts": 1786244424143,
+      "actorId": "fef32f07-f4c8-41be-84f1-fa69220f6ee9",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cream Cheese"
     }
   ],
-  "_savedAt": 1786144790818
+  "_savedAt": 1786244424293
 }
