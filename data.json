@@ -73,7 +73,7 @@
         {
           "id": "db90ccee-a073-459b-af14-694a9c60ba9d",
           "text": "Cream Cheese",
-          "done": false,
+          "done": true,
           "createdAt": 1786244424143,
           "category": "c-dairy",
           "qty": null
@@ -1370,7 +1370,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Hummus"
+    },
+    {
+      "id": "98d3cbf8-cdfa-45b9-bc5c-4b329f240203",
+      "ts": 1787002235536,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cream Cheese"
     }
   ],
-  "_savedAt": 1787001816542
+  "_savedAt": 1787002235686
 }
