@@ -81,7 +81,7 @@
         {
           "id": "227dff53-4ace-4efd-9354-085b5b1691e4",
           "text": "Feta Cheese",
-          "done": false,
+          "done": true,
           "createdAt": 1787000965180,
           "category": "c-dairy",
           "qty": null
@@ -1350,7 +1350,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Spinach"
+    },
+    {
+      "id": "6664ac9b-2558-408d-8cef-e7d19c38a76e",
+      "ts": 1787001661833,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Feta Cheese"
     }
   ],
-  "_savedAt": 1787001469446
+  "_savedAt": 1787001661983
 }
