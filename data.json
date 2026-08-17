@@ -65,7 +65,7 @@
         {
           "id": "afe81dab-5d1b-467b-afab-551ddc272492",
           "text": "Hummus",
-          "done": false,
+          "done": true,
           "createdAt": 1786244411130,
           "category": "snacks",
           "qty": null
@@ -1360,7 +1360,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Feta Cheese"
+    },
+    {
+      "id": "05cf454e-6529-403a-81c1-9d76ca069854",
+      "ts": 1787001816392,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Hummus"
     }
   ],
-  "_savedAt": 1787001661983
+  "_savedAt": 1787001816542
 }
