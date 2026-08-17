@@ -89,7 +89,7 @@
         {
           "id": "814512b8-d66b-4ca9-a717-9622db282b19",
           "text": "Cherry Tomatoes",
-          "done": false,
+          "done": true,
           "createdAt": 1787000984167,
           "category": "produce",
           "qty": null
@@ -97,7 +97,7 @@
         {
           "id": "5c99345c-b32b-44b2-b23d-79f22f69aeba",
           "text": "Spinach",
-          "done": false,
+          "done": true,
           "createdAt": 1787000998441,
           "category": "produce",
           "qty": null
@@ -1330,7 +1330,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Ava Food"
+    },
+    {
+      "id": "add960bd-2fce-44c2-86fe-ff8824f1bde9",
+      "ts": 1787001467794,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cherry Tomatoes"
+    },
+    {
+      "id": "2bbc6bb3-f50e-4227-84cc-6797f02689ca",
+      "ts": 1787001469295,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Spinach"
     }
   ],
-  "_savedAt": 1787001007174
+  "_savedAt": 1787001469446
 }
