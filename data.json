@@ -77,6 +77,22 @@
           "createdAt": 1787698620384,
           "category": "condiments",
           "qty": null
+        },
+        {
+          "id": "4405972d-aec5-4a25-bd71-24219fd4268f",
+          "text": "Lemons",
+          "done": false,
+          "createdAt": 1787698733179,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "4514c10c-3f92-4b27-b0b7-0c05f485c819",
+          "text": "Avocado",
+          "done": false,
+          "createdAt": 1787698768190,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1486,7 +1502,47 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Salsa"
+    },
+    {
+      "id": "fa77d423-6b01-403c-a777-9ce29af31b93",
+      "ts": 1787698733179,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Lemons"
+    },
+    {
+      "id": "f88ad584-8f50-4ade-8420-49830dce00c6",
+      "ts": 1787698751679,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Milanesa"
+    },
+    {
+      "id": "5f47dc76-e279-47ce-83bb-71742eba5462",
+      "ts": 1787698768190,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Avocado"
+    },
+    {
+      "id": "be81eee1-6b6e-4861-b312-fc3c146487d4",
+      "ts": 1787698828806,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Milanesa"
     }
   ],
-  "_savedAt": 1787698620533
+  "_savedAt": 1787698828957
 }
