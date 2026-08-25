@@ -15,22 +15,6 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "771b869d-58fb-4d8a-9dbb-221fa091b3f9",
-          "text": "Ava Food",
-          "done": true,
-          "createdAt": 1784931665206,
-          "category": "ava",
-          "qty": null
-        },
-        {
-          "id": "9b2e04b9-a9fc-4179-b382-e1e9a617c0ac",
-          "text": "Agave Syrup",
-          "done": false,
-          "createdAt": 1785505804417,
-          "category": "bakery",
-          "qty": null
-        },
-        {
           "id": "61718ee8-2a7f-47e8-bf07-d509c4f1872f",
           "text": "Dish Sponges",
           "done": false,
@@ -39,67 +23,59 @@
           "qty": null
         },
         {
-          "id": "79f7b72d-8cb1-4ab7-8d3f-dbf97bcd20ce",
+          "id": "14cadabe-658a-4e17-b9ac-04249d5bac79",
           "text": "Nail Clips",
           "done": false,
-          "createdAt": 1785792791107,
-          "category": "personal",
+          "createdAt": 1787698480192,
+          "category": "misc",
           "qty": null
         },
         {
-          "id": "c9900ac9-ddbf-46d6-9746-c95b3b2e5963",
-          "text": "Seaweed",
-          "done": false,
-          "createdAt": 1786144790668,
-          "category": "pantry",
-          "qty": null
-        },
-        {
-          "id": "0eac8e05-09b5-4549-b429-1b722a513682",
-          "text": "Thing Pretzels/pita Chips",
-          "done": false,
-          "createdAt": 1786244399419,
-          "category": "snacks",
-          "qty": null
-        },
-        {
-          "id": "afe81dab-5d1b-467b-afab-551ddc272492",
+          "id": "7500f2ab-f8e3-4ebf-bf54-9191abcd1d4a",
           "text": "Hummus",
-          "done": true,
-          "createdAt": 1786244411130,
+          "done": false,
+          "createdAt": 1787698485066,
           "category": "snacks",
           "qty": null
         },
         {
-          "id": "db90ccee-a073-459b-af14-694a9c60ba9d",
-          "text": "Cream Cheese",
-          "done": true,
-          "createdAt": 1786244424143,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "227dff53-4ace-4efd-9354-085b5b1691e4",
-          "text": "Feta Cheese",
-          "done": true,
-          "createdAt": 1787000965180,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "814512b8-d66b-4ca9-a717-9622db282b19",
-          "text": "Cherry Tomatoes",
-          "done": true,
-          "createdAt": 1787000984167,
+          "id": "73cbc8c2-3e2b-4cf3-8fa8-c95f6c46acc1",
+          "text": "Carrots",
+          "done": false,
+          "createdAt": 1787698495006,
           "category": "produce",
           "qty": null
         },
         {
-          "id": "5c99345c-b32b-44b2-b23d-79f22f69aeba",
-          "text": "Spinach",
-          "done": true,
-          "createdAt": 1787000998441,
+          "id": "19cb1924-de39-4af9-beb7-a1d34d228a7a",
+          "text": "Cabbage",
+          "done": false,
+          "createdAt": 1787698549718,
           "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "0a8208e5-a148-4b53-9d01-a4d4d4e98fb1",
+          "text": "Tortillas",
+          "done": false,
+          "createdAt": 1787698568227,
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "0a4cedbd-9df8-4dae-ab1e-e7dde898ab04",
+          "text": "Sour Cream",
+          "done": false,
+          "createdAt": 1787698578946,
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "e13c87ff-7e0b-4bc3-8ac3-e63e848686af",
+          "text": "Salsa",
+          "done": false,
+          "createdAt": 1787698620384,
+          "category": "condiments",
           "qty": null
         }
       ],
@@ -1292,95 +1268,225 @@
   ],
   "activity": [
     {
-      "id": "a6543399-1418-48b9-9f07-e84b983f6986",
-      "ts": 1787000965180,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "f70f406c-4e6a-4101-9987-2ee01e458814",
+      "ts": 1787698462036,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "add",
-      "detail": "Feta Cheese"
-    },
-    {
-      "id": "ff26d37c-233e-41b0-b45e-97484afe50a6",
-      "ts": 1787000984167,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
+      "action": "delete",
       "detail": "Cherry Tomatoes"
     },
     {
-      "id": "20c15586-d51b-4ec2-b33a-cce362e047b1",
-      "ts": 1787000998441,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "03513de0-d492-4b60-b128-a91827fc43b6",
+      "ts": 1787698462779,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "add",
+      "action": "delete",
       "detail": "Spinach"
     },
     {
-      "id": "a438e9a9-a327-4fa3-8e1f-25d9d8ff5470",
-      "ts": 1787001007024,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "932bc4f5-cc66-4ff2-a8ce-15567cce0d9d",
+      "ts": 1787698464069,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "check",
-      "detail": "Ava Food"
+      "action": "delete",
+      "detail": "Agave Syrup"
     },
     {
-      "id": "add960bd-2fce-44c2-86fe-ff8824f1bde9",
-      "ts": 1787001467794,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "c871250d-d9d7-4538-bafc-1a39a2bfc3a6",
+      "ts": 1787698465393,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cherry Tomatoes"
+      "action": "delete",
+      "detail": "Seaweed"
     },
     {
-      "id": "2bbc6bb3-f50e-4227-84cc-6797f02689ca",
-      "ts": 1787001469295,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "a7b799b6-5ce7-41e7-ac2c-d5001caf491b",
+      "ts": 1787698466261,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "check",
-      "detail": "Spinach"
+      "action": "delete",
+      "detail": "Thing Pretzels/pita Chips"
     },
     {
-      "id": "6664ac9b-2558-408d-8cef-e7d19c38a76e",
-      "ts": 1787001661833,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "95c3f716-5c20-4e01-88a5-3c68b03f94da",
+      "ts": 1787698466958,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "check",
-      "detail": "Feta Cheese"
-    },
-    {
-      "id": "05cf454e-6529-403a-81c1-9d76ca069854",
-      "ts": 1787001816392,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
+      "action": "delete",
       "detail": "Hummus"
     },
     {
-      "id": "98d3cbf8-cdfa-45b9-bc5c-4b329f240203",
-      "ts": 1787002235536,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
+      "id": "1a84a919-eb62-4751-9701-41d774a56e40",
+      "ts": 1787698467945,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
       "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
       "listName": "Groceries List",
-      "action": "check",
+      "action": "delete",
+      "detail": "Ava Food"
+    },
+    {
+      "id": "4185f8ad-9853-4500-b79b-d46159f1c1d4",
+      "ts": 1787698470048,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
       "detail": "Cream Cheese"
+    },
+    {
+      "id": "1e16fa0f-9be6-4d5c-87b7-58e4ac5638e2",
+      "ts": 1787698471544,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Feta Cheese"
+    },
+    {
+      "id": "9b672c8c-9feb-47fa-a66e-15846ef16a34",
+      "ts": 1787698472832,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Nail Clips"
+    },
+    {
+      "id": "ecffe30c-7604-4d7f-b1a7-4ae2dd52e70c",
+      "ts": 1787698480192,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Nail Clips"
+    },
+    {
+      "id": "73892ba3-32aa-4e34-a8c7-71fadb6d0b0d",
+      "ts": 1787698485066,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Hummus"
+    },
+    {
+      "id": "ce1b74b4-c467-4231-b53c-6aaef21d3006",
+      "ts": 1787698495006,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Carrots"
+    },
+    {
+      "id": "4cc1e86d-b1fa-4aeb-a1e3-c9d702ee83c2",
+      "ts": 1787698508285,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Celery"
+    },
+    {
+      "id": "85d99125-ea15-4b2a-955d-d80b5cdf87f5",
+      "ts": 1787698535761,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Carrots"
+    },
+    {
+      "id": "221945f6-83dc-4340-89b4-8b04e1c4cc8e",
+      "ts": 1787698541269,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Celery"
+    },
+    {
+      "id": "469fd828-2f82-4e42-9f56-8e2c16fd9c16",
+      "ts": 1787698549718,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cabbage"
+    },
+    {
+      "id": "a50f2d94-d962-4e45-afad-11f4cd840b1b",
+      "ts": 1787698554864,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Celery"
+    },
+    {
+      "id": "f31c909b-0e1f-4665-8fdc-ec358dd9c118",
+      "ts": 1787698568227,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Tortillas"
+    },
+    {
+      "id": "fda7b383-f3da-4e6c-8a49-7f5c5aae2bfe",
+      "ts": 1787698578946,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cream Cheese"
+    },
+    {
+      "id": "01f8f506-ef79-4b88-a4f8-85c19161bd99",
+      "ts": 1787698590924,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Cream Cheese → Sour Cream"
+    },
+    {
+      "id": "7d368d77-a697-4007-a4d6-4ea4e876f892",
+      "ts": 1787698620384,
+      "actorId": "c1e9e614-b60c-40d2-85af-09ca0cce5f7e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Salsa"
     }
   ],
-  "_savedAt": 1787002235686
+  "_savedAt": 1787698620533
 }
