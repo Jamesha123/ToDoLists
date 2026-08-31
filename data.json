@@ -21,6 +21,22 @@
           "createdAt": 1787698480192,
           "category": "misc",
           "qty": null
+        },
+        {
+          "id": "88264d55-edb5-4475-9cd1-edd12d556a5a",
+          "text": "Pepto Bismol",
+          "done": false,
+          "createdAt": 1788150296994,
+          "category": "c-medience",
+          "qty": null
+        },
+        {
+          "id": "f0dd503d-b338-4e2d-9dfc-4280d60b89fd",
+          "text": "Pain Reliever",
+          "done": false,
+          "createdAt": 1788150307914,
+          "category": "c-medience",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -31,6 +47,10 @@
         {
           "key": "c-frozen",
           "label": "Frozen"
+        },
+        {
+          "key": "c-medience",
+          "label": "Medience"
         }
       ]
     }
@@ -1208,6 +1228,10 @@
     {
       "key": "c-frozen",
       "label": "Frozen"
+    },
+    {
+      "key": "c-medience",
+      "label": "Medience"
     }
   ],
   "activity": [
@@ -1670,7 +1694,27 @@
       "listName": "Groceries List",
       "action": "delete",
       "detail": "Carrots"
+    },
+    {
+      "id": "879f27b6-a734-4f0e-9ecf-ff3e2718b552",
+      "ts": 1788150296994,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Pepto Bismol"
+    },
+    {
+      "id": "7d135584-c86b-453b-b49d-93a0e8ef32ef",
+      "ts": 1788150307914,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Pain Reliever"
     }
   ],
-  "_savedAt": 1787699900450
+  "_savedAt": 1788150308065
 }
