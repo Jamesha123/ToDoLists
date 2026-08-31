@@ -53,6 +53,14 @@
           "createdAt": 1788213978570,
           "category": "produce",
           "qty": null
+        },
+        {
+          "id": "4f25995d-db8b-48f1-ab41-08e1bb64dac1",
+          "text": "Soy Sauce",
+          "done": false,
+          "createdAt": 1788214219835,
+          "category": "condiments",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1750,7 +1758,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Carrots"
+    },
+    {
+      "id": "2745f009-af5c-4fcb-a8cb-95ab7e74fcef",
+      "ts": 1788214219835,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Soy Sauce"
     }
   ],
-  "_savedAt": 1788213978720
+  "_savedAt": 1788214219986
 }
