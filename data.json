@@ -13,7 +13,56 @@
       "name": "Groceries List",
       "type": "groceries",
       "createdAt": 1782934315138,
-      "items": [],
+      "items": [
+        {
+          "id": "dece4d48-caa8-452a-9b82-83fd47683b4b",
+          "text": "Lettuce",
+          "done": false,
+          "createdAt": 1790116582032,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "97376af5-616c-4965-b68e-1d69bb32ba46",
+          "text": "Cotija Cheese",
+          "done": false,
+          "createdAt": 1790116582032,
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "c5390e40-fb6f-49ab-a788-5e9b91193522",
+          "text": "Rotisserie Chicken",
+          "done": false,
+          "createdAt": 1790116582032,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "1f37e479-e8f4-43c5-aa37-de57b9670cdb",
+          "text": "Chile Chipotle",
+          "done": false,
+          "createdAt": 1790116582032,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "9eef9f3a-86f5-459f-880b-9a80bd8d475a",
+          "text": "Tostadas",
+          "done": false,
+          "createdAt": 1790116582032,
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "c2727c34-dacc-4dda-b78f-69390854d283",
+          "text": "Oregano",
+          "done": false,
+          "createdAt": 1790116582032,
+          "category": "condiments",
+          "qty": null
+        }
+      ],
       "customCategories": [
         {
           "key": "c-dairy",
@@ -1668,7 +1717,17 @@
       "listName": "Groceries List",
       "action": "delete",
       "detail": "Chicken Buillon"
+    },
+    {
+      "id": "6064e41a-9b50-4ca3-8355-307a393c276b",
+      "ts": 1790116582032,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "6 items (Lettuce, Cotija Cheese, Rotisserie Chicken, Chile Chipotle, Tostadas, Oregano)"
     }
   ],
-  "_savedAt": 1790116429336
+  "_savedAt": 1790116582182
 }
