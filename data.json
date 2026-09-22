@@ -61,6 +61,14 @@
           "createdAt": 1790116582032,
           "category": "condiments",
           "qty": null
+        },
+        {
+          "id": "3e815e68-1158-4606-a9c5-1b92b0ca27b9",
+          "text": "Cabbage",
+          "done": false,
+          "createdAt": 1790116684167,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -598,6 +606,12 @@
         "name": "Cornstarch",
         "category": "pantry",
         "label": "Pantry"
+      },
+      {
+        "key": "shrimp",
+        "name": "Shrimp",
+        "category": "protein",
+        "label": "Protein"
       }
     ]
   },
@@ -1509,45 +1523,51 @@
       "createdAt": 1790116284337,
       "ingredients": [
         {
-          "id": "4e5cfe7f-f7ff-418f-b30e-6f69e6b83388",
+          "id": "daa72e64-ce95-4446-a7f6-2fb02b3f811d",
           "text": "Mayonnaise",
           "category": "condiments",
           "qty": null
         },
         {
-          "id": "fb8ca7fb-17f9-4f22-a36f-c931990b7358",
+          "id": "4bf33279-34bc-4cef-855a-a069126bb4b6",
           "text": "Egg",
           "category": "bakery",
           "qty": null
         },
         {
-          "id": "6187cf0a-b367-4804-a5e2-81a5e3575073",
+          "id": "ce62819c-6dfc-46c1-b282-34437cf0b570",
           "text": "Green Onion",
           "category": "produce",
           "qty": null
         },
         {
-          "id": "ebf694ca-6ff3-4293-b09e-eef61c754724",
+          "id": "7d044ba5-45ee-42b8-9710-b56676c8c6c2",
           "text": "Honey",
           "category": "condiments",
           "qty": null
         },
         {
-          "id": "8dcaf1a5-069c-4a37-8e40-9611d9988eb8",
+          "id": "a0563de7-0589-41de-860f-9b8df7c29bbc",
           "text": "Canola Oil",
           "category": "pantry",
           "qty": null
         },
         {
-          "id": "a263863c-5f6e-4282-8dcd-7ce53f782803",
+          "id": "a5382d4c-176c-4003-bed5-973304fe63fd",
           "text": "Sweetened Condensed Milk",
           "category": "c-dairy",
           "qty": null
         },
         {
-          "id": "5f803a9c-c9d4-4f56-9f00-baad94f979e4",
+          "id": "e7509c13-1bee-41f8-8e95-7178475291e3",
           "text": "Cornstarch",
           "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "e0a3e7ee-a73b-496a-b671-180673f62822",
+          "text": "Shrimp",
+          "category": "protein",
           "qty": null
         }
       ]
@@ -1727,7 +1747,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "6 items (Lettuce, Cotija Cheese, Rotisserie Chicken, Chile Chipotle, Tostadas, Oregano)"
+    },
+    {
+      "id": "2d491b4f-17d3-42c3-b24f-c1d836b182ca",
+      "ts": 1790116684167,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "2 items (Cabbage, Pasta)"
+    },
+    {
+      "id": "ad19c695-7093-4506-8518-75239763f9f5",
+      "ts": 1790116720496,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Pasta"
     }
   ],
-  "_savedAt": 1790116582182
+  "_savedAt": 1790116720646
 }
