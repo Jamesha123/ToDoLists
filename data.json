@@ -531,6 +531,12 @@
         "name": "Onion Powder",
         "category": "condiments",
         "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "chicken buillon",
+        "name": "Chicken Buillon",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
       }
     ]
   },
@@ -1355,6 +1361,91 @@
       "id": "a66c0a95-aaaa-46b5-ac42-8ef70b7e6bdb",
       "name": "Chicken Noddle Soup",
       "createdAt": 1790116140433,
+      "ingredients": [
+        {
+          "id": "9ad9228c-4614-4b83-8f7b-89939a046b86",
+          "text": "Chicken Breasts",
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "4260a70c-155f-46cf-b280-96daaedab23e",
+          "text": "Cumin",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "9395d720-2aff-4960-990d-259c77704c5d",
+          "text": "Rice",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "fb6f1c23-45b2-4eab-bdcf-961619b068bf",
+          "text": "Potatoes",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "be42e2a5-18ae-4a0a-bb53-6c98e6ff4c13",
+          "text": "Carrots",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "111f1f93-48ce-4cc8-9053-d97034490054",
+          "text": "White Onion",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "d334f4ec-c051-4ba2-bc2b-aee788c08ba1",
+          "text": "Salt And Black Pepper",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "18e89341-459a-42d3-87ab-7224c13bd248",
+          "text": "Rotisserie Chicken",
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "94cf357f-6752-44fe-a278-fbc864abdafc",
+          "text": "Cabbage",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "7e8c4331-927e-47eb-973c-cbde8393a30c",
+          "text": "Pasta",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "6a8c8db6-b6b2-4b81-b912-e2f761f6b9b7",
+          "text": "Cloves Garlic",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "7fb0b61f-5232-4649-9892-d433ff0ce92b",
+          "text": "Chicken Buillon",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "656b6f53-b8a2-474f-a0fd-efceca98f72c",
+          "text": "Canola Oil",
+          "category": "pantry",
+          "qty": null
+        }
+      ]
+    },
+    {
+      "id": "7399f4ee-4443-44ec-bf1e-52124521e4c4",
+      "name": "Honey Walnut Shrimp",
+      "createdAt": 1790116284337,
       "ingredients": []
     }
   ],
@@ -1502,7 +1593,27 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "6 completed"
+    },
+    {
+      "id": "a0b440aa-f39c-470c-8c18-0db2da2a2ae3",
+      "ts": 1790116324454,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Chicken Buillon"
+    },
+    {
+      "id": "eac40629-c982-42e9-9f00-187a9174501e",
+      "ts": 1790116329997,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Chicken Buillon"
     }
   ],
-  "_savedAt": 1790116140583
+  "_savedAt": 1790116330147
 }
