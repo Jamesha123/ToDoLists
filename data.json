@@ -537,6 +537,18 @@
         "name": "Chicken Buillon",
         "category": "condiments",
         "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "sweetened condensed milk",
+        "name": "Sweetened Condensed Milk",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "cornstarch",
+        "name": "Cornstarch",
+        "category": "pantry",
+        "label": "Pantry"
       }
     ]
   },
@@ -1446,7 +1458,50 @@
       "id": "7399f4ee-4443-44ec-bf1e-52124521e4c4",
       "name": "Honey Walnut Shrimp",
       "createdAt": 1790116284337,
-      "ingredients": []
+      "ingredients": [
+        {
+          "id": "4e5cfe7f-f7ff-418f-b30e-6f69e6b83388",
+          "text": "Mayonnaise",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "fb8ca7fb-17f9-4f22-a36f-c931990b7358",
+          "text": "Egg",
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "6187cf0a-b367-4804-a5e2-81a5e3575073",
+          "text": "Green Onion",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "ebf694ca-6ff3-4293-b09e-eef61c754724",
+          "text": "Honey",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "8dcaf1a5-069c-4a37-8e40-9611d9988eb8",
+          "text": "Canola Oil",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "a263863c-5f6e-4282-8dcd-7ce53f782803",
+          "text": "Sweetened Condensed Milk",
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "5f803a9c-c9d4-4f56-9f00-baad94f979e4",
+          "text": "Cornstarch",
+          "category": "pantry",
+          "qty": null
+        }
+      ]
     }
   ],
   "grocerySubtopics": [
@@ -1615,5 +1670,5 @@
       "detail": "Chicken Buillon"
     }
   ],
-  "_savedAt": 1790116330147
+  "_savedAt": 1790116429336
 }
