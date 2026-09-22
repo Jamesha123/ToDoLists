@@ -489,6 +489,48 @@
         "name": "Pain Reliever",
         "category": "c-medience",
         "label": "Medience"
+      },
+      {
+        "key": "lettuce",
+        "name": "Lettuce",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "cloves garlic",
+        "name": "Cloves Garlic",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "chile chipotle",
+        "name": "Chile Chipotle",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "tostada",
+        "name": "Tostadas",
+        "category": "bakery",
+        "label": "Bakery"
+      },
+      {
+        "key": "thyme",
+        "name": "Thyme",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "oregano",
+        "name": "Oregano",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "onion powder",
+        "name": "Onion Powder",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
       }
     ]
   },
@@ -1216,7 +1258,98 @@
       "id": "639c073d-9b94-478c-a8ec-78e9cb918ded",
       "name": "Tinga",
       "createdAt": 1790115590878,
-      "ingredients": []
+      "ingredients": [
+        {
+          "id": "52915399-c32c-4eae-9a3a-f0b02a051648",
+          "text": "Lettuce",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "fb9f81d2-b663-4a55-a9a4-8c454688c28a",
+          "text": "Cotija Cheese",
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "17119fe1-9501-4061-9a12-4c8eedc5dc73",
+          "text": "White Onion",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "432973ac-b0a2-4dc2-855b-0cd2f15a6508",
+          "text": "Rotisserie Chicken",
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "6c0bc806-197f-41db-8930-643163e2ebeb",
+          "text": "Sour Cream",
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "029fc62f-15b9-4997-a485-f9ae800b304a",
+          "text": "Canola Oil",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "91109c11-4ec2-4565-b85d-72e12bb113ff",
+          "text": "Cloves Garlic",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "8c8b9f40-9847-4412-8319-4cdb546421f2",
+          "text": "Chile Chipotle",
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "3e6b1659-7e3d-4666-abf9-856735d30d3c",
+          "text": "Tostadas",
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "45eb2991-43df-486e-a227-fa1e21401b7d",
+          "text": "Cumin",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "4d78e79b-7ef8-4721-9514-b87b80f7cae3",
+          "text": "Salt And Black Pepper",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "a10eb530-4c4b-4a7d-abcb-4dbb8df5f4e5",
+          "text": "Thyme",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "8950536a-0d5b-4575-b0b0-ff0cc55c6499",
+          "text": "Oregano",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "3d8f5982-2e31-4815-8306-fbfe8beff5cd",
+          "text": "Garlic Powder",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "3c89c9b1-cc6c-404a-823b-a56fc2eb72c3",
+          "text": "Onion Powder",
+          "category": "condiments",
+          "qty": null
+        }
+      ]
     }
   ],
   "grocerySubtopics": [
@@ -1365,5 +1498,5 @@
       "detail": "6 completed"
     }
   ],
-  "_savedAt": 1790115591028
+  "_savedAt": 1790115942576
 }
