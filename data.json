@@ -33,7 +33,7 @@
         {
           "id": "c5390e40-fb6f-49ab-a788-5e9b91193522",
           "text": "Rotisserie Chicken",
-          "done": false,
+          "done": true,
           "createdAt": 1790116582032,
           "category": "protein",
           "qty": null
@@ -1767,7 +1767,17 @@
       "listName": "Groceries List",
       "action": "delete",
       "detail": "Pasta"
+    },
+    {
+      "id": "f03104f0-3be6-4532-b72c-ac7c12e5df54",
+      "ts": 1790182154943,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Rotisserie Chicken"
     }
   ],
-  "_savedAt": 1790116720646
+  "_savedAt": 1790182155094
 }
