@@ -13,64 +13,7 @@
       "name": "Groceries List",
       "type": "groceries",
       "createdAt": 1782934315138,
-      "items": [
-        {
-          "id": "dece4d48-caa8-452a-9b82-83fd47683b4b",
-          "text": "Lettuce",
-          "done": true,
-          "createdAt": 1790116582032,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "97376af5-616c-4965-b68e-1d69bb32ba46",
-          "text": "Cotija Cheese",
-          "done": false,
-          "createdAt": 1790116582032,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "c5390e40-fb6f-49ab-a788-5e9b91193522",
-          "text": "Rotisserie Chicken",
-          "done": true,
-          "createdAt": 1790116582032,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "1f37e479-e8f4-43c5-aa37-de57b9670cdb",
-          "text": "Chile Chipotle",
-          "done": false,
-          "createdAt": 1790116582032,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "9eef9f3a-86f5-459f-880b-9a80bd8d475a",
-          "text": "Tostadas",
-          "done": false,
-          "createdAt": 1790116582032,
-          "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "c2727c34-dacc-4dda-b78f-69390854d283",
-          "text": "Oregano",
-          "done": true,
-          "createdAt": 1790116582032,
-          "category": "condiments",
-          "qty": null
-        },
-        {
-          "id": "3e815e68-1158-4606-a9c5-1b92b0ca27b9",
-          "text": "Cabbage",
-          "done": true,
-          "createdAt": 1790116684167,
-          "category": "produce",
-          "qty": null
-        }
-      ],
+      "items": [],
       "customCategories": [
         {
           "key": "c-dairy",
@@ -1807,7 +1750,77 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Lettuce"
+    },
+    {
+      "id": "e5f5ace8-4803-4815-bf45-fc54521738ce",
+      "ts": 1790184322815,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Chile Chipotle"
+    },
+    {
+      "id": "972467be-6ec6-4d62-9dca-61a700c741bf",
+      "ts": 1790184323147,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tostadas"
+    },
+    {
+      "id": "be5e759b-6ff7-4681-8fc9-9a63b3694e97",
+      "ts": 1790184323933,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "uncheck",
+      "detail": "Tostadas"
+    },
+    {
+      "id": "016b33ae-4c93-4840-aa80-1130667817ef",
+      "ts": 1790184324873,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tostadas"
+    },
+    {
+      "id": "5639374f-fd17-4835-9e44-4d17b0eb5699",
+      "ts": 1790184327770,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cotija Cheese"
+    },
+    {
+      "id": "08c97fd8-6ac7-466f-b6ef-f1fa5c786fef",
+      "ts": 1790184361195,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "7 completed"
+    },
+    {
+      "id": "fa937a48-2b48-415e-834d-0fa77de1c0b2",
+      "ts": 1790184363193,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "7 completed"
     }
   ],
-  "_savedAt": 1790184082503
+  "_savedAt": 1790184363343
 }
