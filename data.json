@@ -17,7 +17,7 @@
         {
           "id": "dece4d48-caa8-452a-9b82-83fd47683b4b",
           "text": "Lettuce",
-          "done": false,
+          "done": true,
           "createdAt": 1790116582032,
           "category": "produce",
           "qty": null
@@ -65,7 +65,7 @@
         {
           "id": "3e815e68-1158-4606-a9c5-1b92b0ca27b9",
           "text": "Cabbage",
-          "done": false,
+          "done": true,
           "createdAt": 1790116684167,
           "category": "produce",
           "qty": null
@@ -1787,7 +1787,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Oregano"
+    },
+    {
+      "id": "9fe184c8-c0a1-4747-be7f-a79d7ab346d4",
+      "ts": 1790184080705,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cabbage"
+    },
+    {
+      "id": "0a2d8914-0794-4556-a83c-d67a5748cacd",
+      "ts": 1790184082353,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Lettuce"
     }
   ],
-  "_savedAt": 1790182644603
+  "_savedAt": 1790184082503
 }
