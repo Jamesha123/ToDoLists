@@ -57,7 +57,7 @@
         {
           "id": "c2727c34-dacc-4dda-b78f-69390854d283",
           "text": "Oregano",
-          "done": false,
+          "done": true,
           "createdAt": 1790116582032,
           "category": "condiments",
           "qty": null
@@ -1777,7 +1777,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Rotisserie Chicken"
+    },
+    {
+      "id": "18479fb8-3b3b-4791-aca9-1f39c1c71726",
+      "ts": 1790182644453,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Oregano"
     }
   ],
-  "_savedAt": 1790182155094
+  "_savedAt": 1790182644603
 }
