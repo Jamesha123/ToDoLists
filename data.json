@@ -13,7 +13,68 @@
       "name": "Groceries List",
       "type": "groceries",
       "createdAt": 1782934315138,
-      "items": [],
+      "items": [
+        {
+          "id": "628ff216-0f64-4a1b-a345-6b359862a7fb",
+          "text": "Steak",
+          "done": false,
+          "createdAt": 1790634675831,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "db4ca46c-b9e4-4135-becd-99e397e773a1",
+          "text": "Brussels Sprouts",
+          "done": false,
+          "createdAt": 1790634696305,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "9bf3c3a4-40b2-4fc5-9632-5a92b89e6bf4",
+          "text": "Shallots",
+          "done": false,
+          "createdAt": 1790634774003,
+          "category": "produce",
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "e3bd1cfe-f712-4d5d-9b4a-424a8f99b5e6",
+          "text": "Ginger",
+          "done": false,
+          "createdAt": 1790634774003,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "tbsp"
+          }
+        },
+        {
+          "id": "b893ebf1-eac3-448e-922f-7e6b2ce3821f",
+          "text": "White Onion",
+          "done": false,
+          "createdAt": 1790634842091,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "425c1fec-da10-41b1-bc16-8a26b285497b",
+          "text": "Green Onions",
+          "done": false,
+          "createdAt": 1790634842091,
+          "category": "produce",
+          "qty": {
+            "amount": 3,
+            "unit": "each"
+          }
+        }
+      ],
       "customCategories": [
         {
           "key": "c-dairy",
@@ -1820,7 +1881,57 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "7 completed"
+    },
+    {
+      "id": "f2b0a12c-4e12-4911-8caf-13b4f213d6a7",
+      "ts": 1790634648896,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "0 completed"
+    },
+    {
+      "id": "f6d48614-ae38-402c-b7ff-bd75aeedf884",
+      "ts": 1790634675831,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Steak"
+    },
+    {
+      "id": "ca31fecc-19ca-4b84-8451-3c7cdb491f3a",
+      "ts": 1790634696305,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Brussels Sprouts"
+    },
+    {
+      "id": "3adeb78f-acb9-48b5-9a0b-f788ab780c93",
+      "ts": 1790634774003,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "2 items (Shallots, Ginger)"
+    },
+    {
+      "id": "3fcd15fb-0fec-44cd-90ee-3b71ab40156c",
+      "ts": 1790634842091,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "2 items (White Onion, Green Onions)"
     }
   ],
-  "_savedAt": 1790184363343
+  "_savedAt": 1790634842241
 }
