@@ -25,7 +25,7 @@
         {
           "id": "db4ca46c-b9e4-4135-becd-99e397e773a1",
           "text": "Brussels Sprouts",
-          "done": false,
+          "done": true,
           "createdAt": 1790634696305,
           "category": "produce",
           "qty": null
@@ -1593,186 +1593,6 @@
   ],
   "activity": [
     {
-      "id": "117a1e70-aa92-4b7f-9d45-ad226c39e44d",
-      "ts": 1790115426272,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cucumber"
-    },
-    {
-      "id": "ad1bbcf3-9d2a-4da9-a26c-d8da83da8b18",
-      "ts": 1790115426694,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Carrots"
-    },
-    {
-      "id": "86425b1a-e3b4-46bf-b1a0-6312f4fb8b6c",
-      "ts": 1790115427502,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "uncheck",
-      "detail": "Carrots"
-    },
-    {
-      "id": "63b0eb72-f008-4306-8c7a-afd7a9fc8c2d",
-      "ts": 1790115427949,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "uncheck",
-      "detail": "Cucumber"
-    },
-    {
-      "id": "e9714beb-cba5-4ddc-aa1c-f4b66cc3fa75",
-      "ts": 1790115461230,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "0 completed"
-    },
-    {
-      "id": "253073d8-8133-4ccf-bd23-0040f6500fe0",
-      "ts": 1790115462669,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "0 completed"
-    },
-    {
-      "id": "43f88c94-1dba-4158-b7ea-e934599aeb48",
-      "ts": 1790115466236,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cucumber"
-    },
-    {
-      "id": "6425707a-3541-4851-a2e0-fa2d7d4241ba",
-      "ts": 1790115466829,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Carrots"
-    },
-    {
-      "id": "5d0eb838-3d9e-463c-9adc-2e1dced0914b",
-      "ts": 1790115469302,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Soy Sauce"
-    },
-    {
-      "id": "1686dbcc-743d-4adb-b180-291edba1c000",
-      "ts": 1790115469771,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Pepto Bismol"
-    },
-    {
-      "id": "911f3c64-3d85-4b0d-8b71-817ad75ae80d",
-      "ts": 1790115472321,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Pain Reliever"
-    },
-    {
-      "id": "581f40e6-91e0-4213-a0e8-6227b2ca6f79",
-      "ts": 1790115472709,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Nail Clips"
-    },
-    {
-      "id": "7a05986e-5904-445a-b4d3-ddf6bff096b3",
-      "ts": 1790115473451,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "Val sucks toes",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "6 completed"
-    },
-    {
-      "id": "a0b440aa-f39c-470c-8c18-0db2da2a2ae3",
-      "ts": 1790116324454,
-      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Chicken Buillon"
-    },
-    {
-      "id": "eac40629-c982-42e9-9f00-187a9174501e",
-      "ts": 1790116329997,
-      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Chicken Buillon"
-    },
-    {
-      "id": "6064e41a-9b50-4ca3-8355-307a393c276b",
-      "ts": 1790116582032,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "6 items (Lettuce, Cotija Cheese, Rotisserie Chicken, Chile Chipotle, Tostadas, Oregano)"
-    },
-    {
-      "id": "2d491b4f-17d3-42c3-b24f-c1d836b182ca",
-      "ts": 1790116684167,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "2 items (Cabbage, Pasta)"
-    },
-    {
-      "id": "ad19c695-7093-4506-8518-75239763f9f5",
-      "ts": 1790116720496,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Pasta"
-    },
-    {
       "id": "f03104f0-3be6-4532-b72c-ac7c12e5df54",
       "ts": 1790182154943,
       "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
@@ -1931,7 +1751,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "2 items (White Onion, Green Onions)"
+    },
+    {
+      "id": "6a904d59-bbb8-4a36-913b-a38f067e9dcb",
+      "ts": 1790724236465,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Brussels Sprouts"
     }
   ],
-  "_savedAt": 1790634842241
+  "_savedAt": 1790724236615
 }
