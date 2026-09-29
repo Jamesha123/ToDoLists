@@ -55,7 +55,7 @@
         {
           "id": "b893ebf1-eac3-448e-922f-7e6b2ce3821f",
           "text": "White Onion",
-          "done": false,
+          "done": true,
           "createdAt": 1790634842091,
           "category": "produce",
           "qty": {
@@ -66,7 +66,7 @@
         {
           "id": "425c1fec-da10-41b1-bc16-8a26b285497b",
           "text": "Green Onions",
-          "done": false,
+          "done": true,
           "createdAt": 1790634842091,
           "category": "produce",
           "qty": {
@@ -1761,7 +1761,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Brussels Sprouts"
+    },
+    {
+      "id": "68be26e4-0dc3-456d-a453-b0810d4cd370",
+      "ts": 1790724346337,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Green Onions"
+    },
+    {
+      "id": "d7d6c1e1-259c-441d-8b9b-3e95f76ac1b8",
+      "ts": 1790724363855,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "White Onion"
     }
   ],
-  "_savedAt": 1790724236615
+  "_savedAt": 1790724364005
 }
