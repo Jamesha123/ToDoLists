@@ -23,14 +23,6 @@
           "qty": null
         },
         {
-          "id": "db4ca46c-b9e4-4135-becd-99e397e773a1",
-          "text": "Brussels Sprouts",
-          "done": true,
-          "createdAt": 1790634696305,
-          "category": "produce",
-          "qty": null
-        },
-        {
           "id": "9bf3c3a4-40b2-4fc5-9632-5a92b89e6bf4",
           "text": "Shallots",
           "done": false,
@@ -50,28 +42,6 @@
           "qty": {
             "amount": 1,
             "unit": "tbsp"
-          }
-        },
-        {
-          "id": "b893ebf1-eac3-448e-922f-7e6b2ce3821f",
-          "text": "White Onion",
-          "done": true,
-          "createdAt": 1790634842091,
-          "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "each"
-          }
-        },
-        {
-          "id": "425c1fec-da10-41b1-bc16-8a26b285497b",
-          "text": "Green Onions",
-          "done": true,
-          "createdAt": 1790634842091,
-          "category": "produce",
-          "qty": {
-            "amount": 3,
-            "unit": "each"
           }
         }
       ],
@@ -229,7 +199,7 @@
       },
       {
         "key": "green onion",
-        "name": "Green Onion",
+        "name": "Green Onions",
         "category": "produce",
         "label": "Produce"
       },
@@ -616,6 +586,12 @@
         "name": "Shrimp",
         "category": "protein",
         "label": "Protein"
+      },
+      {
+        "key": "brussels sprout",
+        "name": "Brussels Sprouts",
+        "category": "produce",
+        "label": "Produce"
       }
     ]
   },
@@ -1781,7 +1757,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "White Onion"
+    },
+    {
+      "id": "66f4f5c7-b305-4697-bed9-39d05c62406e",
+      "ts": 1790727745938,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "3 completed"
     }
   ],
-  "_savedAt": 1790724364005
+  "_savedAt": 1790727746088
 }
