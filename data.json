@@ -33,7 +33,7 @@
         {
           "id": "869fd51d-5f95-4c87-ab21-96fdd415d611",
           "text": "Milanesa",
-          "done": false,
+          "done": true,
           "createdAt": 1791222540675,
           "category": "protein",
           "qty": null
@@ -41,7 +41,7 @@
         {
           "id": "a3c97cb9-5618-4c1f-b2d4-4da3bd4176bf",
           "text": "Brisket",
-          "done": false,
+          "done": true,
           "createdAt": 1791222590660,
           "category": "protein",
           "qty": null
@@ -1837,7 +1837,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Avocados"
+    },
+    {
+      "id": "48669dc4-7add-4cfe-892b-5f6ed651ed48",
+      "ts": 1791243554848,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Brisket"
+    },
+    {
+      "id": "57065b70-d117-4bb0-bc5e-1b40305453f5",
+      "ts": 1791243554976,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Milanesa"
     }
   ],
-  "_savedAt": 1791243403883
+  "_savedAt": 1791243555126
 }
