@@ -15,34 +15,76 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "628ff216-0f64-4a1b-a345-6b359862a7fb",
-          "text": "Steak",
+          "id": "95126810-af6e-4a17-8de8-f35e44e12a9a",
+          "text": "Butter",
           "done": false,
-          "createdAt": 1790634675831,
+          "createdAt": 1791222526577,
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "fc80e1ee-ef03-4385-a4c6-167bfdf12ecd",
+          "text": "Coffee Creamer",
+          "done": false,
+          "createdAt": 1791222532476,
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "869fd51d-5f95-4c87-ab21-96fdd415d611",
+          "text": "Milanesa",
+          "done": false,
+          "createdAt": 1791222540675,
           "category": "protein",
           "qty": null
         },
         {
-          "id": "9bf3c3a4-40b2-4fc5-9632-5a92b89e6bf4",
-          "text": "Shallots",
+          "id": "a3c97cb9-5618-4c1f-b2d4-4da3bd4176bf",
+          "text": "Brisket",
           "done": false,
-          "createdAt": 1790634774003,
-          "category": "produce",
-          "qty": {
-            "amount": 2,
-            "unit": "each"
-          }
+          "createdAt": 1791222590660,
+          "category": "protein",
+          "qty": null
         },
         {
-          "id": "e3bd1cfe-f712-4d5d-9b4a-424a8f99b5e6",
-          "text": "Ginger",
+          "id": "6adad2b0-d14a-4f24-ac8d-2fc525912d69",
+          "text": "Queso",
           "done": false,
-          "createdAt": 1790634774003,
+          "createdAt": 1791222655556,
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "1a5b2ee0-63e1-4474-8a92-03548fb57a04",
+          "text": "Tortillas",
+          "done": false,
+          "createdAt": 1791222704757,
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "7915bbc4-0eea-42a3-bab4-c76fac7d906b",
+          "text": "Tomatillo",
+          "done": false,
+          "createdAt": 1791222713330,
           "category": "produce",
-          "qty": {
-            "amount": 1,
-            "unit": "tbsp"
-          }
+          "qty": null
+        },
+        {
+          "id": "2d2b6077-ce4b-4f7c-bf3f-2961787671ea",
+          "text": "Serano",
+          "done": false,
+          "createdAt": 1791222719629,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "d3eeb0ba-8113-4e44-b11d-68b9226fe4ad",
+          "text": "Avocados",
+          "done": false,
+          "createdAt": 1791222723284,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -592,6 +634,12 @@
         "name": "Brussels Sprouts",
         "category": "produce",
         "label": "Produce"
+      },
+      {
+        "key": "steak",
+        "name": "Steak",
+        "category": "protein",
+        "label": "Protein"
       }
     ]
   },
@@ -1569,116 +1617,6 @@
   ],
   "activity": [
     {
-      "id": "f03104f0-3be6-4532-b72c-ac7c12e5df54",
-      "ts": 1790182154943,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Rotisserie Chicken"
-    },
-    {
-      "id": "18479fb8-3b3b-4791-aca9-1f39c1c71726",
-      "ts": 1790182644453,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Oregano"
-    },
-    {
-      "id": "9fe184c8-c0a1-4747-be7f-a79d7ab346d4",
-      "ts": 1790184080705,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cabbage"
-    },
-    {
-      "id": "0a2d8914-0794-4556-a83c-d67a5748cacd",
-      "ts": 1790184082353,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Lettuce"
-    },
-    {
-      "id": "e5f5ace8-4803-4815-bf45-fc54521738ce",
-      "ts": 1790184322815,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Chile Chipotle"
-    },
-    {
-      "id": "972467be-6ec6-4d62-9dca-61a700c741bf",
-      "ts": 1790184323147,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Tostadas"
-    },
-    {
-      "id": "be5e759b-6ff7-4681-8fc9-9a63b3694e97",
-      "ts": 1790184323933,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "uncheck",
-      "detail": "Tostadas"
-    },
-    {
-      "id": "016b33ae-4c93-4840-aa80-1130667817ef",
-      "ts": 1790184324873,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Tostadas"
-    },
-    {
-      "id": "5639374f-fd17-4835-9e44-4d17b0eb5699",
-      "ts": 1790184327770,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cotija Cheese"
-    },
-    {
-      "id": "08c97fd8-6ac7-466f-b6ef-f1fa5c786fef",
-      "ts": 1790184361195,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "7 completed"
-    },
-    {
-      "id": "fa937a48-2b48-415e-834d-0fa77de1c0b2",
-      "ts": 1790184363193,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "7 completed"
-    },
-    {
       "id": "f2b0a12c-4e12-4911-8caf-13b4f213d6a7",
       "ts": 1790634648896,
       "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
@@ -1767,7 +1705,157 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "3 completed"
+    },
+    {
+      "id": "85f5e104-bf60-4bec-98f4-c0b6d66c4fbe",
+      "ts": 1791222500156,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Ginger"
+    },
+    {
+      "id": "994cf98f-6696-47bb-ac45-895c9ef7d5e9",
+      "ts": 1791222500581,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Steak"
+    },
+    {
+      "id": "b1691ba2-8fd5-4fbf-9872-c558f64150bc",
+      "ts": 1791222501759,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "2 completed"
+    },
+    {
+      "id": "3fefd944-82db-438c-b1fa-ef46ff0b455b",
+      "ts": 1791222502474,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Shallots"
+    },
+    {
+      "id": "01c6f655-d0e1-44cc-8e16-fc45fbc50c07",
+      "ts": 1791222502860,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
+    },
+    {
+      "id": "b1534b64-5db1-4e82-b518-b51e8203729c",
+      "ts": 1791222526577,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Butter"
+    },
+    {
+      "id": "572aa2b3-acfa-498d-8520-8d46679bad6a",
+      "ts": 1791222532476,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Coffee Creamer"
+    },
+    {
+      "id": "6cbd7d16-c5fd-4b8a-8dc2-8412fcb1a217",
+      "ts": 1791222540675,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Milanesa"
+    },
+    {
+      "id": "5b500b29-65eb-439c-86ed-85a0399fe5fe",
+      "ts": 1791222590660,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Brisket"
+    },
+    {
+      "id": "77c946e2-ae2a-4f6f-ab9b-1134b09008a5",
+      "ts": 1791222655556,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Queso"
+    },
+    {
+      "id": "952872d8-4b23-4c78-bb5f-a26dd0d9e55c",
+      "ts": 1791222664961,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Queso"
+    },
+    {
+      "id": "f8abea22-c94b-4117-b013-e4a25a14606d",
+      "ts": 1791222704757,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Tortillas"
+    },
+    {
+      "id": "0755f857-be0c-48cd-86b8-112aebd59ae0",
+      "ts": 1791222713330,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Tomatillo"
+    },
+    {
+      "id": "66814926-d564-41c5-b85b-8c3ea1ef5b7b",
+      "ts": 1791222719629,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Serano"
+    },
+    {
+      "id": "e0edb132-c0ca-46a0-8f84-dc124621fae3",
+      "ts": 1791222723284,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Avocados"
     }
   ],
-  "_savedAt": 1790727746088
+  "_savedAt": 1791222723434
 }
