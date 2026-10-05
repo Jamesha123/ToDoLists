@@ -47,14 +47,6 @@
           "qty": null
         },
         {
-          "id": "6adad2b0-d14a-4f24-ac8d-2fc525912d69",
-          "text": "Queso",
-          "done": false,
-          "createdAt": 1791222655556,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
           "id": "1a5b2ee0-63e1-4474-8a92-03548fb57a04",
           "text": "Tortillas",
           "done": false,
@@ -1855,7 +1847,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Avocados"
+    },
+    {
+      "id": "ca6ce7ce-b44d-4e79-a1a7-bd540eb2493e",
+      "ts": 1791239367528,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Queso"
     }
   ],
-  "_savedAt": 1791222723434
+  "_savedAt": 1791239367677
 }
