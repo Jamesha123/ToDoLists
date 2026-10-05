@@ -57,7 +57,7 @@
         {
           "id": "7915bbc4-0eea-42a3-bab4-c76fac7d906b",
           "text": "Tomatillo",
-          "done": false,
+          "done": true,
           "createdAt": 1791222713330,
           "category": "produce",
           "qty": null
@@ -1609,56 +1609,6 @@
   ],
   "activity": [
     {
-      "id": "f2b0a12c-4e12-4911-8caf-13b4f213d6a7",
-      "ts": 1790634648896,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "0 completed"
-    },
-    {
-      "id": "f6d48614-ae38-402c-b7ff-bd75aeedf884",
-      "ts": 1790634675831,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Steak"
-    },
-    {
-      "id": "ca31fecc-19ca-4b84-8451-3c7cdb491f3a",
-      "ts": 1790634696305,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Brussels Sprouts"
-    },
-    {
-      "id": "3adeb78f-acb9-48b5-9a0b-f788ab780c93",
-      "ts": 1790634774003,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "2 items (Shallots, Ginger)"
-    },
-    {
-      "id": "3fcd15fb-0fec-44cd-90ee-3b71ab40156c",
-      "ts": 1790634842091,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "2 items (White Onion, Green Onions)"
-    },
-    {
       "id": "6a904d59-bbb8-4a36-913b-a38f067e9dcb",
       "ts": 1790724236465,
       "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
@@ -1857,7 +1807,17 @@
       "listName": "Groceries List",
       "action": "delete",
       "detail": "Queso"
+    },
+    {
+      "id": "d73d291e-1ae4-4851-856b-a5708e04bf2d",
+      "ts": 1791243312286,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tomatillo"
     }
   ],
-  "_savedAt": 1791239367677
+  "_savedAt": 1791243312437
 }
