@@ -65,7 +65,7 @@
         {
           "id": "2d2b6077-ce4b-4f7c-bf3f-2961787671ea",
           "text": "Serano",
-          "done": false,
+          "done": true,
           "createdAt": 1791222719629,
           "category": "produce",
           "qty": null
@@ -73,7 +73,7 @@
         {
           "id": "d3eeb0ba-8113-4e44-b11d-68b9226fe4ad",
           "text": "Avocados",
-          "done": false,
+          "done": true,
           "createdAt": 1791222723284,
           "category": "produce",
           "qty": null
@@ -1817,7 +1817,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Tomatillo"
+    },
+    {
+      "id": "74745a11-09aa-475e-8a47-96d34bd258ac",
+      "ts": 1791243403195,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Serano"
+    },
+    {
+      "id": "67ce6fcf-9797-4d11-8361-5c2b36fcb794",
+      "ts": 1791243403733,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Avocados"
     }
   ],
-  "_savedAt": 1791243312437
+  "_savedAt": 1791243403883
 }
