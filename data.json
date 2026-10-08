@@ -15,67 +15,11 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "95126810-af6e-4a17-8de8-f35e44e12a9a",
-          "text": "Butter",
+          "id": "ca36f014-1bf1-4f74-bf11-b3d6093184d3",
+          "text": "Toothpaste",
           "done": false,
-          "createdAt": 1791222526577,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "fc80e1ee-ef03-4385-a4c6-167bfdf12ecd",
-          "text": "Coffee Creamer",
-          "done": false,
-          "createdAt": 1791222532476,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "869fd51d-5f95-4c87-ab21-96fdd415d611",
-          "text": "Milanesa",
-          "done": true,
-          "createdAt": 1791222540675,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "a3c97cb9-5618-4c1f-b2d4-4da3bd4176bf",
-          "text": "Brisket",
-          "done": true,
-          "createdAt": 1791222590660,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "1a5b2ee0-63e1-4474-8a92-03548fb57a04",
-          "text": "Tortillas",
-          "done": false,
-          "createdAt": 1791222704757,
-          "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "7915bbc4-0eea-42a3-bab4-c76fac7d906b",
-          "text": "Tomatillo",
-          "done": true,
-          "createdAt": 1791222713330,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "2d2b6077-ce4b-4f7c-bf3f-2961787671ea",
-          "text": "Serano",
-          "done": true,
-          "createdAt": 1791222719629,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "d3eeb0ba-8113-4e44-b11d-68b9226fe4ad",
-          "text": "Avocados",
-          "done": true,
-          "createdAt": 1791222723284,
-          "category": "produce",
+          "createdAt": 1791497181366,
+          "category": "personal",
           "qty": null
         }
       ],
@@ -179,7 +123,7 @@
       },
       {
         "key": "avocado",
-        "name": "Avocado",
+        "name": "Avocados",
         "category": "produce",
         "label": "Produce"
       },
@@ -632,6 +576,30 @@
         "name": "Steak",
         "category": "protein",
         "label": "Protein"
+      },
+      {
+        "key": "milanesa",
+        "name": "Milanesa",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "brisket",
+        "name": "Brisket",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "tomatillo",
+        "name": "Tomatillo",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "serano",
+        "name": "Serano",
+        "category": "produce",
+        "label": "Produce"
       }
     ]
   },
@@ -1609,46 +1577,6 @@
   ],
   "activity": [
     {
-      "id": "6a904d59-bbb8-4a36-913b-a38f067e9dcb",
-      "ts": 1790724236465,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Brussels Sprouts"
-    },
-    {
-      "id": "68be26e4-0dc3-456d-a453-b0810d4cd370",
-      "ts": 1790724346337,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Green Onions"
-    },
-    {
-      "id": "d7d6c1e1-259c-441d-8b9b-3e95f76ac1b8",
-      "ts": 1790724363855,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "White Onion"
-    },
-    {
-      "id": "66f4f5c7-b305-4697-bed9-39d05c62406e",
-      "ts": 1790727745938,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "3 completed"
-    },
-    {
       "id": "85f5e104-bf60-4bec-98f4-c0b6d66c4fbe",
       "ts": 1791222500156,
       "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
@@ -1857,7 +1785,57 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Milanesa"
+    },
+    {
+      "id": "a2945ee0-1f7f-4f6d-8896-191a5da9cc56",
+      "ts": 1791497166332,
+      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "5 completed"
+    },
+    {
+      "id": "61ed9aa8-a418-4da0-befc-2bc4b52a20b2",
+      "ts": 1791497170275,
+      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Tortillas"
+    },
+    {
+      "id": "c1b898ba-3648-4925-970a-047829a04685",
+      "ts": 1791497171230,
+      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Butter"
+    },
+    {
+      "id": "6f6e0b23-436c-4766-ba9f-1f9ce6ef589c",
+      "ts": 1791497171953,
+      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Coffee Creamer"
+    },
+    {
+      "id": "1cd51e9e-5ec7-4c0c-9423-5e3550d606df",
+      "ts": 1791497181366,
+      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Toothpaste"
     }
   ],
-  "_savedAt": 1791243555126
+  "_savedAt": 1791497181517
 }
