@@ -21,6 +21,14 @@
           "createdAt": 1791497181366,
           "category": "personal",
           "qty": null
+        },
+        {
+          "id": "fbda919b-90dd-497f-93a7-6799a78ca174",
+          "text": "Eggs",
+          "done": false,
+          "createdAt": 1791756970905,
+          "category": "protein",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1835,7 +1843,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Toothpaste"
+    },
+    {
+      "id": "dd81f152-9ac7-42be-ae88-1e1b4405485b",
+      "ts": 1791756970905,
+      "actorId": "4e808e64-7451-4d8a-8615-470d60a8cc2b",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Eggs"
     }
   ],
-  "_savedAt": 1791497181517
+  "_savedAt": 1791756971055
 }
