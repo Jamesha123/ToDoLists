@@ -17,7 +17,7 @@
         {
           "id": "5a1f044b-5df6-4423-9d80-438f08b01e27",
           "text": "Nail Polish",
-          "done": false,
+          "done": true,
           "createdAt": 1792016974767,
           "category": "misc",
           "qty": null
@@ -1821,7 +1821,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Green Beans"
+    },
+    {
+      "id": "10f509e4-95d1-497d-8387-b8e4ef84b17f",
+      "ts": 1792358009820,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Nail Polish"
     }
   ],
-  "_savedAt": 1792357270470
+  "_savedAt": 1792358009970
 }
