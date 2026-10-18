@@ -75,6 +75,14 @@
           "createdAt": 1792339271333,
           "category": "condiments",
           "qty": null
+        },
+        {
+          "id": "c8f68dd8-7358-4426-a85e-ed127b5f258d",
+          "text": "Green Beans",
+          "done": false,
+          "createdAt": 1792340942588,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1790,7 +1798,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Carrots"
+    },
+    {
+      "id": "3f7c0a3c-519b-4bf9-88ae-bda23990b4ee",
+      "ts": 1792340942588,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Green Beans"
     }
   ],
-  "_savedAt": 1792339612994
+  "_savedAt": 1792340942739
 }
