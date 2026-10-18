@@ -82,7 +82,10 @@
           "done": false,
           "createdAt": 1792340942588,
           "category": "produce",
-          "qty": null
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
         }
       ],
       "customCategories": [
@@ -1808,7 +1811,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Green Beans"
+    },
+    {
+      "id": "119c345b-2986-4fb9-aa85-9f58b7cfd10d",
+      "ts": 1792357270319,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Green Beans"
     }
   ],
-  "_savedAt": 1792340942739
+  "_savedAt": 1792357270470
 }
