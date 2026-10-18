@@ -37,6 +37,41 @@
           "createdAt": 1792339102273,
           "category": "ava",
           "qty": null
+        },
+        {
+          "id": "51f2e0f9-4eb4-408a-b3d9-10c3f557aef0",
+          "text": "Cucumber",
+          "done": false,
+          "createdAt": 1792339265295,
+          "category": "produce",
+          "qty": {
+            "amount": 1,
+            "unit": "each"
+          }
+        },
+        {
+          "id": "236eccbb-f426-418c-88b4-b2906efb83bf",
+          "text": "Potatoes",
+          "done": false,
+          "createdAt": 1792339271333,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "641eb7e0-ab7c-4646-ae70-0f87b8796b3e",
+          "text": "Carrots",
+          "done": false,
+          "createdAt": 1792339271333,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "9a553e39-b7e2-432b-8686-f1ceeb9d61b0",
+          "text": "Chicken Buillon",
+          "done": false,
+          "createdAt": 1792339271333,
+          "category": "condiments",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1575,6 +1610,12 @@
           "qty": null
         }
       ]
+    },
+    {
+      "id": "be3e185b-0888-4f9f-8777-7351e1d9debf",
+      "name": "Carbonara",
+      "createdAt": 1792339297279,
+      "ingredients": []
     }
   ],
   "grocerySubtopics": [
@@ -1651,7 +1692,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Ava’s Food"
+    },
+    {
+      "id": "e3a571ab-038b-430e-9356-51e6a37a6b26",
+      "ts": 1792339265295,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "eab6068a-5874-4b9e-9861-0e7db068d667",
+      "ts": 1792339271333,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "4 items (Potatoes, Carrots, Pasta, Chicken Buillon)"
+    },
+    {
+      "id": "ccb03348-f942-473f-83d7-54185d5475e7",
+      "ts": 1792339321218,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Pasta"
     }
   ],
-  "_savedAt": 1792339102424
+  "_savedAt": 1792339321369
 }
