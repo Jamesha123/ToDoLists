@@ -52,7 +52,7 @@
         {
           "id": "236eccbb-f426-418c-88b4-b2906efb83bf",
           "text": "Potatoes",
-          "done": false,
+          "done": true,
           "createdAt": 1792339271333,
           "category": "produce",
           "qty": null
@@ -71,7 +71,7 @@
         {
           "id": "9a553e39-b7e2-432b-8686-f1ceeb9d61b0",
           "text": "Chicken Buillon",
-          "done": false,
+          "done": true,
           "createdAt": 1792339271333,
           "category": "condiments",
           "qty": null
@@ -1831,7 +1831,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Nail Polish"
+    },
+    {
+      "id": "aa8c5cc4-8bff-42a6-96d8-fae63b71478e",
+      "ts": 1792358625202,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Chicken Buillon"
+    },
+    {
+      "id": "e63edef3-5884-47d9-a8b5-b3ba47549b98",
+      "ts": 1792358630477,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Potatoes"
     }
   ],
-  "_savedAt": 1792358009970
+  "_savedAt": 1792358630628
 }
