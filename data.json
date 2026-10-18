@@ -63,7 +63,10 @@
           "done": false,
           "createdAt": 1792339271333,
           "category": "produce",
-          "qty": null
+          "qty": {
+            "amount": 2,
+            "unit": "each"
+          }
         },
         {
           "id": "9a553e39-b7e2-432b-8686-f1ceeb9d61b0",
@@ -1777,7 +1780,17 @@
       "listName": "Groceries List",
       "action": "delete",
       "detail": "Pasta"
+    },
+    {
+      "id": "eff3be76-84ca-4eaa-991c-db6f804fa552",
+      "ts": 1792339612844,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Carrots"
     }
   ],
-  "_savedAt": 1792339520227
+  "_savedAt": 1792339612994
 }
