@@ -29,6 +29,14 @@
           "createdAt": 1792017003015,
           "category": "personal",
           "qty": null
+        },
+        {
+          "id": "622f7e31-7f41-4994-91df-7cbabcd8a7e3",
+          "text": "Ava’s Food",
+          "done": false,
+          "createdAt": 1792339102273,
+          "category": "ava",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1585,56 +1593,6 @@
   ],
   "activity": [
     {
-      "id": "a2945ee0-1f7f-4f6d-8896-191a5da9cc56",
-      "ts": 1791497166332,
-      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "5 completed"
-    },
-    {
-      "id": "61ed9aa8-a418-4da0-befc-2bc4b52a20b2",
-      "ts": 1791497170275,
-      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Tortillas"
-    },
-    {
-      "id": "c1b898ba-3648-4925-970a-047829a04685",
-      "ts": 1791497171230,
-      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Butter"
-    },
-    {
-      "id": "6f6e0b23-436c-4766-ba9f-1f9ce6ef589c",
-      "ts": 1791497171953,
-      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "delete",
-      "detail": "Coffee Creamer"
-    },
-    {
-      "id": "1cd51e9e-5ec7-4c0c-9423-5e3550d606df",
-      "ts": 1791497181366,
-      "actorId": "148b86f7-6491-4076-bd73-0ae385ee7d7d",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Toothpaste"
-    },
-    {
       "id": "dd81f152-9ac7-42be-ae88-1e1b4405485b",
       "ts": 1791756970905,
       "actorId": "4e808e64-7451-4d8a-8615-470d60a8cc2b",
@@ -1683,7 +1641,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Hand Soap"
+    },
+    {
+      "id": "501eb8bd-a39e-456d-8cae-36546758ca32",
+      "ts": 1792339102274,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Ava’s Food"
     }
   ],
-  "_savedAt": 1792017003164
+  "_savedAt": 1792339102424
 }
