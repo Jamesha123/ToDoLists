@@ -41,7 +41,7 @@
         {
           "id": "51f2e0f9-4eb4-408a-b3d9-10c3f557aef0",
           "text": "Cucumber",
-          "done": false,
+          "done": true,
           "createdAt": 1792339265295,
           "category": "produce",
           "qty": {
@@ -60,7 +60,7 @@
         {
           "id": "641eb7e0-ab7c-4646-ae70-0f87b8796b3e",
           "text": "Carrots",
-          "done": false,
+          "done": true,
           "createdAt": 1792339271333,
           "category": "produce",
           "qty": {
@@ -1703,16 +1703,6 @@
   ],
   "activity": [
     {
-      "id": "dd81f152-9ac7-42be-ae88-1e1b4405485b",
-      "ts": 1791756970905,
-      "actorId": "4e808e64-7451-4d8a-8615-470d60a8cc2b",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Eggs"
-    },
-    {
       "id": "0bdbedc6-ba30-4d35-9c4a-3570cd7da8cf",
       "ts": 1792016960897,
       "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
@@ -1851,7 +1841,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Potatoes"
+    },
+    {
+      "id": "ceb5c718-33d8-417e-a52a-1245f70ed5ce",
+      "ts": 1792363427016,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "2434c6f2-38d4-48c4-a089-9ec42d4c3928",
+      "ts": 1792363427630,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Carrots"
     }
   ],
-  "_savedAt": 1792358630628
+  "_savedAt": 1792363427780
 }
