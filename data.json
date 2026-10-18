@@ -651,6 +651,18 @@
         "name": "Serano",
         "category": "produce",
         "label": "Produce"
+      },
+      {
+        "key": "spaghetti noddle",
+        "name": "Spaghetti Noddles",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "bacon",
+        "name": "Bacon",
+        "category": "protein",
+        "label": "Protein"
       }
     ]
   },
@@ -1615,7 +1627,50 @@
       "id": "be3e185b-0888-4f9f-8777-7351e1d9debf",
       "name": "Carbonara",
       "createdAt": 1792339297279,
-      "ingredients": []
+      "ingredients": [
+        {
+          "id": "4402f8a6-0426-4ed7-8326-ec1a7d65d59a",
+          "text": "Olive Oil",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "89e67115-103f-4737-85c3-68f6ca3b8b06",
+          "text": "Egg",
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "aca963fa-a95e-4717-b163-a45792beb1fe",
+          "text": "Salt And Black Pepper",
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "0ea3993e-725d-4a4f-8ea5-befd5b1ca6e3",
+          "text": "Heavy Cream",
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "b74c2c07-7cb1-45bd-a7fa-def0847afda1",
+          "text": "Parmesan Cheese",
+          "category": "c-dairy",
+          "qty": null
+        },
+        {
+          "id": "13ae51df-ae10-4c59-a667-2c5be3fb4166",
+          "text": "Spaghetti Noddles",
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "b9dabaa8-40a1-4fa1-ac3a-9fa1f6d16cf7",
+          "text": "Bacon",
+          "category": "protein",
+          "qty": null
+        }
+      ]
     }
   ],
   "grocerySubtopics": [
@@ -1724,5 +1779,5 @@
       "detail": "Pasta"
     }
   ],
-  "_savedAt": 1792339321369
+  "_savedAt": 1792339520227
 }
