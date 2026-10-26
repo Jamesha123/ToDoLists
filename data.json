@@ -89,7 +89,7 @@
         {
           "id": "dce5c227-a715-4c4a-a453-24ade634eccc",
           "text": "Evaporated Milk",
-          "done": false,
+          "done": true,
           "createdAt": 1792964983253,
           "category": "bakery",
           "qty": null
@@ -97,7 +97,7 @@
         {
           "id": "19c6edcd-7e36-41a8-9b84-7b3c1b432fcf",
           "text": "Condensed Milk",
-          "done": false,
+          "done": true,
           "createdAt": 1792964983716,
           "category": "bakery",
           "qty": null
@@ -1726,26 +1726,6 @@
   ],
   "activity": [
     {
-      "id": "ceb5c718-33d8-417e-a52a-1245f70ed5ce",
-      "ts": 1792363427016,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cucumber"
-    },
-    {
-      "id": "2434c6f2-38d4-48c4-a089-9ec42d4c3928",
-      "ts": 1792363427630,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Carrots"
-    },
-    {
       "id": "196882a9-53da-4a6a-b6a2-6c4c776ccc2c",
       "ts": 1792963682596,
       "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
@@ -1874,7 +1854,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Milk"
+    },
+    {
+      "id": "014770be-2ab0-45f5-91ff-d7c94bcf3087",
+      "ts": 1792973658371,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Evaporated Milk"
+    },
+    {
+      "id": "ac11c5da-9863-4165-bc95-91bd37c4bfd2",
+      "ts": 1792973658774,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Condensed Milk"
     }
   ],
-  "_savedAt": 1792965046080
+  "_savedAt": 1792973658924
 }
