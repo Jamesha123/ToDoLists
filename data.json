@@ -41,7 +41,7 @@
         {
           "id": "7c92f20a-0621-48be-ae2a-540348c3ba79",
           "text": "Avocado",
-          "done": false,
+          "done": true,
           "createdAt": 1792963763118,
           "category": "produce",
           "qty": null
@@ -1934,7 +1934,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Taco Meat"
+    },
+    {
+      "id": "c51ad31e-4ff3-4fcc-8b58-7c7ca4d8c401",
+      "ts": 1792974400391,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Avocado"
     }
   ],
-  "_savedAt": 1792974290303
+  "_savedAt": 1792974400541
 }
