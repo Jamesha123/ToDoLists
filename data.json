@@ -15,99 +15,11 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "f242031e-654e-4fff-ba4f-876b2fc21448",
-          "text": "Brocolli",
-          "done": true,
-          "createdAt": 1792963692856,
-          "category": "c-frozen",
-          "qty": null
-        },
-        {
-          "id": "6e1c21ae-0865-49e2-bb76-84e23dcb1d68",
-          "text": "Taco Meat",
-          "done": true,
-          "createdAt": 1792963750106,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "12a223f3-126b-4818-8995-cbcb9f64a5e6",
-          "text": "Tortillas",
-          "done": true,
-          "createdAt": 1792963756966,
-          "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "7c92f20a-0621-48be-ae2a-540348c3ba79",
-          "text": "Avocado",
-          "done": true,
-          "createdAt": 1792963763118,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "3171e029-63c8-4204-9dde-66dea573e5d4",
-          "text": "Cilantro",
+          "id": "6444fa78-d162-4947-bb23-7eb2c819ab33",
+          "text": "Shave Gel",
           "done": false,
-          "createdAt": 1792963778070,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "6e576128-ef5e-475c-8177-30d5b61059f9",
-          "text": "Limes",
-          "done": false,
-          "createdAt": 1792963786489,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "b924cf78-3672-4995-8f56-740a3fc9f2ca",
-          "text": "Coconut Milk",
-          "done": true,
-          "createdAt": 1792963902006,
-          "category": "c-dairy",
-          "qty": null
-        },
-        {
-          "id": "85c7dc75-04e4-41eb-ba2c-02d331c14342",
-          "text": "Red Curry Paste",
-          "done": true,
-          "createdAt": 1792963915448,
-          "category": "condiments",
-          "qty": null
-        },
-        {
-          "id": "6613b1c6-41b6-49c5-ad2b-b7ffe418c205",
-          "text": "Bokchoy",
-          "done": false,
-          "createdAt": 1792963941582,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "dce5c227-a715-4c4a-a453-24ade634eccc",
-          "text": "Evaporated Milk",
-          "done": true,
-          "createdAt": 1792964983253,
-          "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "19c6edcd-7e36-41a8-9b84-7b3c1b432fcf",
-          "text": "Condensed Milk",
-          "done": true,
-          "createdAt": 1792964983716,
-          "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "66a95d6f-92b1-488b-b781-0f4977a78686",
-          "text": "Milk",
-          "done": true,
-          "createdAt": 1792965045929,
-          "category": "c-dairy",
+          "createdAt": 1792981832178,
+          "category": "personal",
           "qty": null
         }
       ],
@@ -181,7 +93,7 @@
       },
       {
         "key": "lime",
-        "name": "Lime",
+        "name": "Limes",
         "category": "produce",
         "label": "Produce"
       },
@@ -211,7 +123,7 @@
       },
       {
         "key": "avocado",
-        "name": "Avocados",
+        "name": "Avocado",
         "category": "produce",
         "label": "Produce"
       },
@@ -536,8 +448,8 @@
       {
         "key": "brocolli",
         "name": "Brocolli",
-        "category": "produce",
-        "label": "Produce"
+        "category": "c-frozen",
+        "label": "Frozen"
       },
       {
         "key": "pepper",
@@ -700,6 +612,48 @@
         "name": "Bacon",
         "category": "protein",
         "label": "Protein"
+      },
+      {
+        "key": "taco meat",
+        "name": "Taco Meat",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "coconut milk",
+        "name": "Coconut Milk",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "red curry paste",
+        "name": "Red Curry Paste",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "evaporated milk",
+        "name": "Evaporated Milk",
+        "category": "bakery",
+        "label": "Bakery"
+      },
+      {
+        "key": "condensed milk",
+        "name": "Condensed Milk",
+        "category": "bakery",
+        "label": "Bakery"
+      },
+      {
+        "key": "milk",
+        "name": "Milk",
+        "category": "c-dairy",
+        "label": "Dairy"
+      },
+      {
+        "key": "bokchoy",
+        "name": "Bokchoy",
+        "category": "produce",
+        "label": "Produce"
       }
     ]
   },
@@ -1944,7 +1898,67 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Avocado"
+    },
+    {
+      "id": "6ee51e7e-792b-4713-8a9b-2c577b9312e0",
+      "ts": 1792981812755,
+      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "9 completed"
+    },
+    {
+      "id": "9707db6d-9fe5-4604-a280-d5b8530dab39",
+      "ts": 1792981816708,
+      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cilantro"
+    },
+    {
+      "id": "08466c04-0669-414c-889e-01ac127cf057",
+      "ts": 1792981817102,
+      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Limes"
+    },
+    {
+      "id": "8bca053d-17c9-4c49-bdca-9b6dc7c09a88",
+      "ts": 1792981817464,
+      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Bokchoy"
+    },
+    {
+      "id": "f6a91057-868a-49fe-a681-17e8ebaab2cd",
+      "ts": 1792981817950,
+      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "3 completed"
+    },
+    {
+      "id": "0d3246aa-88ff-4885-aaf9-26f4a97289c8",
+      "ts": 1792981832178,
+      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Shave Gel"
     }
   ],
-  "_savedAt": 1792974400541
+  "_savedAt": 1792981832328
 }
