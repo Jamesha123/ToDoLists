@@ -33,7 +33,7 @@
         {
           "id": "12a223f3-126b-4818-8995-cbcb9f64a5e6",
           "text": "Tortillas",
-          "done": false,
+          "done": true,
           "createdAt": 1792963756966,
           "category": "bakery",
           "qty": null
@@ -1874,7 +1874,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Condensed Milk"
+    },
+    {
+      "id": "34cb539e-6a66-4c99-9f0b-edbbe41a1938",
+      "ts": 1792973857976,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tortillas"
     }
   ],
-  "_savedAt": 1792973658924
+  "_savedAt": 1792973858126
 }
