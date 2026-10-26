@@ -65,7 +65,7 @@
         {
           "id": "b924cf78-3672-4995-8f56-740a3fc9f2ca",
           "text": "Coconut Milk",
-          "done": false,
+          "done": true,
           "createdAt": 1792963902006,
           "category": "c-dairy",
           "qty": null
@@ -1884,7 +1884,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Tortillas"
+    },
+    {
+      "id": "f28c0c51-c461-4919-96f8-4c48e4fbb6ac",
+      "ts": 1792973948040,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Coconut Milk"
     }
   ],
-  "_savedAt": 1792973858126
+  "_savedAt": 1792973948190
 }
