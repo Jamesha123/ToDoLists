@@ -17,7 +17,7 @@
         {
           "id": "f242031e-654e-4fff-ba4f-876b2fc21448",
           "text": "Brocolli",
-          "done": false,
+          "done": true,
           "createdAt": 1792963692856,
           "category": "c-frozen",
           "qty": null
@@ -25,7 +25,7 @@
         {
           "id": "6e1c21ae-0865-49e2-bb76-84e23dcb1d68",
           "text": "Taco Meat",
-          "done": false,
+          "done": true,
           "createdAt": 1792963750106,
           "category": "protein",
           "qty": null
@@ -73,7 +73,7 @@
         {
           "id": "85c7dc75-04e4-41eb-ba2c-02d331c14342",
           "text": "Red Curry Paste",
-          "done": false,
+          "done": true,
           "createdAt": 1792963915448,
           "category": "condiments",
           "qty": null
@@ -105,7 +105,7 @@
         {
           "id": "66a95d6f-92b1-488b-b781-0f4977a78686",
           "text": "Milk",
-          "done": false,
+          "done": true,
           "createdAt": 1792965045929,
           "category": "c-dairy",
           "qty": null
@@ -1894,7 +1894,47 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Coconut Milk"
+    },
+    {
+      "id": "4cc1bb0d-4359-465b-b973-6235c40ac250",
+      "ts": 1792974154820,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Red Curry Paste"
+    },
+    {
+      "id": "bad85bca-c70e-4e64-9564-47f5dbab9464",
+      "ts": 1792974202653,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Brocolli"
+    },
+    {
+      "id": "aef0f382-a368-4cb3-9357-3c01e0306d0e",
+      "ts": 1792974204673,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Milk"
+    },
+    {
+      "id": "a733f9d5-d769-446c-abab-46e50fbc6038",
+      "ts": 1792974290152,
+      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
+      "actorName": "Val",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Taco Meat"
     }
   ],
-  "_savedAt": 1792973948190
+  "_savedAt": 1792974290303
 }
