@@ -15,11 +15,27 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "6444fa78-d162-4947-bb23-7eb2c819ab33",
-          "text": "Shave Gel",
+          "id": "729b1d40-c107-4058-96a0-f465b1d450d3",
+          "text": "Seasoning Soup Pack",
           "done": false,
-          "createdAt": 1792981832178,
-          "category": "personal",
+          "createdAt": 1793315613988,
+          "category": "pantry",
+          "qty": null
+        },
+        {
+          "id": "f76a880d-9d3e-4695-8f3e-aec65b55c6b9",
+          "text": "Cold Noodles",
+          "done": false,
+          "createdAt": 1793315677132,
+          "category": "c-noodles",
+          "qty": null
+        },
+        {
+          "id": "2c9dba45-bd0d-4cba-8377-28eca7b25f30",
+          "text": "Beef Bones",
+          "done": false,
+          "createdAt": 1793315698874,
+          "category": "protein",
           "qty": null
         }
       ],
@@ -35,6 +51,10 @@
         {
           "key": "c-medience",
           "label": "Medience"
+        },
+        {
+          "key": "c-noodles",
+          "label": "Noodles"
         }
       ]
     }
@@ -654,6 +674,12 @@
         "name": "Bokchoy",
         "category": "produce",
         "label": "Produce"
+      },
+      {
+        "key": "shave gel",
+        "name": "Shave Gel",
+        "category": "personal",
+        "label": "Personal Care"
       }
     ]
   },
@@ -1676,6 +1702,10 @@
     {
       "key": "c-medience",
       "label": "Medience"
+    },
+    {
+      "key": "c-noodles",
+      "label": "Noodles"
     }
   ],
   "activity": [
@@ -1958,7 +1988,67 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Shave Gel"
+    },
+    {
+      "id": "f6c57279-1aca-41a9-bb8a-6849e10a64de",
+      "ts": 1793315538251,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Shave Gel"
+    },
+    {
+      "id": "c6918a86-5239-43e8-8caa-f046ee365f44",
+      "ts": 1793315539117,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
+    },
+    {
+      "id": "3d6870d8-e5f0-49f4-ad93-08c46883af71",
+      "ts": 1793315540346,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "0 completed"
+    },
+    {
+      "id": "2455c1d7-4483-4da7-9a46-3435635c183e",
+      "ts": 1793315613988,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Seasoning Soup Pack"
+    },
+    {
+      "id": "f5ca024b-01c4-4dbf-a6d8-25ef7aa33625",
+      "ts": 1793315677132,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Cold Noodles"
+    },
+    {
+      "id": "1ffbacd3-30e2-40d5-ac4c-f66da0b7bd1f",
+      "ts": 1793315698874,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Beef Bones"
     }
   ],
-  "_savedAt": 1792981832328
+  "_savedAt": 1793315699023
 }
