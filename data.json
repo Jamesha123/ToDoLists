@@ -37,6 +37,30 @@
           "createdAt": 1793315698874,
           "category": "protein",
           "qty": null
+        },
+        {
+          "id": "f7cf3355-ce6d-4502-996d-dce1e333e5da",
+          "text": "Hot Dogs",
+          "done": false,
+          "createdAt": 1793315805177,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "395ed2a9-c06c-41bc-8dcf-837eda924850",
+          "text": "Bacon",
+          "done": false,
+          "createdAt": 1793315808361,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "9b04efe7-8064-4a1c-bd15-85c8306a7807",
+          "text": "Hot Dog Buns",
+          "done": false,
+          "createdAt": 1793315822177,
+          "category": "bakery",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -2048,7 +2072,47 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Beef Bones"
+    },
+    {
+      "id": "301f4941-a3bc-4e73-988f-122596758fa3",
+      "ts": 1793315805177,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Hot Dogs"
+    },
+    {
+      "id": "9492d37e-5979-4f4f-b0f3-9df926806f37",
+      "ts": 1793315808361,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Bacon"
+    },
+    {
+      "id": "3c0c656f-c2c3-4dbe-b318-b178ee76a4df",
+      "ts": 1793315822177,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Buns"
+    },
+    {
+      "id": "6b7a3f7a-f5eb-4e03-86f4-c7217cdcdb13",
+      "ts": 1793315832164,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Buns → Hot Dog Buns"
     }
   ],
-  "_savedAt": 1793315699023
+  "_savedAt": 1793315832315
 }
