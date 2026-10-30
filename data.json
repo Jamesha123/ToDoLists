@@ -13,56 +13,7 @@
       "name": "Groceries List",
       "type": "groceries",
       "createdAt": 1782934315138,
-      "items": [
-        {
-          "id": "729b1d40-c107-4058-96a0-f465b1d450d3",
-          "text": "Seasoning Soup Pack",
-          "done": false,
-          "createdAt": 1793315613988,
-          "category": "pantry",
-          "qty": null
-        },
-        {
-          "id": "f76a880d-9d3e-4695-8f3e-aec65b55c6b9",
-          "text": "Cold Noodles",
-          "done": false,
-          "createdAt": 1793315677132,
-          "category": "c-noodles",
-          "qty": null
-        },
-        {
-          "id": "2c9dba45-bd0d-4cba-8377-28eca7b25f30",
-          "text": "Beef Bones",
-          "done": false,
-          "createdAt": 1793315698874,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "f7cf3355-ce6d-4502-996d-dce1e333e5da",
-          "text": "Hot Dogs",
-          "done": false,
-          "createdAt": 1793315805177,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "395ed2a9-c06c-41bc-8dcf-837eda924850",
-          "text": "Bacon",
-          "done": false,
-          "createdAt": 1793315808361,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "9b04efe7-8064-4a1c-bd15-85c8306a7807",
-          "text": "Hot Dog Buns",
-          "done": false,
-          "createdAt": 1793315822177,
-          "category": "bakery",
-          "qty": null
-        }
-      ],
+      "items": [],
       "customCategories": [
         {
           "key": "c-dairy",
@@ -704,6 +655,36 @@
         "name": "Shave Gel",
         "category": "personal",
         "label": "Personal Care"
+      },
+      {
+        "key": "seasoning soup pack",
+        "name": "Seasoning Soup Pack",
+        "category": "pantry",
+        "label": "Pantry"
+      },
+      {
+        "key": "cold noodle",
+        "name": "Cold Noodles",
+        "category": "c-noodles",
+        "label": "Noodles"
+      },
+      {
+        "key": "beef bone",
+        "name": "Beef Bones",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "hot dog",
+        "name": "Hot Dogs",
+        "category": "protein",
+        "label": "Protein"
+      },
+      {
+        "key": "hot dog bun",
+        "name": "Hot Dog Buns",
+        "category": "bakery",
+        "label": "Bakery"
       }
     ]
   },
@@ -2112,7 +2093,77 @@
       "listName": "Groceries List",
       "action": "edit",
       "detail": "Buns → Hot Dog Buns"
+    },
+    {
+      "id": "db9e64b3-fe3f-4f0c-9a2c-7de7e8da08b6",
+      "ts": 1793324370027,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cold Noodles"
+    },
+    {
+      "id": "8647a656-34e4-49e2-accc-8ab15b2cb76e",
+      "ts": 1793324371671,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Bacon"
+    },
+    {
+      "id": "432c97fd-76b8-4bd6-b672-a03f4ec06aa3",
+      "ts": 1793324372865,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Beef Bones"
+    },
+    {
+      "id": "37344f62-6b76-4296-9914-f2e0d4db8f25",
+      "ts": 1793324374841,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Hot Dog Buns"
+    },
+    {
+      "id": "f8dfd4fb-d6d2-4709-a75b-d652df530f8d",
+      "ts": 1793324375243,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Hot Dogs"
+    },
+    {
+      "id": "ecebb0fc-ca51-49a0-8b5c-6c812180a31a",
+      "ts": 1793324376048,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Seasoning Soup Pack"
+    },
+    {
+      "id": "12ba981f-f1f0-4cf1-a12d-c3da0df42ba5",
+      "ts": 1793324376965,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "6 completed"
     }
   ],
-  "_savedAt": 1793315832315
+  "_savedAt": 1793324377116
 }
