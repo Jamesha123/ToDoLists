@@ -13,7 +13,24 @@
       "name": "Groceries List",
       "type": "groceries",
       "createdAt": 1782934315138,
-      "items": [],
+      "items": [
+        {
+          "id": "3edc1068-a3c5-4f8a-835d-1882bc3c65b5",
+          "text": "Rotisserie Chicken",
+          "done": false,
+          "createdAt": 1793662160373,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "388e5d75-8a66-4c67-be30-67f67b3115ef",
+          "text": "Tortillas",
+          "done": false,
+          "createdAt": 1793662166738,
+          "category": "bakery",
+          "qty": null
+        }
+      ],
       "customCategories": [
         {
           "key": "c-dairy",
@@ -1715,286 +1732,6 @@
   ],
   "activity": [
     {
-      "id": "196882a9-53da-4a6a-b6a2-6c4c776ccc2c",
-      "ts": 1792963682596,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearAll",
-      "detail": "8 items"
-    },
-    {
-      "id": "1b1b1a04-9b9d-4505-8acd-069f12a2d9ef",
-      "ts": 1792963692856,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Brocolli"
-    },
-    {
-      "id": "73f180c8-7eb1-47ae-8b52-b10a96de3e90",
-      "ts": 1792963750106,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Taco Meat"
-    },
-    {
-      "id": "dfbfe586-7c9a-4954-bf54-1556b834ea02",
-      "ts": 1792963756966,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Tortillas"
-    },
-    {
-      "id": "a5bb148a-50c0-427b-bc46-7c0ce7eaf6c7",
-      "ts": 1792963763118,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Avocado"
-    },
-    {
-      "id": "0fe1805c-1912-419b-89c6-158401ff2ae6",
-      "ts": 1792963778070,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Cilantro"
-    },
-    {
-      "id": "5f26b825-8e4e-40f1-8c16-20e42f0546e1",
-      "ts": 1792963786489,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Limes"
-    },
-    {
-      "id": "5c051923-9104-45ff-9446-b086b36a6076",
-      "ts": 1792963902006,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Coconut Milk"
-    },
-    {
-      "id": "cae4780f-7ad0-4be7-b696-1507cc5c78f3",
-      "ts": 1792963915448,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Red Curry Paste"
-    },
-    {
-      "id": "24072617-07a7-411c-9aae-5e6fd1cda936",
-      "ts": 1792963941582,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Bokchoy"
-    },
-    {
-      "id": "a946335b-950b-432d-aaed-10b6ba08b6be",
-      "ts": 1792964983253,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Evaporated Milk"
-    },
-    {
-      "id": "93fdcaa2-8e8f-4993-9635-b9305787449f",
-      "ts": 1792964983717,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Condensed Milk"
-    },
-    {
-      "id": "196a10ee-7b78-49dc-9b15-febdb0da8c7b",
-      "ts": 1792965045929,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Milk"
-    },
-    {
-      "id": "014770be-2ab0-45f5-91ff-d7c94bcf3087",
-      "ts": 1792973658371,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Evaporated Milk"
-    },
-    {
-      "id": "ac11c5da-9863-4165-bc95-91bd37c4bfd2",
-      "ts": 1792973658774,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Condensed Milk"
-    },
-    {
-      "id": "34cb539e-6a66-4c99-9f0b-edbbe41a1938",
-      "ts": 1792973857976,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Tortillas"
-    },
-    {
-      "id": "f28c0c51-c461-4919-96f8-4c48e4fbb6ac",
-      "ts": 1792973948040,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Coconut Milk"
-    },
-    {
-      "id": "4cc1bb0d-4359-465b-b973-6235c40ac250",
-      "ts": 1792974154820,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Red Curry Paste"
-    },
-    {
-      "id": "bad85bca-c70e-4e64-9564-47f5dbab9464",
-      "ts": 1792974202653,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Brocolli"
-    },
-    {
-      "id": "aef0f382-a368-4cb3-9357-3c01e0306d0e",
-      "ts": 1792974204673,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Milk"
-    },
-    {
-      "id": "a733f9d5-d769-446c-abab-46e50fbc6038",
-      "ts": 1792974290152,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Taco Meat"
-    },
-    {
-      "id": "c51ad31e-4ff3-4fcc-8b58-7c7ca4d8c401",
-      "ts": 1792974400391,
-      "actorId": "3be9823c-df63-4d3b-bf7b-b0e729fa0f9a",
-      "actorName": "Val",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Avocado"
-    },
-    {
-      "id": "6ee51e7e-792b-4713-8a9b-2c577b9312e0",
-      "ts": 1792981812755,
-      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "9 completed"
-    },
-    {
-      "id": "9707db6d-9fe5-4604-a280-d5b8530dab39",
-      "ts": 1792981816708,
-      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cilantro"
-    },
-    {
-      "id": "08466c04-0669-414c-889e-01ac127cf057",
-      "ts": 1792981817102,
-      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Limes"
-    },
-    {
-      "id": "8bca053d-17c9-4c49-bdca-9b6dc7c09a88",
-      "ts": 1792981817464,
-      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Bokchoy"
-    },
-    {
-      "id": "f6a91057-868a-49fe-a681-17e8ebaab2cd",
-      "ts": 1792981817950,
-      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "3 completed"
-    },
-    {
-      "id": "0d3246aa-88ff-4885-aaf9-26f4a97289c8",
-      "ts": 1792981832178,
-      "actorId": "079416ee-396a-4b27-bd58-4cd554739c54",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Shave Gel"
-    },
-    {
       "id": "f6c57279-1aca-41a9-bb8a-6849e10a64de",
       "ts": 1793315538251,
       "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
@@ -2163,7 +1900,27 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "6 completed"
+    },
+    {
+      "id": "780f6a79-0c29-4565-86e2-eb6e2032d877",
+      "ts": 1793662160373,
+      "actorId": "276e087d-cbd9-4e8d-877e-9ba366edbbde",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Rotisserie Chicken"
+    },
+    {
+      "id": "803ae13b-f61f-4d9e-8175-ce69a2ff11cf",
+      "ts": 1793662166738,
+      "actorId": "276e087d-cbd9-4e8d-877e-9ba366edbbde",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Tortillas"
     }
   ],
-  "_savedAt": 1793324377116
+  "_savedAt": 1793662166889
 }
