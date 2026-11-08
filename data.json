@@ -15,19 +15,27 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "3edc1068-a3c5-4f8a-835d-1882bc3c65b5",
-          "text": "Rotisserie Chicken",
+          "id": "f083db5f-5e3e-4f00-bd3b-f4e5e20f61a4",
+          "text": "Face Wash",
           "done": false,
-          "createdAt": 1793662160373,
-          "category": "protein",
+          "createdAt": 1794178647127,
+          "category": "personal",
           "qty": null
         },
         {
-          "id": "388e5d75-8a66-4c67-be30-67f67b3115ef",
-          "text": "Tortillas",
+          "id": "73ade4e5-5893-482d-8466-ebf410f4d27d",
+          "text": "Toilet Paper",
           "done": false,
-          "createdAt": 1793662166738,
-          "category": "bakery",
+          "createdAt": 1794178656872,
+          "category": "personal",
+          "qty": null
+        },
+        {
+          "id": "001b2341-739c-4950-b907-757d392ad22a",
+          "text": "Salt",
+          "done": false,
+          "createdAt": 1794178715350,
+          "category": "condiments",
           "qty": null
         }
       ],
@@ -1732,176 +1740,6 @@
   ],
   "activity": [
     {
-      "id": "f6c57279-1aca-41a9-bb8a-6849e10a64de",
-      "ts": 1793315538251,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Shave Gel"
-    },
-    {
-      "id": "c6918a86-5239-43e8-8caa-f046ee365f44",
-      "ts": 1793315539117,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "1 completed"
-    },
-    {
-      "id": "3d6870d8-e5f0-49f4-ad93-08c46883af71",
-      "ts": 1793315540346,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "0 completed"
-    },
-    {
-      "id": "2455c1d7-4483-4da7-9a46-3435635c183e",
-      "ts": 1793315613988,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Seasoning Soup Pack"
-    },
-    {
-      "id": "f5ca024b-01c4-4dbf-a6d8-25ef7aa33625",
-      "ts": 1793315677132,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Cold Noodles"
-    },
-    {
-      "id": "1ffbacd3-30e2-40d5-ac4c-f66da0b7bd1f",
-      "ts": 1793315698874,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Beef Bones"
-    },
-    {
-      "id": "301f4941-a3bc-4e73-988f-122596758fa3",
-      "ts": 1793315805177,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Hot Dogs"
-    },
-    {
-      "id": "9492d37e-5979-4f4f-b0f3-9df926806f37",
-      "ts": 1793315808361,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Bacon"
-    },
-    {
-      "id": "3c0c656f-c2c3-4dbe-b318-b178ee76a4df",
-      "ts": 1793315822177,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Buns"
-    },
-    {
-      "id": "6b7a3f7a-f5eb-4e03-86f4-c7217cdcdb13",
-      "ts": 1793315832164,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "edit",
-      "detail": "Buns → Hot Dog Buns"
-    },
-    {
-      "id": "db9e64b3-fe3f-4f0c-9a2c-7de7e8da08b6",
-      "ts": 1793324370027,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Cold Noodles"
-    },
-    {
-      "id": "8647a656-34e4-49e2-accc-8ab15b2cb76e",
-      "ts": 1793324371671,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Bacon"
-    },
-    {
-      "id": "432c97fd-76b8-4bd6-b672-a03f4ec06aa3",
-      "ts": 1793324372865,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Beef Bones"
-    },
-    {
-      "id": "37344f62-6b76-4296-9914-f2e0d4db8f25",
-      "ts": 1793324374841,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Hot Dog Buns"
-    },
-    {
-      "id": "f8dfd4fb-d6d2-4709-a75b-d652df530f8d",
-      "ts": 1793324375243,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Hot Dogs"
-    },
-    {
-      "id": "ecebb0fc-ca51-49a0-8b5c-6c812180a31a",
-      "ts": 1793324376048,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Seasoning Soup Pack"
-    },
-    {
-      "id": "12ba981f-f1f0-4cf1-a12d-c3da0df42ba5",
-      "ts": 1793324376965,
-      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
-      "actorName": "James",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "6 completed"
-    },
-    {
       "id": "780f6a79-0c29-4565-86e2-eb6e2032d877",
       "ts": 1793662160373,
       "actorId": "276e087d-cbd9-4e8d-877e-9ba366edbbde",
@@ -1920,7 +1758,67 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Tortillas"
+    },
+    {
+      "id": "940e662b-a9d2-4a3b-a738-00c5b0bd94fd",
+      "ts": 1794178638883,
+      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tortillas"
+    },
+    {
+      "id": "0ac4d651-a1f5-46b3-8d1b-16af0e01cf6d",
+      "ts": 1794178639445,
+      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Rotisserie Chicken"
+    },
+    {
+      "id": "18c44e4c-4b78-43d1-a8ab-1ed0c147619c",
+      "ts": 1794178640583,
+      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "2 completed"
+    },
+    {
+      "id": "28dc884c-6bd5-4cae-8449-62ce09a9514c",
+      "ts": 1794178647127,
+      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Face Wash"
+    },
+    {
+      "id": "4e84b354-ad5a-483a-a978-9f082150cf3f",
+      "ts": 1794178656872,
+      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Toilet Paper"
+    },
+    {
+      "id": "26732c2f-4fc1-4d99-ab10-a5d1a4611f53",
+      "ts": 1794178715350,
+      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Salt"
     }
   ],
-  "_savedAt": 1793662166889
+  "_savedAt": 1794178715500
 }
