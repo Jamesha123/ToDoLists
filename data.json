@@ -69,6 +69,14 @@
           "createdAt": 1794266095066,
           "category": "produce",
           "qty": null
+        },
+        {
+          "id": "162edf7a-18a4-49a2-be47-ec9b8beec020",
+          "text": "Contact Case",
+          "done": false,
+          "createdAt": 1794266772173,
+          "category": "personal",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1946,7 +1954,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Fruits"
+    },
+    {
+      "id": "d862bb3d-08f0-4fbe-87a4-b23000e1facc",
+      "ts": 1794266772173,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Contact Case"
     }
   ],
-  "_savedAt": 1794266095217
+  "_savedAt": 1794266772324
 }
