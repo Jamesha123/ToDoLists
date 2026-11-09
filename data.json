@@ -37,6 +37,22 @@
           "createdAt": 1794265279283,
           "category": "produce",
           "qty": null
+        },
+        {
+          "id": "c79a3b7a-1cbd-49e5-811f-4b8a86bbfc45",
+          "text": "Carrots",
+          "done": false,
+          "createdAt": 1794265774950,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "e393520f-361b-4558-b693-76f34a5d2f4f",
+          "text": "Squash",
+          "done": false,
+          "createdAt": 1794265849631,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1874,7 +1890,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Bokchoy"
+    },
+    {
+      "id": "47f15ee3-6751-42b3-9ada-a0686c36d8f5",
+      "ts": 1794265774950,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Carrots"
+    },
+    {
+      "id": "2ae3d2d3-bc76-4897-93ab-afe4c6b774f7",
+      "ts": 1794265849631,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Squash"
     }
   ],
-  "_savedAt": 1794265279433
+  "_savedAt": 1794265849781
 }
