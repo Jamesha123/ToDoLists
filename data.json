@@ -21,6 +21,22 @@
           "createdAt": 1794178715350,
           "category": "condiments",
           "qty": null
+        },
+        {
+          "id": "2111fc9f-76f5-4e35-9ed2-e13adc60c54e",
+          "text": "Wonton",
+          "done": false,
+          "createdAt": 1794265267453,
+          "category": "c-frozen",
+          "qty": null
+        },
+        {
+          "id": "3ca20be0-eccb-4330-9c89-9fdd1f1d44bd",
+          "text": "Bokchoy",
+          "done": false,
+          "createdAt": 1794265279283,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1838,7 +1854,27 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "2 completed"
+    },
+    {
+      "id": "e74adf3e-ab49-479e-bb58-111f91377287",
+      "ts": 1794265267453,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Wonton"
+    },
+    {
+      "id": "b91120de-1ed7-4065-bc29-93be6db11681",
+      "ts": 1794265279283,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Bokchoy"
     }
   ],
-  "_savedAt": 1794190787890
+  "_savedAt": 1794265279433
 }
