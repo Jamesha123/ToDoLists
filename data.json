@@ -53,6 +53,22 @@
           "createdAt": 1794265849631,
           "category": "produce",
           "qty": null
+        },
+        {
+          "id": "7a2855c0-3d76-49bf-b4db-1f3c81cabc29",
+          "text": "Little Bottles",
+          "done": false,
+          "createdAt": 1794266037461,
+          "category": "misc",
+          "qty": null
+        },
+        {
+          "id": "2ef64ebb-11d7-469a-b076-04bbed152871",
+          "text": "Fruits",
+          "done": false,
+          "createdAt": 1794266095066,
+          "category": "produce",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -1910,7 +1926,27 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Squash"
+    },
+    {
+      "id": "8b4a4fd4-7632-4e8f-9c4b-3a9bfea3cd23",
+      "ts": 1794266037461,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Little Bottles"
+    },
+    {
+      "id": "a3e42c18-59dd-41c9-b1a3-54185cfcf3c6",
+      "ts": 1794266095066,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Fruits"
     }
   ],
-  "_savedAt": 1794265849781
+  "_savedAt": 1794266095217
 }
