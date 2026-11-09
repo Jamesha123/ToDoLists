@@ -15,22 +15,6 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "f083db5f-5e3e-4f00-bd3b-f4e5e20f61a4",
-          "text": "Face Wash",
-          "done": false,
-          "createdAt": 1794178647127,
-          "category": "personal",
-          "qty": null
-        },
-        {
-          "id": "73ade4e5-5893-482d-8466-ebf410f4d27d",
-          "text": "Toilet Paper",
-          "done": false,
-          "createdAt": 1794178656872,
-          "category": "personal",
-          "qty": null
-        },
-        {
           "id": "001b2341-739c-4950-b907-757d392ad22a",
           "text": "Salt",
           "done": false,
@@ -710,6 +694,12 @@
         "name": "Hot Dog Buns",
         "category": "bakery",
         "label": "Bakery"
+      },
+      {
+        "key": "toilet paper",
+        "name": "Toilet Paper",
+        "category": "personal",
+        "label": "Personal Care"
       }
     ]
   },
@@ -1818,7 +1808,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Salt"
+    },
+    {
+      "id": "a863f5b1-a884-4356-ba06-4283e7a85a65",
+      "ts": 1794190785515,
+      "actorId": "f7d560d1-6a75-4538-92c5-1c0338d87561",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Toilet Paper"
+    },
+    {
+      "id": "57107302-b44e-43c7-88b9-5457806b943a",
+      "ts": 1794190785990,
+      "actorId": "f7d560d1-6a75-4538-92c5-1c0338d87561",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Face Wash"
+    },
+    {
+      "id": "4cbd71dd-7e8a-48db-9d03-699529e3322c",
+      "ts": 1794190787740,
+      "actorId": "f7d560d1-6a75-4538-92c5-1c0338d87561",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "2 completed"
     }
   ],
-  "_savedAt": 1794178715500
+  "_savedAt": 1794190787890
 }
