@@ -77,6 +77,17 @@
           "createdAt": 1794266772173,
           "category": "personal",
           "qty": null
+        },
+        {
+          "id": "5facceed-618b-4b86-a77f-271b8f7079a4",
+          "text": "Tomato Sauce",
+          "done": false,
+          "createdAt": 1794267193977,
+          "category": "pantry",
+          "qty": {
+            "amount": 5,
+            "unit": "each"
+          }
         }
       ],
       "customCategories": [
@@ -1786,26 +1797,6 @@
   ],
   "activity": [
     {
-      "id": "780f6a79-0c29-4565-86e2-eb6e2032d877",
-      "ts": 1793662160373,
-      "actorId": "276e087d-cbd9-4e8d-877e-9ba366edbbde",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Rotisserie Chicken"
-    },
-    {
-      "id": "803ae13b-f61f-4d9e-8175-ce69a2ff11cf",
-      "ts": 1793662166738,
-      "actorId": "276e087d-cbd9-4e8d-877e-9ba366edbbde",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Tortillas"
-    },
-    {
       "id": "940e662b-a9d2-4a3b-a738-00c5b0bd94fd",
       "ts": 1794178638883,
       "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
@@ -1964,7 +1955,37 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Contact Case"
+    },
+    {
+      "id": "1771ec5b-2edf-4e73-b183-a5eac891de74",
+      "ts": 1794267193977,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Tomato Sauce"
+    },
+    {
+      "id": "167bde05-20fa-4037-a512-e16654b3e08e",
+      "ts": 1794267203861,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Tomato Sauce"
+    },
+    {
+      "id": "e704014b-5e68-4444-9e97-2fb90a6a7320",
+      "ts": 1794267211928,
+      "actorId": "00c4af90-8913-4238-9408-663259f13b67",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Tomato Sauce"
     }
   ],
-  "_savedAt": 1794266772324
+  "_savedAt": 1794267212078
 }
