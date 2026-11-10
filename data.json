@@ -81,7 +81,7 @@
         {
           "id": "5facceed-618b-4b86-a77f-271b8f7079a4",
           "text": "Tomato Sauce",
-          "done": false,
+          "done": true,
           "createdAt": 1794267193977,
           "category": "pantry",
           "qty": {
@@ -2025,7 +2025,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Fruits"
+    },
+    {
+      "id": "41590207-1831-49df-841a-bf2674c50693",
+      "ts": 1794271141286,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Tomato Sauce"
     }
   ],
-  "_savedAt": 1794270854657
+  "_savedAt": 1794271141436
 }
