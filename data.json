@@ -33,7 +33,7 @@
         {
           "id": "3ca20be0-eccb-4330-9c89-9fdd1f1d44bd",
           "text": "Bokchoy",
-          "done": false,
+          "done": true,
           "createdAt": 1794265279283,
           "category": "produce",
           "qty": null
@@ -65,7 +65,7 @@
         {
           "id": "2ef64ebb-11d7-469a-b076-04bbed152871",
           "text": "Fruits",
-          "done": false,
+          "done": true,
           "createdAt": 1794266095066,
           "category": "produce",
           "qty": null
@@ -2005,7 +2005,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Carrots"
+    },
+    {
+      "id": "189609c8-f496-4433-83a0-f1de69d48918",
+      "ts": 1794270765779,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Bokchoy"
+    },
+    {
+      "id": "02d4878c-ab92-4c26-bce3-1933a45fa6b7",
+      "ts": 1794270854507,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Fruits"
     }
   ],
-  "_savedAt": 1794270626087
+  "_savedAt": 1794270854657
 }
