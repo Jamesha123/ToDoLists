@@ -41,7 +41,7 @@
         {
           "id": "c79a3b7a-1cbd-49e5-811f-4b8a86bbfc45",
           "text": "Carrots",
-          "done": false,
+          "done": true,
           "createdAt": 1794265774950,
           "category": "produce",
           "qty": null
@@ -49,7 +49,7 @@
         {
           "id": "e393520f-361b-4558-b693-76f34a5d2f4f",
           "text": "Squash",
-          "done": false,
+          "done": true,
           "createdAt": 1794265849631,
           "category": "produce",
           "qty": null
@@ -1985,7 +1985,27 @@
       "listName": "Groceries List",
       "action": "edit",
       "detail": "Tomato Sauce"
+    },
+    {
+      "id": "a8003131-e1b9-4cc0-87df-6eef10ae33ee",
+      "ts": 1794270624817,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Squash"
+    },
+    {
+      "id": "84f87571-1f11-4246-b73b-225c06dc1ed1",
+      "ts": 1794270625937,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Carrots"
     }
   ],
-  "_savedAt": 1794267212078
+  "_savedAt": 1794270626087
 }
