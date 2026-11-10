@@ -31,30 +31,6 @@
           "qty": null
         },
         {
-          "id": "3ca20be0-eccb-4330-9c89-9fdd1f1d44bd",
-          "text": "Bokchoy",
-          "done": true,
-          "createdAt": 1794265279283,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "c79a3b7a-1cbd-49e5-811f-4b8a86bbfc45",
-          "text": "Carrots",
-          "done": true,
-          "createdAt": 1794265774950,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "e393520f-361b-4558-b693-76f34a5d2f4f",
-          "text": "Squash",
-          "done": true,
-          "createdAt": 1794265849631,
-          "category": "produce",
-          "qty": null
-        },
-        {
           "id": "7a2855c0-3d76-49bf-b4db-1f3c81cabc29",
           "text": "Little Bottles",
           "done": false,
@@ -63,31 +39,12 @@
           "qty": null
         },
         {
-          "id": "2ef64ebb-11d7-469a-b076-04bbed152871",
-          "text": "Fruits",
-          "done": true,
-          "createdAt": 1794266095066,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "162edf7a-18a4-49a2-be47-ec9b8beec020",
-          "text": "Contact Case",
+          "id": "f1519d5e-09ec-4fd4-898c-6415b8f2dd88",
+          "text": "Face Wash",
           "done": false,
-          "createdAt": 1794266772173,
+          "createdAt": 1794273901771,
           "category": "personal",
           "qty": null
-        },
-        {
-          "id": "5facceed-618b-4b86-a77f-271b8f7079a4",
-          "text": "Tomato Sauce",
-          "done": true,
-          "createdAt": 1794267193977,
-          "category": "pantry",
-          "qty": {
-            "amount": 5,
-            "unit": "each"
-          }
         }
       ],
       "customCategories": [
@@ -767,6 +724,24 @@
         "name": "Toilet Paper",
         "category": "personal",
         "label": "Personal Care"
+      },
+      {
+        "key": "squash",
+        "name": "Squash",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "fruit",
+        "name": "Fruits",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "tomato sauce",
+        "name": "Tomato Sauce",
+        "category": "pantry",
+        "label": "Pantry"
       }
     ]
   },
@@ -2035,7 +2010,37 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Tomato Sauce"
+    },
+    {
+      "id": "9ae5a681-83a2-49fd-be1d-1757a6c9a0fc",
+      "ts": 1794273886471,
+      "actorId": "ea80d3fe-3065-43fc-9dc0-b15c279cc274",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "5 completed"
+    },
+    {
+      "id": "03a5d50e-0133-4a42-8985-c31166d106ee",
+      "ts": 1794273888969,
+      "actorId": "ea80d3fe-3065-43fc-9dc0-b15c279cc274",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Contact Case"
+    },
+    {
+      "id": "4086c9ab-c4c9-4345-96ce-1712139448d3",
+      "ts": 1794273901771,
+      "actorId": "ea80d3fe-3065-43fc-9dc0-b15c279cc274",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Face Wash"
     }
   ],
-  "_savedAt": 1794271141436
+  "_savedAt": 1794273901921
 }
