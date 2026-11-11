@@ -39,11 +39,19 @@
           "qty": null
         },
         {
-          "id": "f1519d5e-09ec-4fd4-898c-6415b8f2dd88",
-          "text": "Face Wash",
+          "id": "749d86e0-ac83-40fc-9960-2f87952b9cdd",
+          "text": "Wreath Hanger",
           "done": false,
-          "createdAt": 1794273901771,
-          "category": "personal",
+          "createdAt": 1794368621575,
+          "category": "misc",
+          "qty": null
+        },
+        {
+          "id": "90eec687-6df9-40cc-9fcd-c72de2fd286d",
+          "text": "Back Door Hanger",
+          "done": false,
+          "createdAt": 1794368635064,
+          "category": "misc",
           "qty": null
         }
       ],
@@ -2040,7 +2048,47 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Face Wash"
+    },
+    {
+      "id": "5c87669e-b6c4-4c5a-8e30-b3c502d888f8",
+      "ts": 1794368601129,
+      "actorId": "3d906a37-3d0d-4cfb-ba0f-145f3e3ae6f6",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Face Wash"
+    },
+    {
+      "id": "200070fd-c860-4e53-9ace-3d19a464b43e",
+      "ts": 1794368603744,
+      "actorId": "3d906a37-3d0d-4cfb-ba0f-145f3e3ae6f6",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "delete",
+      "detail": "Face Wash"
+    },
+    {
+      "id": "2d608f07-7a02-44e7-aa9e-5f8ee1b4e6af",
+      "ts": 1794368621575,
+      "actorId": "3d906a37-3d0d-4cfb-ba0f-145f3e3ae6f6",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Wreath Hanger"
+    },
+    {
+      "id": "e0f3adc4-5f6e-446f-a524-d51fe1874476",
+      "ts": 1794368635064,
+      "actorId": "3d906a37-3d0d-4cfb-ba0f-145f3e3ae6f6",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Back Door Hanger"
     }
   ],
-  "_savedAt": 1794273901921
+  "_savedAt": 1794368635214
 }
