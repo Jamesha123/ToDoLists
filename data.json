@@ -77,6 +77,14 @@
           "createdAt": 1794368758368,
           "category": "misc",
           "qty": null
+        },
+        {
+          "id": "b687b738-dbb7-4432-b9fd-94edc5ee9f7d",
+          "text": "Diet Coke",
+          "done": false,
+          "createdAt": 1794494417872,
+          "category": "beverages",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -2142,7 +2150,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Body Loofas  Casa Kevins"
+    },
+    {
+      "id": "762269d6-d0a0-46be-acbd-beed133611d1",
+      "ts": 1794494417872,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Diet Coke"
     }
   ],
-  "_savedAt": 1794368758519
+  "_savedAt": 1794494418022
 }
