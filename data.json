@@ -85,6 +85,14 @@
           "createdAt": 1794494417872,
           "category": "beverages",
           "qty": null
+        },
+        {
+          "id": "eee350e4-e2b3-43e1-99ca-631bc6c727ee",
+          "text": "Hoisin Sauce",
+          "done": false,
+          "createdAt": 1794708299653,
+          "category": "condiments",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -2160,7 +2168,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Diet Coke"
+    },
+    {
+      "id": "8236301e-a508-4444-b4af-6db12debc224",
+      "ts": 1794708299653,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Hoisin Sauce"
     }
   ],
-  "_savedAt": 1794494418022
+  "_savedAt": 1794708299804
 }
