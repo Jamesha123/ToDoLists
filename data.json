@@ -17,7 +17,7 @@
         {
           "id": "001b2341-739c-4950-b907-757d392ad22a",
           "text": "Salt",
-          "done": false,
+          "done": true,
           "createdAt": 1794178715350,
           "category": "condiments",
           "qty": null
@@ -25,7 +25,7 @@
         {
           "id": "2111fc9f-76f5-4e35-9ed2-e13adc60c54e",
           "text": "Wonton",
-          "done": false,
+          "done": true,
           "createdAt": 1794265267453,
           "category": "c-frozen",
           "qty": null
@@ -33,7 +33,7 @@
         {
           "id": "7a2855c0-3d76-49bf-b4db-1f3c81cabc29",
           "text": "Little Bottles",
-          "done": false,
+          "done": true,
           "createdAt": 1794266037461,
           "category": "misc",
           "qty": null
@@ -49,7 +49,7 @@
         {
           "id": "90eec687-6df9-40cc-9fcd-c72de2fd286d",
           "text": "Back Door Hanger",
-          "done": false,
+          "done": true,
           "createdAt": 1794368635064,
           "category": "misc",
           "qty": null
@@ -2188,7 +2188,47 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Wreath Hanger"
+    },
+    {
+      "id": "b1d57478-f8c3-45d7-bbc9-89f5e576bb5c",
+      "ts": 1794770565578,
+      "actorId": "853a110b-7cab-4363-b8d5-734d3d80c780",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Wonton"
+    },
+    {
+      "id": "efb4e5db-7a07-4db6-ab82-cf6b677caf0b",
+      "ts": 1794770566210,
+      "actorId": "853a110b-7cab-4363-b8d5-734d3d80c780",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Back Door Hanger"
+    },
+    {
+      "id": "e810d14d-bb88-4454-afeb-fb7c627cb68b",
+      "ts": 1794770566307,
+      "actorId": "853a110b-7cab-4363-b8d5-734d3d80c780",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Little Bottles"
+    },
+    {
+      "id": "3559c330-e858-4dba-8eb2-3b10d3360447",
+      "ts": 1794770581495,
+      "actorId": "853a110b-7cab-4363-b8d5-734d3d80c780",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Salt"
     }
   ],
-  "_savedAt": 1794768605970
+  "_savedAt": 1794770581646
 }
