@@ -41,7 +41,7 @@
         {
           "id": "749d86e0-ac83-40fc-9960-2f87952b9cdd",
           "text": "Wreath Hanger",
-          "done": false,
+          "done": true,
           "createdAt": 1794368621575,
           "category": "misc",
           "qty": null
@@ -2178,7 +2178,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Hoisin Sauce"
+    },
+    {
+      "id": "82653891-1146-481a-98b4-170ea8fd214a",
+      "ts": 1794768605819,
+      "actorId": "853a110b-7cab-4363-b8d5-734d3d80c780",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Wreath Hanger"
     }
   ],
-  "_savedAt": 1794708299804
+  "_savedAt": 1794768605970
 }
