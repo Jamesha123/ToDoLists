@@ -15,46 +15,6 @@
       "createdAt": 1782934315138,
       "items": [
         {
-          "id": "001b2341-739c-4950-b907-757d392ad22a",
-          "text": "Salt",
-          "done": true,
-          "createdAt": 1794178715350,
-          "category": "condiments",
-          "qty": null
-        },
-        {
-          "id": "2111fc9f-76f5-4e35-9ed2-e13adc60c54e",
-          "text": "Wonton",
-          "done": true,
-          "createdAt": 1794265267453,
-          "category": "c-frozen",
-          "qty": null
-        },
-        {
-          "id": "7a2855c0-3d76-49bf-b4db-1f3c81cabc29",
-          "text": "Little Bottles",
-          "done": true,
-          "createdAt": 1794266037461,
-          "category": "misc",
-          "qty": null
-        },
-        {
-          "id": "749d86e0-ac83-40fc-9960-2f87952b9cdd",
-          "text": "Wreath Hanger",
-          "done": true,
-          "createdAt": 1794368621575,
-          "category": "misc",
-          "qty": null
-        },
-        {
-          "id": "90eec687-6df9-40cc-9fcd-c72de2fd286d",
-          "text": "Back Door Hanger",
-          "done": true,
-          "createdAt": 1794368635064,
-          "category": "misc",
-          "qty": null
-        },
-        {
           "id": "ad1b7548-f710-4d04-b75a-71993094817e",
           "text": "Wreath Decorations Casa Kevin",
           "done": false,
@@ -91,6 +51,14 @@
           "text": "Hoisin Sauce",
           "done": false,
           "createdAt": 1794708299653,
+          "category": "condiments",
+          "qty": null
+        },
+        {
+          "id": "acf5b33e-d9c1-4eba-b23c-e82af78c91eb",
+          "text": "White Vinegar",
+          "done": false,
+          "createdAt": 1794790108366,
           "category": "condiments",
           "qty": null
         }
@@ -790,6 +758,36 @@
         "name": "Tomato Sauce",
         "category": "pantry",
         "label": "Pantry"
+      },
+      {
+        "key": "salt",
+        "name": "Salt",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
+      },
+      {
+        "key": "wonton",
+        "name": "Wonton",
+        "category": "c-frozen",
+        "label": "Frozen"
+      },
+      {
+        "key": "little bottle",
+        "name": "Little Bottles",
+        "category": "misc",
+        "label": "Miscellaneous"
+      },
+      {
+        "key": "wreath hanger",
+        "name": "Wreath Hanger",
+        "category": "misc",
+        "label": "Miscellaneous"
+      },
+      {
+        "key": "back door hanger",
+        "name": "Back Door Hanger",
+        "category": "misc",
+        "label": "Miscellaneous"
       }
     ]
   },
@@ -1820,66 +1818,6 @@
   ],
   "activity": [
     {
-      "id": "940e662b-a9d2-4a3b-a738-00c5b0bd94fd",
-      "ts": 1794178638883,
-      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Tortillas"
-    },
-    {
-      "id": "0ac4d651-a1f5-46b3-8d1b-16af0e01cf6d",
-      "ts": 1794178639445,
-      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "check",
-      "detail": "Rotisserie Chicken"
-    },
-    {
-      "id": "18c44e4c-4b78-43d1-a8ab-1ed0c147619c",
-      "ts": 1794178640583,
-      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "clearDone",
-      "detail": "2 completed"
-    },
-    {
-      "id": "28dc884c-6bd5-4cae-8449-62ce09a9514c",
-      "ts": 1794178647127,
-      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Face Wash"
-    },
-    {
-      "id": "4e84b354-ad5a-483a-a978-9f082150cf3f",
-      "ts": 1794178656872,
-      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Toilet Paper"
-    },
-    {
-      "id": "26732c2f-4fc1-4d99-ab10-a5d1a4611f53",
-      "ts": 1794178715350,
-      "actorId": "e195b911-07d2-4068-9c22-1f4fb3ee240e",
-      "actorName": "Guest",
-      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
-      "listName": "Groceries List",
-      "action": "add",
-      "detail": "Salt"
-    },
-    {
       "id": "a863f5b1-a884-4356-ba06-4283e7a85a65",
       "ts": 1794190785515,
       "actorId": "f7d560d1-6a75-4538-92c5-1c0338d87561",
@@ -2228,7 +2166,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Salt"
+    },
+    {
+      "id": "f9908c7b-35e3-40a2-a93d-bc6d580f7845",
+      "ts": 1794790079015,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "5 completed"
+    },
+    {
+      "id": "5422ee3c-1087-4877-9aa2-316757f0ac01",
+      "ts": 1794790108366,
+      "actorId": "f3c33bde-01ab-4719-963e-f2ef71c2c997",
+      "actorName": "James",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "White Vinegar"
     }
   ],
-  "_savedAt": 1794770581646
+  "_savedAt": 1794790108516
 }
