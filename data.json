@@ -85,6 +85,86 @@
           "createdAt": 1794955893597,
           "category": "protein",
           "qty": null
+        },
+        {
+          "id": "73e74b45-f321-4750-9e33-3594864efc6b",
+          "text": "Pizza Sams",
+          "done": false,
+          "createdAt": 1794957060851,
+          "category": "c-frozen",
+          "qty": null
+        },
+        {
+          "id": "72baa0d6-5ada-4d8b-b341-feb6bd03dbf7",
+          "text": "Wings",
+          "done": false,
+          "createdAt": 1794957066936,
+          "category": "c-frozen",
+          "qty": null
+        },
+        {
+          "id": "0fb84146-b94c-457e-9972-940a4bb765d2",
+          "text": "Pork Belly Sams",
+          "done": false,
+          "createdAt": 1794957084837,
+          "category": "c-frozen",
+          "qty": null
+        },
+        {
+          "id": "e744f5dd-d1ce-445a-a350-a6f465f242e6",
+          "text": "Lettucs",
+          "done": false,
+          "createdAt": 1794957099690,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "f50ce5ff-12be-4aea-86fb-857187a5abea",
+          "text": "Eggs-Sams",
+          "done": false,
+          "createdAt": 1794957113805,
+          "category": "produce",
+          "qty": null
+        },
+        {
+          "id": "214d9623-e21c-478b-91ce-3038318693cb",
+          "text": "Bacon",
+          "done": false,
+          "createdAt": 1794957125841,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "060b1153-aa1a-4214-9b95-8bdbf044235c",
+          "text": "Hot Dogs",
+          "done": false,
+          "createdAt": 1794957170664,
+          "category": "protein",
+          "qty": null
+        },
+        {
+          "id": "bba2633b-7fbb-407d-968b-611c8c4bb7fe",
+          "text": "Hot Dog Buns",
+          "done": false,
+          "createdAt": 1794957178301,
+          "category": "bakery",
+          "qty": null
+        },
+        {
+          "id": "91c55d45-3a53-4bd5-8c09-ea4b99273462",
+          "text": "Lays",
+          "done": false,
+          "createdAt": 1794957185418,
+          "category": "snacks",
+          "qty": null
+        },
+        {
+          "id": "862900ac-db32-40ed-84cf-88a9bed7811a",
+          "text": "Chips Val",
+          "done": false,
+          "createdAt": 1794957189186,
+          "category": "snacks",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -2020,7 +2100,117 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "2 items (Brussels Sprouts, Steak)"
+    },
+    {
+      "id": "1f3de232-b1f4-4c24-aee9-ccaa90c1e4f6",
+      "ts": 1794957060852,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Pizza  Sams"
+    },
+    {
+      "id": "94f943dc-d1eb-48fe-b3c4-8c777ccb4cf6",
+      "ts": 1794957066936,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Wings "
+    },
+    {
+      "id": "dc409f05-fac8-4876-9c30-223bd2c1b4bc",
+      "ts": 1794957084837,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Pork Belly Sams"
+    },
+    {
+      "id": "08bcb50e-59dc-4e65-8e82-13e40d810ce1",
+      "ts": 1794957099690,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Lettucs"
+    },
+    {
+      "id": "1291a0ef-12c7-4640-b8d4-a12763d861c5",
+      "ts": 1794957113805,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Eggs"
+    },
+    {
+      "id": "603b9490-f01c-49b2-9afd-b2987464fd8c",
+      "ts": 1794957125841,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Bacon"
+    },
+    {
+      "id": "ce6b3660-4921-4577-831c-dae0781024e0",
+      "ts": 1794957170664,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Hot Dogs"
+    },
+    {
+      "id": "2bce303b-438c-4081-b387-065115d43f17",
+      "ts": 1794957178301,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Hot Dog Buns"
+    },
+    {
+      "id": "d63491f6-fccb-4184-b3f2-375b66c4855f",
+      "ts": 1794957185418,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Lays"
+    },
+    {
+      "id": "5caf90d7-67dd-4bc4-ab95-c06d9dc794bf",
+      "ts": 1794957189186,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Chips Val"
+    },
+    {
+      "id": "3032809a-d035-48f0-a204-d1bb027d522b",
+      "ts": 1794957203379,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "edit",
+      "detail": "Eggs → Eggs-Sams"
     }
   ],
-  "_savedAt": 1794955893748
+  "_savedAt": 1794957203530
 }
