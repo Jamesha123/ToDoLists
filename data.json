@@ -81,7 +81,7 @@
         {
           "id": "e1f40086-27eb-40bc-b09f-73be18187678",
           "text": "Steak",
-          "done": false,
+          "done": true,
           "createdAt": 1794955893597,
           "category": "protein",
           "qty": null
@@ -2228,7 +2228,17 @@
       "listName": "Groceries List",
       "action": "add",
       "detail": "Water"
+    },
+    {
+      "id": "be5d33f8-c2ba-4d35-954d-cc4fe08012d6",
+      "ts": 1794962275685,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Steak"
     }
   ],
-  "_savedAt": 1794961699331
+  "_savedAt": 1794962275836
 }
