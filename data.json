@@ -73,17 +73,9 @@
         {
           "id": "ca63e21f-f033-4d06-800b-2ba8bf9fe564",
           "text": "Brussels Sprouts",
-          "done": false,
-          "createdAt": 1794955893597,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "e1f40086-27eb-40bc-b09f-73be18187678",
-          "text": "Steak",
           "done": true,
           "createdAt": 1794955893597,
-          "category": "protein",
+          "category": "produce",
           "qty": null
         },
         {
@@ -99,14 +91,6 @@
           "text": "Wings",
           "done": false,
           "createdAt": 1794957066936,
-          "category": "c-frozen",
-          "qty": null
-        },
-        {
-          "id": "0fb84146-b94c-457e-9972-940a4bb765d2",
-          "text": "Pork Belly Sams",
-          "done": false,
-          "createdAt": 1794957084837,
           "category": "c-frozen",
           "qty": null
         },
@@ -148,22 +132,6 @@
           "done": false,
           "createdAt": 1794957178301,
           "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "91c55d45-3a53-4bd5-8c09-ea4b99273462",
-          "text": "Lays",
-          "done": false,
-          "createdAt": 1794957185418,
-          "category": "snacks",
-          "qty": null
-        },
-        {
-          "id": "862900ac-db32-40ed-84cf-88a9bed7811a",
-          "text": "Chips Val",
-          "done": false,
-          "createdAt": 1794957189186,
-          "category": "snacks",
           "qty": null
         },
         {
@@ -900,6 +868,24 @@
         "name": "Back Door Hanger",
         "category": "misc",
         "label": "Miscellaneous"
+      },
+      {
+        "key": "pork belly sam",
+        "name": "Pork Belly Sams",
+        "category": "c-frozen",
+        "label": "Frozen"
+      },
+      {
+        "key": "lay",
+        "name": "Lays",
+        "category": "snacks",
+        "label": "Snacks"
+      },
+      {
+        "key": "chips val",
+        "name": "Chips Val",
+        "category": "snacks",
+        "label": "Snacks"
       }
     ]
   },
@@ -2238,7 +2224,67 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Steak"
+    },
+    {
+      "id": "d6c314cf-ad05-4b70-b809-2b44f26b8061",
+      "ts": 1794962454708,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Pork Belly Sams"
+    },
+    {
+      "id": "04d98d72-b1db-4914-8e29-db0f7b92d86d",
+      "ts": 1794962461104,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "2 completed"
+    },
+    {
+      "id": "38369609-c4c3-4f9d-b53c-360fca7603aa",
+      "ts": 1794962466550,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Chips Val"
+    },
+    {
+      "id": "81d8b6d0-6cae-4e11-94b9-c0eec2b3effd",
+      "ts": 1794962467785,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Lays"
+    },
+    {
+      "id": "bcc4306c-a45e-4be6-8d72-5f65e1ec654f",
+      "ts": 1794962471591,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "2 completed"
+    },
+    {
+      "id": "9ee07107-f81b-489f-8c7d-50ec0ffc6962",
+      "ts": 1794962535008,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Brussels Sprouts"
     }
   ],
-  "_savedAt": 1794962275836
+  "_savedAt": 1794962535157
 }
