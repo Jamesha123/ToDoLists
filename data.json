@@ -71,22 +71,6 @@
           "qty": null
         },
         {
-          "id": "ca63e21f-f033-4d06-800b-2ba8bf9fe564",
-          "text": "Brussels Sprouts",
-          "done": true,
-          "createdAt": 1794955893597,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "73e74b45-f321-4750-9e33-3594864efc6b",
-          "text": "Pizza Sams",
-          "done": false,
-          "createdAt": 1794957060851,
-          "category": "c-frozen",
-          "qty": null
-        },
-        {
           "id": "72baa0d6-5ada-4d8b-b341-feb6bd03dbf7",
           "text": "Wings",
           "done": false,
@@ -95,51 +79,11 @@
           "qty": null
         },
         {
-          "id": "e744f5dd-d1ce-445a-a350-a6f465f242e6",
-          "text": "Lettucs",
-          "done": false,
-          "createdAt": 1794957099690,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "f50ce5ff-12be-4aea-86fb-857187a5abea",
-          "text": "Eggs-Sams",
-          "done": true,
-          "createdAt": 1794957113805,
-          "category": "produce",
-          "qty": null
-        },
-        {
-          "id": "214d9623-e21c-478b-91ce-3038318693cb",
-          "text": "Bacon",
-          "done": false,
-          "createdAt": 1794957125841,
-          "category": "protein",
-          "qty": null
-        },
-        {
-          "id": "060b1153-aa1a-4214-9b95-8bdbf044235c",
-          "text": "Hot Dogs",
-          "done": true,
-          "createdAt": 1794957170664,
-          "category": "protein",
-          "qty": null
-        },
-        {
           "id": "bba2633b-7fbb-407d-968b-611c8c4bb7fe",
           "text": "Hot Dog Buns",
           "done": false,
           "createdAt": 1794957178301,
           "category": "bakery",
-          "qty": null
-        },
-        {
-          "id": "138800fe-88bb-4935-9d65-42c4e4b27b70",
-          "text": "Water",
-          "done": false,
-          "createdAt": 1794961699181,
-          "category": "beverages",
           "qty": null
         }
       ],
@@ -886,6 +830,30 @@
         "name": "Chips Val",
         "category": "snacks",
         "label": "Snacks"
+      },
+      {
+        "key": "pizza sam",
+        "name": "Pizza Sams",
+        "category": "c-frozen",
+        "label": "Frozen"
+      },
+      {
+        "key": "eggs-sam",
+        "name": "Eggs-Sams",
+        "category": "produce",
+        "label": "Produce"
+      },
+      {
+        "key": "water",
+        "name": "Water",
+        "category": "beverages",
+        "label": "Beverages"
+      },
+      {
+        "key": "lettuc",
+        "name": "Lettucs",
+        "category": "produce",
+        "label": "Produce"
       }
     ]
   },
@@ -2304,7 +2272,67 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Hot Dogs"
+    },
+    {
+      "id": "c1aec108-1913-44d0-90d4-f7686badbf02",
+      "ts": 1794963249837,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Bacon"
+    },
+    {
+      "id": "1c84e6b7-6610-48ac-90d4-ba6780600a14",
+      "ts": 1794963252197,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Water"
+    },
+    {
+      "id": "78488a4e-4dd2-49bd-84be-5d1fa4195ce9",
+      "ts": 1794963253915,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Pizza Sams"
+    },
+    {
+      "id": "7cf8eb4a-e1c1-4d55-9d4c-eb2cbda4204a",
+      "ts": 1794963256867,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "6 completed"
+    },
+    {
+      "id": "d8b22a65-6900-4d7e-8deb-a0bf9fb9e720",
+      "ts": 1794963259342,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Lettucs"
+    },
+    {
+      "id": "bd8c04c0-5a1d-47da-8955-9523e8a71f44",
+      "ts": 1794963259862,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
     }
   ],
-  "_savedAt": 1794963018355
+  "_savedAt": 1794963260013
 }
