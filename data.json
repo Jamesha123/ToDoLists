@@ -41,7 +41,7 @@
         {
           "id": "b687b738-dbb7-4432-b9fd-94edc5ee9f7d",
           "text": "Diet Coke",
-          "done": false,
+          "done": true,
           "createdAt": 1794494417872,
           "category": "beverages",
           "qty": null
@@ -2390,7 +2390,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Hot Dog Buns"
+    },
+    {
+      "id": "54c61cec-1ba1-4bf1-9775-d3bed9fa5b66",
+      "ts": 1794966094391,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Diet Coke"
     }
   ],
-  "_savedAt": 1794965859427
+  "_savedAt": 1794966094541
 }
