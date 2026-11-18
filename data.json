@@ -105,7 +105,7 @@
         {
           "id": "f50ce5ff-12be-4aea-86fb-857187a5abea",
           "text": "Eggs-Sams",
-          "done": false,
+          "done": true,
           "createdAt": 1794957113805,
           "category": "produce",
           "qty": null
@@ -121,7 +121,7 @@
         {
           "id": "060b1153-aa1a-4214-9b95-8bdbf044235c",
           "text": "Hot Dogs",
-          "done": false,
+          "done": true,
           "createdAt": 1794957170664,
           "category": "protein",
           "qty": null
@@ -2284,7 +2284,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Brussels Sprouts"
+    },
+    {
+      "id": "78422e03-d698-4785-9651-b201a8a4487b",
+      "ts": 1794963017203,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Eggs-Sams"
+    },
+    {
+      "id": "41338776-fe72-4c3b-9678-c4ae5e444bc3",
+      "ts": 1794963018206,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Hot Dogs"
     }
   ],
-  "_savedAt": 1794962535157
+  "_savedAt": 1794963018355
 }
