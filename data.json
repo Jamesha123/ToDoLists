@@ -55,14 +55,6 @@
           "qty": null
         },
         {
-          "id": "acf5b33e-d9c1-4eba-b23c-e82af78c91eb",
-          "text": "White Vinegar",
-          "done": false,
-          "createdAt": 1794790108366,
-          "category": "condiments",
-          "qty": null
-        },
-        {
           "id": "1ba8d46d-7a6d-4e1a-954e-90f359b54cf9",
           "text": "Cucumber",
           "done": false,
@@ -854,6 +846,12 @@
         "name": "Lettucs",
         "category": "produce",
         "label": "Produce"
+      },
+      {
+        "key": "white vinegar",
+        "name": "White Vinegar",
+        "category": "condiments",
+        "label": "Seasonings/Condiments"
       }
     ]
   },
@@ -2332,7 +2330,47 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "1 completed"
+    },
+    {
+      "id": "870ffbc3-a9d1-4bcd-bcb5-465b1886f7ce",
+      "ts": 1794964741211,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "White Vinegar"
+    },
+    {
+      "id": "1f6ca4c4-ee37-40d7-910b-b5c3286babae",
+      "ts": 1794964741646,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "1 completed"
+    },
+    {
+      "id": "2cef047b-7b96-4e77-a5cb-97c4c4784f5a",
+      "ts": 1794964741665,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "0 completed"
+    },
+    {
+      "id": "00c36004-a3b6-4d5e-8c93-c16524abb62a",
+      "ts": 1794964742007,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "clearDone",
+      "detail": "0 completed"
     }
   ],
-  "_savedAt": 1794963260013
+  "_savedAt": 1794964742157
 }
