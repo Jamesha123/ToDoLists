@@ -49,7 +49,7 @@
         {
           "id": "eee350e4-e2b3-43e1-99ca-631bc6c727ee",
           "text": "Hoisin Sauce",
-          "done": false,
+          "done": true,
           "createdAt": 1794708299653,
           "category": "condiments",
           "qty": null
@@ -2370,7 +2370,17 @@
       "listName": "Groceries List",
       "action": "clearDone",
       "detail": "0 completed"
+    },
+    {
+      "id": "4e91c635-7951-4b3b-8ad4-5b5eb287d190",
+      "ts": 1794965760865,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Hoisin Sauce"
     }
   ],
-  "_savedAt": 1794964742157
+  "_savedAt": 1794965761015
 }
