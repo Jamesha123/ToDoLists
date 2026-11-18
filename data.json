@@ -165,6 +165,14 @@
           "createdAt": 1794957189186,
           "category": "snacks",
           "qty": null
+        },
+        {
+          "id": "138800fe-88bb-4935-9d65-42c4e4b27b70",
+          "text": "Water",
+          "done": false,
+          "createdAt": 1794961699181,
+          "category": "beverages",
+          "qty": null
         }
       ],
       "customCategories": [
@@ -2210,7 +2218,17 @@
       "listName": "Groceries List",
       "action": "edit",
       "detail": "Eggs → Eggs-Sams"
+    },
+    {
+      "id": "aef4fcaa-bed6-41bf-88e3-79abdc66ce0a",
+      "ts": 1794961699181,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "add",
+      "detail": "Water"
     }
   ],
-  "_savedAt": 1794957203530
+  "_savedAt": 1794961699331
 }
