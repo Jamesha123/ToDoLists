@@ -57,7 +57,7 @@
         {
           "id": "1ba8d46d-7a6d-4e1a-954e-90f359b54cf9",
           "text": "Cucumber",
-          "done": false,
+          "done": true,
           "createdAt": 1794955857838,
           "category": "produce",
           "qty": null
@@ -65,7 +65,7 @@
         {
           "id": "72baa0d6-5ada-4d8b-b341-feb6bd03dbf7",
           "text": "Wings",
-          "done": false,
+          "done": true,
           "createdAt": 1794957066936,
           "category": "c-frozen",
           "qty": null
@@ -2400,7 +2400,27 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Diet Coke"
+    },
+    {
+      "id": "481098f3-0df9-4079-b005-24283a8f3fb6",
+      "ts": 1794966893275,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Cucumber"
+    },
+    {
+      "id": "81671ed1-fea8-4927-b0e3-dac0ff537412",
+      "ts": 1794966894489,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Wings"
     }
   ],
-  "_savedAt": 1794966094541
+  "_savedAt": 1794966894640
 }
