@@ -73,7 +73,7 @@
         {
           "id": "bba2633b-7fbb-407d-968b-611c8c4bb7fe",
           "text": "Hot Dog Buns",
-          "done": false,
+          "done": true,
           "createdAt": 1794957178301,
           "category": "bakery",
           "qty": null
@@ -2380,7 +2380,17 @@
       "listName": "Groceries List",
       "action": "check",
       "detail": "Hoisin Sauce"
+    },
+    {
+      "id": "b917c762-a4da-4a78-8056-8263106f8435",
+      "ts": 1794965859277,
+      "actorId": "a3cee240-5015-4496-a14c-73310e7cec09",
+      "actorName": "Guest",
+      "listId": "6017c8c5-767f-44cf-9a24-3aaf94b9e1b8",
+      "listName": "Groceries List",
+      "action": "check",
+      "detail": "Hot Dog Buns"
     }
   ],
-  "_savedAt": 1794965761015
+  "_savedAt": 1794965859427
 }
